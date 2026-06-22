@@ -1,0 +1,7 @@
+spec,ses_cut,min_bearers,n_surnames,share_1860s,share_2010s,fold_1900,break_1925,break_p,published,headline
+published,65,30,298,51.2,11.3,21.1,-13.32,0.0,True,True
+ses60_b30,60,30,446,58.5,15.8,23.4,-15.13,0.0,False,False
+ses65_b30,65,30,345,49.1,11.1,19.5,-11.29,0.0,False,True
+ses70_b30,70,30,241,33.2,9.8,14.2,-10.51,0.0,False,False
+ses65_b5,65,5,433,51.6,11.1,21.0,-11.97,0.0,False,False
+ses65_b50,65,50,304,47.6,11.1,19.0,-11.38,0.0,False,False

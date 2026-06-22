@@ -1,0 +1,299 @@
+surname,mean_nse,n_holders,n_sources,sources,in_cur65
+EDWARDS,87.3,749,10,"['$$$', 'FF', 'Merch2', 'SA', 'SA2', 'SA3', 'SA4', 'apellidos', 'censo1874', 'mines']",True
+MATTE,85.6,404,9,"['$$$', 'FF', 'Merch2', 'SA', 'SA3', 'SA4', 'Terra', 'apellidos', 'censo1874']",True
+COUSINO,77.0,309,9,"['$$$', 'FF', 'Merch2', 'SA', 'SA2', 'SA3', 'SA4', 'Terra', 'censo1874']",False
+LYON,76.6,581,9,"['$$$', 'Merch1', 'Merch2', 'SA', 'SA2', 'SA3', 'SA4', 'apellidos', 'mines']",False
+OSSA,65.7,1648,9,"['$$$', 'FF', 'Merch2', 'SA', 'SA3', 'SA4', 'Terra', 'censo1874', 'mines']",False
+SUBERCASEAUX,84.9,222,8,"['$$$', 'Merch2', 'SA', 'SA3', 'SA4', 'Terra', 'censo1874', 'mines']",True
+URMENETA,81.6,90,8,"['$$$', 'FF', 'Merch1', 'Merch2', 'SA', 'SA3', 'SA4', 'censo1874']",True
+LARRAIN,78.3,3266,8,"['$$$', 'FF', 'Merch2', 'Nob', 'Terra', 'apellidos', 'censo1874', 'mines']",True
+ERRAZURIZ,83.0,1241,7,"['$$$', 'FF', 'Merch1', 'Merch2', 'Terra', 'apellidos', 'censo1874']",True
+SQUELLA,74.0,250,7,"['FF', 'Merch1', 'Merch2', 'SA', 'SA3', 'SA4', 'censo1874']",False
+VICUNA,68.0,1558,7,"['$$$', 'Merch1', 'Merch2', 'Terra', 'apellidos', 'censo1874', 'mines']",False
+UNDURRAGA,79.3,1402,6,"['FF', 'Merch1', 'Merch2', 'Terra', 'apellidos', 'censo1874']",True
+TAGLE,78.4,1158,6,"['Cco', 'FF', 'Nob', 'Terra', 'apellidos', 'censo1874']",True
+PUELMA,75.0,456,6,"['$$$', 'FF', 'SA3', 'SA4', 'apellidos', 'censo1874']",False
+IRARRAZAVAL,79.2,737,5,"['Merch2', 'Nob', 'Terra', 'apellidos', 'censo1874']",True
+GANDARILLAS,77.2,156,5,"['FF', 'Merch1', 'Merch2', 'Terra', 'censo1874']",True
+ECHENIQUE,76.8,444,5,"['$$$', 'FF', 'Terra', 'apellidos', 'censo1874']",True
+CRUCHAGA,76.7,134,5,"['Merch1', 'Merch2', 'SA3', 'SA4', 'censo1874']",True
+IZQUIERDO,76.2,1222,5,"['FF', 'Merch1', 'Merch2', 'Terra', 'censo1874']",True
+SMITH,72.3,1116,5,"['Merch1', 'SA', 'SA4', 'censo1874', 'mines']",False
+MONTT,70.1,875,5,"['FF', 'SA4', 'Terra', 'apellidos', 'censo1874']",False
+CALVO,67.7,1522,5,"['FF', 'Merch1', 'Nob', 'Terra', 'censo1874']",False
+GALLO,67.7,785,5,"['$$$', 'FF', 'Merch2', 'censo1874', 'mines']",False
+BROWN,67.6,549,5,"['$$$', 'Merch1', 'SA3', 'censo1874', 'mines']",False
+HUIDOBRO,67.6,438,5,"['$$$', 'FF', 'Nob', 'Terra', 'censo1874']",True
+BEZANILLA,85.3,269,4,"['$$$', 'FF', 'Terra', 'censo1874']",True
+VIAL,80.0,2303,4,"['FF', 'Terra', 'apellidos', 'censo1874']",True
+DELANO,80.0,319,4,"['$$$', 'Merch2', 'apellidos', 'censo1874']",False
+INIGUEZ,80.0,268,4,"['$$$', 'Merch2', 'Terra', 'censo1874']",False
+EASTMAN,79.2,35,4,"['$$$', 'FF', 'censo1874', 'mines']",False
+GIBBS,78.1,45,4,"['$$$', 'Merch1', 'SA', 'SA3']",False
+BUNSTER,77.1,573,4,"['Merch1', 'Merch2', 'apellidos', 'censo1874']",False
+WALKER,76.9,705,4,"['$$$', 'Merch2', 'apellidos', 'mines']",False
+SOFFIA,76.5,348,4,"['FF', 'Merch1', 'apellidos', 'censo1874']",False
+RIESCO,70.1,611,4,"['FF', 'Merch1', 'Merch2', 'censo1874']",False
+VELASCO,68.6,1904,4,"['FF', 'Merch1', 'Terra', 'censo1874']",False
+EYZAGUIRRE,67.1,839,4,"['FF', 'Merch1', 'Merch2', 'censo1874']",False
+ALESSANDRI,89.3,148,3,"['Merch1', 'Merch2', 'censo1874']",False
+TOCORNAL,88.7,220,3,"['FF', 'Merch2', 'censo1874']",True
+ASTABURUAGA,85.1,362,3,"['Merch2', 'apellidos', 'censo1874']",True
+EGUIGUREN,81.5,378,3,"['FF', 'Terra', 'censo1874']",True
+ALEMPARTE,79.1,205,3,"['Merch2', 'SA', 'censo1874']",False
+DORADO,77.1,52,3,"['SA', 'SA3', 'SA4']",False
+ALDUNATE,76.4,974,3,"['$$$', 'FF', 'censo1874']",True
+MENDIBURU,73.3,34,3,"['$$$', 'Merch1', 'censo1874']",False
+MORANDE,72.2,460,3,"['FF', 'Terra', 'censo1874']",True
+MASCAYANO,71.2,77,3,"['FF', 'Terra', 'censo1874']",False
+ALCALDE,68.9,932,3,"['Nob', 'Terra', 'censo1874']",True
+ROSS,68.0,587,3,"['$$$', 'censo1874', 'mines']",False
+ORTUZAR,67.8,1156,3,"['FF', 'Terra', 'censo1874']",False
+VALDIVIESO,66.8,1784,3,"['FF', 'Terra', 'censo1874']",False
+BENAVENTE,65.4,1832,3,"['FF', 'Terra', 'censo1874']",False
+HENDERSON,90.4,33,2,"['Merch1', 'SA2']",False
+RISOPATRON,89.6,188,2,"['FF', 'apellidos']",False
+OCHAGAVIA,89.2,156,2,"['FF', 'censo1874']",True
+BROWNE,88.1,207,2,"['FF', 'censo1874']",False
+O'BRIEN,86.8,62,2,"['censo1874', 'mines']",False
+ALLIENDE,85.6,389,2,"['apellidos', 'censo1874']",False
+OPASO,85.1,36,2,"['FF', 'censo1874']",True
+FONTAINE,85.0,174,2,"['FF', 'censo1874']",True
+BESA,84.5,375,2,"['Merch2', 'censo1874']",False
+ROWE,84.2,59,2,"['FF', 'SA2']",False
+SANFUENTES,84.1,165,2,"['FF', 'censo1874']",True
+WARD,83.9,79,2,"['FF', 'SA']",False
+ELGART,83.9,62,2,"['FF', 'censo1874']",True
+PALAZUELOS,83.7,72,2,"['FF', 'censo1874']",False
+RUIZ-TAGLE,81.8,763,2,"['Cco', 'Terra']",False
+LLONA,81.7,210,2,"['$$$', 'censo1874']",True
+COSTAS,80.8,75,2,"['SA', 'censo1874']",False
+ECHAURREN,80.4,85,2,"['FF', 'censo1874']",True
+GUEMES,78.6,41,2,"['FF', 'censo1874']",True
+ZANARTU,78.5,578,2,"['FF', 'censo1874']",False
+QUESADA,78.2,77,2,"['FF', 'censo1874']",False
+NEUMANN,78.1,551,2,"['apellidos', 'mines']",False
+GARMENDIA,77.2,131,2,"['FF', 'Merch2']",False
+SANTAMARIA,77.0,193,2,"['FF', 'censo1874']",False
+CAMPBELL,76.4,324,2,"['Merch1', 'apellidos']",False
+SOLARI,75.9,693,2,"['Merch2', 'apellidos']",False
+GARFIAS,75.7,193,2,"['FF', 'Merch1']",False
+MANTEROLA,73.4,301,2,"['Merch1', 'censo1874']",True
+CAMPINO,73.0,124,2,"['Terra', 'censo1874']",True
+PARGA,72.3,298,2,"['apellidos', 'censo1874']",False
+PLATA,71.7,65,2,"['Terra', 'censo1874']",False
+MATA,70.1,121,2,"['Merch1', 'censo1874']",False
+PRICE,70.0,147,2,"['Merch1', 'mines']",False
+COBO,69.9,302,2,"['FF', 'Merch1']",False
+CAMPO,69.9,222,2,"['FF', 'censo1874']",False
+CLARO,69.8,565,2,"['FF', 'censo1874']",True
+BALTRA,69.7,325,2,"['apellidos', 'censo1874']",False
+OTERO,69.3,680,2,"['apellidos', 'censo1874']",False
+FONTECILLA,68.7,585,2,"['FF', 'censo1874']",True
+PARODI,66.8,553,2,"['apellidos', 'censo1874']",False
+BESOAIN,66.6,459,2,"['FF', 'censo1874']",False
+IBIETA,66.5,200,2,"['FF', 'censo1874']",False
+CRUZAT,66.1,1197,2,"['FF', 'censo1874']",False
+ELIZALDE,66.0,331,2,"['Terra', 'censo1874']",False
+VILLOTA,65.9,92,2,"['FF', 'Merch1']",False
+MARTIN,65.6,2715,2,"['FF', 'censo1874']",False
+BASTERRICA,65.6,66,2,"['FF', 'censo1874']",False
+ENRIQUEZ,65.5,474,2,"['apellidos', 'censo1874']",False
+CUADROS,65.5,303,2,"['FF', 'censo1874']",False
+SECO,65.5,107,2,"['FF', 'censo1874']",True
+ARMANET,89.6,57,1,['censo1874'],False
+PAROT,89.5,235,1,['censo1874'],False
+JEQUIER,88.5,55,1,['FF'],False
+LAMARCA,88.4,53,1,['$$$'],False
+COOD,88.4,46,1,['censo1874'],False
+AMUNATEGUI,88.0,191,1,['censo1874'],True
+ANINAT,87.9,165,1,['censo1874'],True
+BERNSTEIN,87.7,94,1,['$$$'],False
+SWETT,87.5,220,1,['censo1874'],True
+PHILIPPI,87.5,89,1,['censo1874'],False
+COSTABAL,87.3,163,1,['censo1874'],True
+TUPPER,87.3,157,1,['Cco'],False
+GUNDELACH,87.3,31,1,['censo1874'],False
+ECHAZARRETA,86.4,33,1,['censo1874'],True
+RENARD,86.3,86,1,['censo1874'],False
+MACKENNA,86.0,179,1,['censo1874'],True
+FERMANDOIS,85.9,96,1,['FF'],False
+MOURE,85.9,85,1,['censo1874'],True
+IGUALT,85.9,43,1,['censo1874'],False
+ANWANDTER,85.6,115,1,['$$$'],False
+BUDGE,85.3,67,1,['Merch1'],False
+DEVES,85.3,30,1,['censo1874'],False
+BAKER,85.0,31,1,['SA2'],False
+DARRIGRANDE,84.9,58,1,['censo1874'],False
+TORNERO,84.5,94,1,['censo1874'],True
+BARANAO,84.1,80,1,['censo1874'],False
+ANDONAEGUI,83.8,44,1,['FF'],False
+SOTTA,83.7,94,1,['censo1874'],False
+LOIS,83.6,79,1,['censo1874'],False
+HITSCHFELD,83.5,130,1,['apellidos'],False
+NUNO,83.5,42,1,['censo1874'],False
+ASPILLAGA,83.0,286,1,['censo1874'],True
+SEGUI,82.7,31,1,['Merch1'],False
+VIEJO,82.4,53,1,['FF'],False
+TUNON,82.4,42,1,['censo1874'],False
+GUNTHER,82.3,77,1,['censo1874'],False
+BARAONA,82.0,341,1,['FF'],False
+AMENABAR,81.8,491,1,['censo1874'],True
+STUVEN,81.8,161,1,['FF'],False
+MULET,81.8,57,1,['censo1874'],False
+WOOD,81.7,190,1,['censo1874'],False
+BRIEVA,81.7,51,1,['FF'],False
+CANEPA,81.6,301,1,['censo1874'],True
+SIERRALTA,81.6,300,1,['censo1874'],False
+KLEIN,81.5,290,1,['apellidos'],False
+PUCCIO,81.5,66,1,['Merch2'],False
+SOUPER,81.2,120,1,['censo1874'],False
+ROVIRA,80.4,94,1,['Cco'],False
+DENEGRI,80.3,96,1,['censo1874'],True
+WERNER,80.2,273,1,['apellidos'],False
+PERRY,80.2,167,1,['censo1874'],False
+MAYOL,79.9,151,1,['FF'],False
+GUMUCIO,79.6,186,1,['censo1874'],False
+ABASOLO,79.5,82,1,['censo1874'],True
+ZEGERS,79.2,583,1,['apellidos'],False
+ARIZTIA,79.1,411,1,['apellidos'],False
+GUARACHI,79.1,111,1,['censo1874'],False
+HERREROS,78.7,330,1,['censo1874'],False
+GARNHAM,78.6,108,1,['censo1874'],False
+SORUCO,78.5,133,1,['SA'],False
+AMARAL,78.4,45,1,['censo1874'],False
+ANDUEZA,78.3,118,1,['censo1874'],False
+MANZUR,78.0,570,1,['apellidos'],False
+ZILLERUELO,77.9,107,1,['censo1874'],False
+HEDERRA,77.8,87,1,['censo1874'],False
+ABASCAL,77.8,87,1,['censo1874'],False
+FAEZ,77.8,43,1,['censo1874'],False
+ZALDIVAR,77.7,247,1,['mines'],False
+MOLLER,77.4,443,1,['apellidos'],False
+HALL,77.2,45,1,['mines'],False
+BRIEBA,77.0,155,1,['censo1874'],False
+POLLONI,76.9,141,1,['censo1874'],False
+JULIAN,76.8,103,1,['SA2'],False
+AMOR,76.8,94,1,['censo1874'],True
+DRAGO,76.7,196,1,['FF'],False
+MORAL,76.7,103,1,['censo1874'],False
+STARK,76.7,88,1,['censo1874'],False
+HOTT,76.5,142,1,['apellidos'],False
+SOTA,76.4,43,1,['censo1874'],False
+ELZO,76.3,121,1,['censo1874'],True
+CANESSA,76.1,379,1,['apellidos'],False
+OLAVARRIETA,76.1,87,1,['censo1874'],False
+WATKINS,76.1,74,1,['censo1874'],False
+BRISENO,76.1,62,1,['FF'],False
+SANDERS,76.0,71,1,['censo1874'],False
+GABLER,75.9,150,1,['censo1874'],False
+KING,75.9,144,1,['mines'],False
+CUADRADO,75.6,103,1,['censo1874'],False
+SCHILLING,75.4,210,1,['censo1874'],False
+ARRAU,75.3,418,1,['censo1874'],False
+ADAMS,75.3,81,1,['mines'],False
+GARRIGA,74.9,66,1,['censo1874'],True
+BIANCHI,74.8,433,1,['Cco'],False
+RICHARDS,74.8,207,1,['apellidos'],False
+GEISSE,74.8,198,1,['censo1874'],False
+HODGSON,74.7,62,1,['Merch1'],False
+VILDOSOLA,74.4,274,1,['censo1874'],False
+LYNCH,74.4,175,1,['Merch1'],False
+BRAND,74.0,92,1,['censo1874'],False
+GROSSI,73.8,106,1,['censo1874'],True
+GARRETON,73.7,421,1,['apellidos'],False
+PEIRANO,73.7,266,1,['apellidos'],False
+RAPOSO,73.5,124,1,['censo1874'],False
+KENNEDY,73.5,72,1,['Merch1'],False
+JUSTINIANO,73.3,203,1,['censo1874'],False
+ALLEN,73.2,102,1,['censo1874'],False
+KRAUSE,73.0,333,1,['censo1874'],False
+CAPO,72.8,53,1,['censo1874'],False
+ARANGUA,72.5,181,1,['censo1874'],False
+REEVES,72.1,53,1,['censo1874'],False
+MASSARDO,71.9,228,1,['SA'],False
+PRATS,71.9,146,1,['SA'],False
+DIEZ,71.8,922,1,['apellidos'],False
+COSTA,71.6,1072,1,['censo1874'],False
+CALLEJAS,71.5,530,1,['censo1874'],False
+CASTELLON,71.2,415,1,['censo1874'],False
+MIQUEL,71.2,402,1,['FF'],False
+ROSSIER,71.2,59,1,['censo1874'],False
+SCHNEIDER,71.1,436,1,['censo1874'],False
+GAZMURI,71.1,365,1,['censo1874'],False
+HILL,70.9,170,1,['Merch1'],False
+DUENAS,70.8,559,1,['censo1874'],True
+ANTUNES,70.8,31,1,['censo1874'],False
+BOGGIANO,70.5,40,1,['censo1874'],False
+ARMAS,70.0,216,1,['censo1874'],False
+SOLER,69.8,546,1,['apellidos'],False
+DUNCAN,69.7,67,1,['mines'],False
+ROSENDE,69.6,258,1,['censo1874'],False
+SOLO,69.6,62,1,['mines'],False
+GREEN,69.5,142,1,['FF'],False
+ARRIARAN,69.5,90,1,['Merch1'],False
+LARREA,69.4,309,1,['FF'],False
+UNZUETA,69.4,99,1,['censo1874'],False
+FERRIER,69.2,31,1,['censo1874'],False
+BONET,69.1,132,1,['censo1874'],False
+CARDEMIL,69.0,506,1,['censo1874'],False
+MORRIS,69.0,167,1,['SA3'],False
+BANADOS,68.9,571,1,['censo1874'],False
+RENCORET,68.9,504,1,['censo1874'],False
+ETCHEVERRY,68.9,265,1,['apellidos'],False
+GALLEGO,68.8,430,1,['censo1874'],False
+ESCUTI,68.8,113,1,['censo1874'],False
+PONS,68.7,288,1,['apellidos'],False
+FERRER,68.6,1395,1,['censo1874'],False
+CONDE,68.6,165,1,['censo1874'],False
+LOBO,68.5,530,1,['censo1874'],False
+VALLEDOR,68.3,43,1,['censo1874'],False
+MULLER,68.2,1431,1,['FF'],False
+LAMAS,68.2,300,1,['censo1874'],False
+KENDALL,68.2,61,1,['mines'],False
+TALAVERA,68.1,104,1,['Merch1'],False
+SIMPSON,67.9,166,1,['censo1874'],False
+WILSON,67.6,707,1,['censo1874'],False
+DAROCH,67.6,249,1,['censo1874'],False
+ESPOZ,67.6,179,1,['censo1874'],False
+BRUNET,67.4,300,1,['censo1874'],False
+ACHURRA,67.0,265,1,['censo1874'],False
+FRANCE,67.0,72,1,['censo1874'],False
+JORDAN,66.9,589,1,['censo1874'],False
+YAVAR,66.9,389,1,['FF'],False
+RITCHIE,66.9,52,1,['Merch1'],False
+ANGUITA,66.8,832,1,['censo1874'],False
+MOORE,66.8,419,1,['apellidos'],False
+TASSARA,66.8,250,1,['apellidos'],False
+IGLESIAS,66.7,1555,1,['censo1874'],False
+MATHIEU,66.6,78,1,['censo1874'],False
+RUSQUE,66.6,70,1,['censo1874'],False
+REDON,66.6,39,1,['censo1874'],False
+LARRAGUIBEL,66.5,373,1,['censo1874'],False
+CANTOS,66.4,42,1,['censo1874'],False
+INOSTROSA,66.3,40,1,['censo1874'],False
+MONREAL,66.2,282,1,['Merch1'],False
+VELA,66.2,250,1,['censo1874'],False
+MARFULL,66.2,181,1,['censo1874'],False
+RONDANELLI,66.1,83,1,['censo1874'],False
+VALLEJO,66.0,727,1,['censo1874'],False
+NAVAS,65.8,388,1,['censo1874'],False
+NAREA,65.8,187,1,['censo1874'],False
+SALDES,65.8,129,1,['Merch1'],False
+AMENGUAL,65.6,200,1,['censo1874'],False
+BALBONTIN,65.5,799,1,['censo1874'],False
+CASANUEVA,65.5,462,1,['censo1874'],False
+MILLER,65.0,323,1,['Merch1'],False
+GARCIA-HUIDOBRO,82.0,868,1,['business_gate'],False
+GANA,62.4,1319,1,['business_gate'],False
+PASCUAL,71.7,468,1,['business_gate'],False
+COX,86.7,608,1,['business_gate'],False
+BULNES,60.5,663,1,['business_gate'],False
+NOGUERA,62.6,464,1,['business_gate'],False
+BALMACEDA,63.1,705,1,['business_gate'],False
+DOMINGUEZ,60.0,5312,1,['business_gate'],False
+GREZ,62.4,1432,1,['business_gate'],False
+PORTALES,62.2,654,1,['business_gate'],False
+SANTA CRUZ,,,1,['business_gate'],False
+JAMES,73.0,223,1,['business_gate'],False
+SALVADOR,62.7,597,1,['business_gate'],False
