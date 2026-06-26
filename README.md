@@ -4,7 +4,7 @@ Replication code and processed data for the surname-based measure of legislative
 composition and its validation. Naim Bro (Universidad Adolfo Ibáñez, Fondecyt 11251464).
 
 ## What this measures
-A **portable, surname-based measure of the "enduring elite"** — 298 surnames that were
+A **replicable, surname-based measure of the "enduring elite"** — 298 surnames that were
 elite *then* (1874 land census + 19th-c. elite compilations) **and** are still high-status
 *now* (2020 electoral-roll SES or over-representation among ~5,400 business leaders) —
 applied uniformly to every Chilean legislator, 1830–2020, to study how the class composition
@@ -52,6 +52,21 @@ are already shipped in `data/processed/`, so 08–10 can be skipped). No GPU req
 | 22 | `coding_rule_sensitivity.py` | appendix: composition + 1925 break under permissive / strict / paternal codings |
 | 24 | `bio_coverage_by_group.py` | appendix: biography-coverage rate by surname group + reweighted fold-gaps |
 | 25 | `tbip_permutation.R` | appendix: legislator-level permutation test + family-clustered SE for the categorical ideal-point contrast |
+| 26 | `topic_theme_crosswalk.py` | appendix: topic-to-theme crosswalk (which of the 80 STM topics maps to each theme) |
+| 27 | `within_elite_trajectory.R` | appendix §H.6: within-group labor-and-industry slope, 1910–49 (mobilization confound) |
+| 28 | `stm_uncertainty_methodofcomposition.R` | appendix: propagates STM topic-estimation (θ) uncertainty into Table 1 + the §H.6 slope, by method of composition |
+| 29 | `business_route_robustness.py` | appendix: 1925 break under dropping the 13 business-route surnames + threshold sweep |
+| 30 | `depth_gate_robustness.py` | appendix: 1925 break under the stricter persistence-depth ≥2 gate |
+| 31 | `statecraft_trajectory.R` | appendix §H.6: within-group statecraft slope (mirror of the labor result) |
+| 32 | `two_dynasty_leaveout.py` | appendix: 1925 break dropping only Portales+Balmaceda (and +Bulnes+García-Huidobro) |
+| 33 | `depth_monotonicity.py` | appendix: 1925 break + 1860s/2010s shares across persistence-depth gates ≥1/≥2/≥3/≥4 |
+| 34 | `common_pole_validation.py` | appendix: symmetric common-pole biographical marker rates (club / elite school) — *needs non-public bios, see Data* |
+| 35 | `theme_contrast_pvalues.R` | appendix: legislator-clustered p-values on the elite−common contrast for each Table 1 theme |
+| 36 | `seed_robustness.R` | appendix: second-seed / B=200 confirmation of the §H.6 method-of-composition slope test |
+
+Scripts 26–36 are the revision-round (R&R) robustness and inference checks. Scripts
+27/28/31/35/36 depend on the STM fit (script 11) and the speech corpus; scripts 06/24/34
+read the harvested BCN biographies, which are **not redistributed** (see Data).
 
 ## Data
 `data/processed/` ships the small derived files (surname lists, yearly prevalence, topic
@@ -64,6 +79,12 @@ the scripts at them via the paths in each header:
 - Legislative speeches 1910–50: `intervenciones.csv` (BCN OCR)
 - W-NOMINATE estimates: companion project `2026_graph_based_ideal_points/`
 - Family network: fetched in-script from the author's site (Bro 2023)
+- BCN legislator biographies (harvested by scripts 08–10, used by scripts 06/24/34 for the
+  Club de la Unión / elite-school / homogamy markers): the full extracted JSON
+  (`extract_sonnet_corrected.json`) is scraped *reseñas* text and is **not redistributed**;
+  only the 20-biography gold standard (`bcn_gold_standard_20.json`) is shipped. The biographical
+  validation rates therefore cannot be regenerated from this public repo; the retrieval and
+  extraction procedure is documented in scripts 08–10 and the online appendix.
 
 ## Requirements
 Python 3 (`pandas numpy scipy statsmodels matplotlib networkx anthropic`) and R

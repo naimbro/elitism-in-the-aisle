@@ -37,4 +37,20 @@ echo "== [20] Figure 2 reshade =="             ; $PY scripts/20_figure2_reshade.
 echo "== [21] TBIP family-clustered SE =="     ; $R  scripts/21_tbip_family_cluster_se.R
 echo "== [22] coding-rule sensitivity =="      ; $PY scripts/22_coding_rule_sensitivity.py
 echo "== [24] biography coverage by group ==" ; $PY scripts/24_bio_coverage_by_group.py
+
+# ---- Revision-round (R&R) robustness and inference checks ----
+# 27/28/31/35/36 depend on the STM fit (step 11) and the speech corpus.
+# 34 reads the harvested BCN biographies (non-public; see README "Data") and self-skips if absent.
+echo "== [25] TBIP permutation test =="        ; $R  scripts/25_tbip_permutation.R
+echo "== [26] topic-theme crosswalk =="        ; $PY scripts/26_topic_theme_crosswalk.py
+echo "== [27] within-elite labor slope =="     ; $R  scripts/27_within_elite_trajectory.R
+echo "== [28] STM uncertainty (method of comp.) ==" ; $R scripts/28_stm_uncertainty_methodofcomposition.R
+echo "== [29] business-route robustness =="    ; $PY scripts/29_business_route_robustness.py
+echo "== [30] depth-gate (>=2) robustness =="  ; $PY scripts/30_depth_gate_robustness.py
+echo "== [31] within-elite statecraft slope ==" ; $R scripts/31_statecraft_trajectory.R
+echo "== [32] two-dynasty leave-out =="        ; $PY scripts/32_two_dynasty_leaveout.py
+echo "== [33] depth-gate monotonicity =="      ; $PY scripts/33_depth_monotonicity.py
+echo "== [34] common-pole validation =="       ; $PY scripts/34_common_pole_validation.py
+echo "== [35] Table 1 contrast p-values =="    ; $R  scripts/35_theme_contrast_pvalues.R
+echo "== [36] seed/B robustness of H.6 =="     ; $R  scripts/36_seed_robustness.R
 echo "== DONE: all tables and figures regenerated into output/ and figures/ =="
