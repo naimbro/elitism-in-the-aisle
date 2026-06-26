@@ -9,7 +9,22 @@ elite *then* (1874 land census + 19th-c. elite compilations) **and** are still h
 *now* (2020 electoral-roll SES or over-representation among ~5,400 business leaders) —
 applied uniformly to every Chilean legislator, 1830–2020, to study how the class composition
 of Congress shaped its discourse and priorities. The deposited `enduring_elite_FINAL.csv`
-(298 surnames, including the 13 business-leader-route additions) is the canonical list.
+(298 surnames, including the 13 business-leader-route additions) is the **frozen canonical
+input**: it is the exact list used for every result in the paper. Scripts `02`/`02b` rebuild
+it deterministically from the raw sources, and the few manual source-spelling reconciliations
+between that rebuild and the deposited list are logged and auditable in the script comments;
+the deterministic rebuild recovers most but not all surnames and yields a slightly smaller
+1925 break (−11.3 vs. the deposited −13.3 points), a difference that reflects the reconciliation
+step alone, not the finding. All reported numbers use the deposited canonical list.
+
+## How to run
+`bash scripts/00_run_all.sh` runs the full pipeline in dependency order (Python 3 and
+`Rscript` on PATH). Or run the numbered scripts individually, in order, per the table below.
+
+**Computational requirements.** A 16 GB laptop is sufficient. End-to-end runtime is
+~30–45 min, **excluding** two heavy/optional steps: the STM fit (script 11, ~20 min) and
+the BCN biography harvest (scripts 08–10, several hours, Anthropic-API-bound — its outputs
+are already shipped in `data/processed/`, so 08–10 can be skipped). No GPU required.
 
 ## Pipeline (run in order)
 | # | Script | Produces |
@@ -36,6 +51,7 @@ of Congress shaped its discourse and priorities. The deposited `enduring_elite_F
 | 21 | `tbip_family_cluster_se.R` | family-clustered SE on the continuous-status ideal-point coefficient |
 | 22 | `coding_rule_sensitivity.py` | appendix: composition + 1925 break under permissive / strict / paternal codings |
 | 24 | `bio_coverage_by_group.py` | appendix: biography-coverage rate by surname group + reweighted fold-gaps |
+| 25 | `tbip_permutation.R` | appendix: legislator-level permutation test + family-clustered SE for the categorical ideal-point contrast |
 
 ## Data
 `data/processed/` ships the small derived files (surname lists, yearly prevalence, topic

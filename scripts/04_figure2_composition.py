@@ -23,11 +23,13 @@ ax.plot(yrs,el,color="#1f3a93",lw=2.3,label="Elite surnames (Congress)")
 ax.plot(yrs,co,color="#b03030",lw=2.3,label="Common surnames (Congress)")
 ax.plot(pe.index,pe.values,color="#1f3a93",lw=1.6,ls=":",label="Elite, population (dynamic)")
 ax.plot(pc.index,pc.values,color="#b03030",lw=1.6,ls=":",label="Common, population (dynamic)")
+ax.axvspan(1834,1884,color="grey",alpha=.07)  # pre-1884: no contemporaneous population reference
+ax.axvline(1884,ls=":",color="grey",lw=1.1,alpha=.8); ax.text(1885,57,"pop. ref.\nbegins 1884",color="grey",fontsize=7.5,va="top")
 ax.axvspan(1973,1990,color="grey",alpha=.10); ax.text(1981.5,3,"Congress\nclosed",ha="center",fontsize=7,color="grey")
-ax.axvline(1925,ls="--",color="grey",lw=1.1,alpha=.8); ax.text(1926,57,"1925",color="grey",fontsize=9)
+ax.axvline(1925,ls="--",color="grey",lw=1.1,alpha=.8); ax.text(1926,50,"1925",color="grey",fontsize=9)
 ax.set_xlabel("Year"); ax.set_ylabel("Share (%)")
 # No in-figure title (INV-12): title lives in the LaTeX \caption.
-ax.set_xlim(1830,2020); ax.set_ylim(0,60)
+ax.set_xlim(1834,2020); ax.set_ylim(0,60)  # start at 1834 (first Congress); drops the pre-1834 rolling-mean edge artifact
 ax.legend(frameon=False,fontsize=9,loc="center left",bbox_to_anchor=(1.01,0.5)); ax.grid(alpha=.25,lw=.5)
 for s in ["top","right"]: ax.spines[s].set_visible(False)
 fig.tight_layout()
