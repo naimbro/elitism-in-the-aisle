@@ -1,10 +1,12 @@
-"""20 — N5: regenerate Figure 2 (composition) with a pre-1884 shaded region marking
-that over-representation ratios are computable only from 1884 onward (the dynamic
-population denominator from the Registro Civil starts in 1884). Mirrors
-04_figure2_composition.py exactly; ONLY adds the visual marker. Underlying numbers
-unchanged.
+"""20 — Manuscript deposit for Figure 3 (composition). Produces the byte-identical figure
+to 04_figure2_composition.py (same six series and styling: elite/common/other Congress
+shares plus three matching dynamic population references, the pre-1884 over-representation
+marker, and the 1925/Congress-closed cues) and additionally (i) deposits the figure to
+../paper/figures and (ii) writes the M3 'other'-trajectory CSV. Keep this in sync with 04:
+any change to the figure must be made in both.
 Inputs : data/processed/cong_df.csv, enduring_elite_FINAL.csv, pop_prevalence_by_year.csv
-Output : ../paper/figures/figure2_dynamic.pdf (+ .png)   [the manuscript figure]
+Output : ../paper/figures/figure2_dynamic.pdf (+ .png)   [the manuscript figure],
+         figures/figure2_dynamic.pdf (+ .png), output/m3_other_trajectory.csv
 No stochastic element -> no seed needed (INV-14)."""
 import pandas as pd, numpy as np, unicodedata
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
@@ -29,6 +31,9 @@ el, co, ot = ser(ie), ser(ic), ser(io)                     # other = 100 - elite
 pop = pd.read_csv("data/processed/pop_prevalence_by_year.csv")
 pe = pop.set_index("year").pct_elite.rolling(7, center=True, min_periods=1).mean()
 pc = pop.set_index("year").pct_common.rolling(7, center=True, min_periods=1).mean()
+# M3 symmetry: population reference for the residual "other" group (= 100 - elite - common),
+# so the "other" Congress line has its own benchmark like the elite and common lines do.
+po = (100 - pop.set_index("year").pct_elite - pop.set_index("year").pct_common).rolling(7, center=True, min_periods=1).mean()
 plt.rcParams.update({"font.size": 11, "font.family": "serif"})
 fig, ax = plt.subplots(figsize=(10, 5.2))
 # --- N5 marker: pre-1884 region where over-rep ratios are not computable ---
@@ -41,6 +46,7 @@ ax.plot(yrs, co, color="#b03030", lw=2.3, label="Common surnames (Congress)")
 ax.plot(yrs, ot, color="#8a7a2e", lw=2.3, label="Other surnames (Congress)")   # M3: residual
 ax.plot(pe.index, pe.values, color="#1f3a93", lw=1.6, ls=":", label="Elite, population (dynamic)")
 ax.plot(pc.index, pc.values, color="#b03030", lw=1.6, ls=":", label="Common, population (dynamic)")
+ax.plot(po.index, po.values, color="#8a7a2e", lw=1.6, ls=":", label="Other, population (dynamic)")
 ax.axvspan(1973, 1990, color="grey", alpha=.10); ax.text(1981.5, 3, "Congress\nclosed", ha="center", fontsize=7, color="grey")
 ax.axvline(1925, ls="--", color="grey", lw=1.1, alpha=.8); ax.text(1926, 92, "1925", color="grey", fontsize=9)
 ax.set_xlabel("Year"); ax.set_ylabel("Share (%)")

@@ -21,7 +21,8 @@ echo "== [03] population reference =="         ; $PY scripts/03_population_refer
 echo "== [04] Figure 2 composition =="         ; $PY scripts/04_figure2_composition.py
 echo "== [05] 1925 ITS =="                     ; $PY scripts/05_its_1925.py
 echo "== [06] biography validations =="        ; $PY scripts/06_validation_lineage_bios.py
-echo "== [06b] validation figure =="           ; $PY scripts/06b_validation_figure.py
+# [06b] superseded: the validation figure (Figure 1) is now built three-group by [06c],
+# which runs after [34] because it reads should5_common_pole_validation.csv.
 echo "== [07] network centrality =="           ; $PY scripts/07_centrality_figVI.py
 # 08-10 BCN harvest/extract are optional (API-bound); outputs already in data/.
 echo "== [11] STM fit (~20 min) =="            ; $R  scripts/11_stm_topics.R
@@ -51,6 +52,7 @@ echo "== [31] within-elite statecraft slope ==" ; $R scripts/31_statecraft_traje
 echo "== [32] two-dynasty leave-out =="        ; $PY scripts/32_two_dynasty_leaveout.py
 echo "== [33] depth-gate monotonicity =="      ; $PY scripts/33_depth_monotonicity.py
 echo "== [34] common-pole validation =="       ; $PY scripts/34_common_pole_validation.py
+echo "== [06c] validation figure (3-group) ==" ; $PY scripts/06c_validation_figure_3group.py
 echo "== [35] Table 1 contrast p-values =="    ; $R  scripts/35_theme_contrast_pvalues.R
 echo "== [36] seed/B robustness of H.6 =="     ; $R  scripts/36_seed_robustness.R
 echo "== DONE: all tables and figures regenerated into output/ and figures/ =="

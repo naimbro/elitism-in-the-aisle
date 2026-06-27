@@ -1,4 +1,12 @@
-"""06b — Validation summary figure: elite vs. other on three independent criteria.
+"""06b — SUPERSEDED by 06c. Original two-group validation figure (elite vs. rest).
+
+The published Figure 1 is now the three-group version built by 06c_validation_figure_3group.py
+(elite / common / other, for the two biographical markers that split meaningfully three ways).
+06b is retained for the underlying elite-vs-rest computation and prints; do NOT run it as the
+last step that touches figures/figure_validation.pdf, or it will overwrite the three-group
+figure with the old two-group one. The run-all pipeline calls 06c, not 06b.
+
+06b — Validation summary figure: elite vs. other on three independent criteria.
 Mirrors the computations in 06_validation_lineage_bios.py and renders them as one
 titleless figure (INV-12). Output: figures/figure_validation.png + .pdf.
 Criteria: (1) lineage homogamy from the roster, (2) Club de la Union membership and
