@@ -1,4 +1,15 @@
+## 13 — theme-level topic emphasis (party/chamber/year-adjusted, legislator-clustered SEs).
+## Coding: the canonical 298-surname list (enduring_elite_FINAL.csv). Its elite/common
+## estimates equal the party-adjusted column of script 39 (A3_theme_contrasts_both_specs.csv).
+## RUN FROM THE PROJECT ROOT. R&R 2026: output moved from the root into the repo,
+## <repo>/data/processed/theme_effects.csv (read by script 19). The earlier 285-list version of
+## that file is kept as data/processed/theme_effects_285.csv (script 39's 285-list check).
 suppressMessages({library(dplyr); library(tidytext); library(quanteda); library(stm); library(sandwich); library(lmtest)})
+script_arg <- grep("^--file=", commandArgs(trailingOnly = FALSE), value = TRUE)
+REPO <- if (length(script_arg) == 1L) dirname(dirname(normalizePath(sub("^--file=", "", script_arg)))) else "replication_repo"
+OUT <- file.path(REPO, "data", "processed", "theme_effects.csv")
+stopifnot("Run from the project root (paper_1925/)" =
+            all(file.exists(c("stm_model_285.rds", "intervenciones.csv", "enduring_elite_FINAL.csv", "topic_theme_map.csv"))))
 deaccent <- function(x) chartr("ÁÉÍÓÚÜÑáéíóúüñ","AEIOUUNAEIOUUN",toupper(as.character(x)))
 m <- readRDS('stm_model_285.rds'); theta <- m$theta
 
@@ -34,6 +45,6 @@ res <- lapply(themes, function(th){
 })
 out <- do.call(rbind, res)
 out <- out[order(out$elite - out$comun), ]
-write.csv(out, 'theme_effects.csv', row.names=FALSE)
-print(format(out, digits=3))
-cat("\nsaved theme_effects.csv\n")
+write.csv(out, OUT, row.names=FALSE)
+message(paste(capture.output(print(format(out, digits=3))), collapse = "\n"))
+message("\nsaved ", OUT)

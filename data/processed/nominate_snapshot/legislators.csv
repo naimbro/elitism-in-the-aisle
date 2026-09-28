@@ -1,0 +1,1074 @@
+politician_id,chamber,period,label,first_name,fathers_surname,mothers_surname,bcn_id,term_id,party_id,party_name,district,party_source,n_selections
+1,chamber,LI,2002-2006,Adriana,Muñoz,D' Albora,2600,3,1,Partido por la Democracia,Distrito N° 9,term_same_chamber,1579
+5,chamber,LI,2002-2006,Alberto,Cardemil,Herrera,2453,17,4,Partido Renovación Nacional,Distrito N° 22,term_same_chamber,1243
+6,chamber,LI,2002-2006,Alberto,Robles,Pantoja,2228,23,5,Partido Radical Socialdemócrata,Distrito N° 6,term_same_chamber,1599
+10,chamber,LI,2002-2006,Alejandra,Sepúlveda,Orbenes,2717,35,,,Distrito N° 34,term_same_chamber,1579
+11,chamber,LI,2002-2006,Alejandro,García Huidobro,Sanfuentes,2571,39,10,Partido Unión Demócrata Independiente,Distrito N° 32,term_same_chamber,1623
+15,chamber,LI,2002-2006,Alejandro,Navarro,Brain,3688,49,13,Partido Socialista de Chile,Distrito N° 45,term_same_chamber,1374
+21,chamber,LI,2002-2006,Alfonso,Vargas,Lyng,3765,69,4,Partido Renovación Nacional,Distrito N° 10,term_same_chamber,1490
+28,chamber,LI,2002-2006,Andrés,Egaña,Respaldiza,902,83,10,Partido Unión Demócrata Independiente,Distrito N° 44,term_same_chamber,1857
+40,chamber,LI,2002-2006,Antonio,Leal,Labrín,372,113,2,Partido Por la Democracia,Distrito N° 5,term_same_chamber,1605
+41,chamber,LI,2002-2006,Aníbal,Pérez,Lobos,1336,115,1,Partido por la Democracia,Distrito N° 35,term_same_chamber,1256
+46,chamber,LI,2002-2006,Arturo,Longton,Guerrero,1115,124,4,Partido Renovación Nacional,Distrito N° 12,term_same_chamber,876
+55,chamber,LI,2002-2006,Boris,Tapia,Martínez,3867,147,6,Partido Demócrata Cristiano,Distrito N° 36,term_same_chamber,1768
+61,chamber,LI,2002-2006,Camilo,Escalona,Medina,2146,156,13,Partido Socialista de Chile,Distrito N° 46,term_same_chamber,1509
+64,chamber,LI,2002-2006,Carlos Abel,Jarpa,Wevar,2718,166,5,Partido Radical Socialdemócrata,Distrito N° 41,term_same_chamber,1595
+65,chamber,LI,2002-2006,Carlos,Vilches,Guzmán,845,169,10,Partido Unión Demócrata Independiente,Distrito N° 5,term_same_chamber,1337
+74,chamber,LI,2002-2006,Carlos,Hidalgo,González,728,192,,,Distrito N° 15,term_same_chamber,1153
+75,chamber,LI,2002-2006,Carlos Ignacio,Kuschel,Silva,3069,194,4,Partido Renovación Nacional,Distrito N° 57,term_same_chamber,1415
+77,chamber,LI,2002-2006,Carlos,Montes,Cisternas,1667,203,13,Partido Socialista de Chile,Distrito N° 26,term_same_chamber,1655
+78,chamber,LI,2002-2006,Carlos,Olivares,Zepeda,3055,210,6,Partido Demócrata Cristiano,Distrito N° 18,term_same_chamber,1685
+80,chamber,LI,2002-2006,Carlos,Recondo,Lavanderos,303,216,10,Partido Unión Demócrata Independiente,Distrito N° 56,term_same_chamber,1532
+87,chamber,LI,2002-2006,Carmen,Ibáñez,Soto,1459,228,4,Partido Renovación Nacional,Distrito N° 13,term_same_chamber,824
+90,chamber,LI,2002-2006,Carolina,Tohá,Morales,1812,235,,,Distrito N° 22,term_same_chamber,1543
+100,chamber,LI,2002-2006,Claudio,Alvarado,Andrade,1,252,10,Partido Unión Demócrata Independiente,Distrito N° 58,term_same_chamber,1444
+107,chamber,LI,2002-2006,Cristián,Leay,Morán,2529,267,10,Partido Unión Demócrata Independiente,Distrito N° 19,term_same_chamber,1239
+108,chamber,LI,2002-2006,Cristián,Pareto,Vergara,1343,271,6,Partido Demócrata Cristiano,Distrito N° 20,term_same_chamber,176
+128,chamber,LI,2002-2006,Darío,Molina,Sanhueza,445,302,10,Partido Unión Demócrata Independiente,Distrito N° 9,term_same_chamber,1261
+129,chamber,LI,2002-2006,Darío,Paya,Mira,3675,305,10,Partido Unión Demócrata Independiente,Distrito N° 28,term_same_chamber,988
+137,chamber,LI,2002-2006,Edgardo,Riveros,Marín,1409,322,6,Partido Demócrata Cristiano,Distrito N° 30,term_same_chamber,1752
+139,chamber,LI,2002-2006,Edmundo,Salas,De La Fuente,3006,326,6,Partido Demócrata Cristiano,Distrito N° 45,term_same_chamber,1699
+140,chamber,LI,2002-2006,Edmundo,Villouta,Concha,3602,330,6,Partido Demócrata Cristiano,Distrito N° 48,term_same_chamber,1797
+144,chamber,LI,2002-2006,Eduardo,Díaz,Del Río,3108,343,23,Unión Demócrata Independiente,Distrito N° 51,term_same_chamber,1072
+146,chamber,LI,2002-2006,Eduardo,Lagos,Herrera,3811,348,5,Partido Radical Socialdemócrata,Distrito N° 57,term_same_chamber,221
+147,chamber,LI,2002-2006,Eduardo,Saffirio,Suárez,2986,350,6,Partido Demócrata Cristiano,Distrito N° 50,term_same_chamber,1629
+148,chamber,LI,2002-2006,Eliana,Caraball,Martínez,965,351,6,Partido Demócrata Cristiano,Distrito N° 27,term_same_chamber,1507
+152,chamber,LI,2002-2006,Enrique,Accorsi,Opazo,2200,362,1,Partido por la Democracia,Distrito N° 24,term_same_chamber,1523
+154,chamber,LI,2002-2006,Enrique,Jaramillo,Becker,627,368,1,Partido por la Democracia,Distrito N° 54,term_same_chamber,1777
+167,chamber,LI,2002-2006,Esteban,Valenzuela,Van Treek,1997,390,1,Partido por la Democracia,Distrito N° 32,term_same_chamber,1652
+168,chamber,LI,2002-2006,Eugenio,Bauer,Jouanne,2904,393,10,Partido Unión Demócrata Independiente,Distrito N° 33,term_same_chamber,1739
+172,chamber,LI,2002-2006,Eugenio,Tuma,Zedan,1745,399,1,Partido por la Democracia,Distrito N° 51,term_same_chamber,1531
+174,chamber,LI,2002-2006,Exequiel,Silva,Ortiz,181,407,6,Partido Demócrata Cristiano,Distrito N° 53,term_same_chamber,1589
+184,chamber,LI,2002-2006,Felipe,Letelier,Norambuena,2395,425,1,Partido por la Democracia,Distrito N° 42,term_same_chamber,1257
+185,chamber,LI,2002-2006,Felipe,Salaberry,Soto,3486,430,10,Partido Unión Demócrata Independiente,Distrito N° 25,term_same_chamber,1626
+190,chamber,LI,2002-2006,Fernando,Meza,Moncada,3138,443,5,Partido Radical Socialdemócrata,Distrito N° 52,term_same_chamber,1325
+191,chamber,LI,2002-2006,Fidel,Espinoza,Sandoval,1438,448,13,Partido Socialista de Chile,Distrito N° 56,term_same_chamber,1467
+198,chamber,LI,2002-2006,Francisco,Bayo,Veloso,2952,464,4,Partido Renovación Nacional,Distrito N° 48,term_same_chamber,1570
+205,chamber,LI,2002-2006,Fulvio,Rossi,Ciocca,2312,480,,,Distrito N° 2,term_same_chamber,1446
+208,chamber,LI,2002-2006,Gabriel,Ascencio,Mansilla,1777,488,6,Partido Demócrata Cristiano,Distrito N° 58,term_same_chamber,1593
+215,chamber,LI,2002-2006,Gastón,Von Mühlenbrock,Zamora,1482,510,,,Distrito N° 54,term_same_chamber,1809
+216,chamber,LI,2002-2006,Germán,Becker,Alvear,212,514,4,Partido Renovación Nacional,Distrito N° 50,term_same_chamber,1668
+224,chamber,LI,2002-2006,Gonzalo,Ibáñez,Santa María,1296,526,10,Partido Unión Demócrata Independiente,Distrito N° 14,term_same_chamber,1471
+226,chamber,LI,2002-2006,Gonzalo,Uriarte,Herrera,1487,532,10,Partido Unión Demócrata Independiente,Distrito N° 31,term_same_chamber,1597
+228,chamber,LI,2002-2006,Guido,Girardi,Lavín,1961,535,2,Partido Por la Democracia,Distrito N° 18,term_same_chamber,1088
+230,chamber,LI,2002-2006,Guillermo,Ceroni,Fuentes,3732,545,1,Partido por la Democracia,Distrito N° 40,term_same_chamber,1699
+262,chamber,LI,2002-2006,Ignacio,Urrutia,Bonilla,3201,605,10,Partido Unión Demócrata Independiente,Distrito N° 40,term_same_chamber,1729
+270,chamber,LI,2002-2006,Iván,Norambuena,Farías,3360,624,10,Partido Unión Demócrata Independiente,Distrito N° 46,term_same_chamber,1565
+272,chamber,LI,2002-2006,Iván,Moreira,Barros,1713,628,10,Partido Unión Demócrata Independiente,Distrito N° 27,term_same_chamber,1144
+273,chamber,LI,2002-2006,Iván,Paredes,Fierro,2020,635,,,Distrito N° 1,term_same_chamber,1486
+278,chamber,LI,2002-2006,Jaime,Jiménez,Villavicencio,1159,642,6,Partido Demócrata Cristiano,Distrito N° 31,term_same_chamber,178
+284,chamber,LI,2002-2006,Jaime,Mulet,Martínez,1782,655,6,Partido Demócrata Cristiano,Distrito N° 6,term_same_chamber,911
+287,chamber,LI,2002-2006,Jaime,Quintana,Leal,1570,669,1,Partido por la Democracia,Distrito N° 49,term_same_chamber,1485
+291,chamber,LI,2002-2006,Javier,Hernández,Hernández,3251,684,10,Partido Unión Demócrata Independiente,Distrito N° 55,term_same_chamber,1531
+303,chamber,LI,2002-2006,Jorge,Burgos,Varela,1578,708,6,Partido Demócrata Cristiano,Distrito N° 21,term_same_chamber,1725
+311,chamber,LI,2002-2006,Jorge,Ulloa,Aguillón,2635,734,10,Partido Unión Demócrata Independiente,Distrito N° 43,term_same_chamber,1413
+321,chamber,LI,2002-2006,Jorge,Tarud,Daccarett,1734,757,1,Partido por la Democracia,Distrito N° 39,term_same_chamber,1386
+323,chamber,LI,2002-2006,José Antonio,Galilea,Vidaurre,500,759,4,Partido Renovación Nacional,Distrito N° 49,term_same_chamber,1380
+325,chamber,LI,2002-2006,José Antonio,Kast,Rist,2231,767,10,Partido Unión Demócrata Independiente,Distrito N° 30,term_same_chamber,1618
+327,chamber,LI,2002-2006,Francisco,Encina,Moriamez,1786,772,13,Partido Socialista de Chile,Distrito N° 8,term_same_chamber,1637
+337,chamber,LI,2002-2006,José Miguel,Ortiz,Novoa,1209,797,6,Partido Demócrata Cristiano,Distrito N° 44,term_same_chamber,1977
+340,chamber,LI,2002-2006,José,Pérez,Arriagada,2399,807,5,Partido Radical Socialdemócrata,Distrito N° 47,term_same_chamber,1494
+357,chamber,LI,2002-2006,Juan,Bustos,Ramírez,2696,840,13,Partido Socialista de Chile,Distrito N° 12,term_same_chamber,1583
+363,chamber,LI,2002-2006,Juan,Masferrer,Pellizzari,1079,853,10,Partido Unión Demócrata Independiente,Distrito N° 34,term_same_chamber,1571
+365,chamber,LI,2002-2006,Juan Pablo,Letelier,Morel,2605,858,13,Partido Socialista de Chile,Distrito N° 33,term_same_chamber,1196
+368,chamber,LI,2002-2006,Julio,Dittborn,Cordua,3097,869,10,Partido Unión Demócrata Independiente,Distrito N° 23,term_same_chamber,1685
+379,chamber,LI,2002-2006,Laura,Soto,González,1403,889,1,Partido por la Democracia,Distrito N° 13,term_same_chamber,1693
+384,chamber,LI,2002-2006,Leopoldo,Sánchez,Grunert,2071,902,1,Partido por la Democracia,Distrito N° 59,term_same_chamber,1408
+385,chamber,LI,2002-2006,Lily,Pérez,San Martín,2581,905,4,Partido Renovación Nacional,Distrito N° 26,term_same_chamber,1314
+405,chamber,LI,2002-2006,Manuel,Rojas,Molina,2640,939,10,Partido Unión Demócrata Independiente,Distrito N° 4,term_same_chamber,1510
+408,chamber,LI,2002-2006,Marcela,Cubillos,Sigall,83,950,10,Partido Unión Demócrata Independiente,Distrito N° 21,term_same_chamber,1234
+413,chamber,LI,2002-2006,Marcelo,Forni,Lobos,3848,959,10,Partido Unión Demócrata Independiente,Distrito N° 11,term_same_chamber,1552
+427,chamber,LI,2002-2006,Mario,Bertolino,Rendic,86,987,4,Partido Renovación Nacional,Distrito N° 7,term_same_chamber,1762
+430,chamber,LI,2002-2006,Mario,Escobar,Urbina,2789,994,10,Partido Unión Demócrata Independiente,Distrito N° 3,term_same_chamber,368
+433,chamber,LI,2002-2006,Mario,Varela,Herrera,1562,997,10,Partido Unión Demócrata Independiente,Distrito N° 20,term_same_chamber,1304
+444,chamber,LI,2002-2006,María Angélica,Cristi,Marfil,2849,1018,10,Partido Unión Demócrata Independiente,Distrito N° 24,term_same_chamber,1379
+445,chamber,LI,2002-2006,María Antonieta,Saa,Díaz,3145,1024,1,Partido por la Democracia,Distrito N° 17,term_same_chamber,1621
+448,chamber,LI,2002-2006,María Eugenia,Mella,Gajardo,3362,1030,6,Partido Demócrata Cristiano,Distrito N° 10,term_same_chamber,1733
+450,chamber,LI,2002-2006,Isabel,Allende,Bussi,3494,1033,13,Partido Socialista de Chile,Distrito N° 29,term_same_chamber,1570
+456,chamber,LI,2002-2006,Pía,Guzmán,Mena,368,1048,4,Partido Renovación Nacional,Distrito N° 23,term_same_chamber,1569
+465,chamber,LI,2002-2006,Maximiano,Errázuriz,Eguiguren,835,1063,4,Partido Renovación Nacional,Distrito N° 29,term_same_chamber,865
+487,chamber,LI,2002-2006,Nicolás,Monckeberg,Díaz,428,1098,4,Partido Renovación Nacional,Distrito N° 42,term_same_chamber,1145
+490,chamber,LI,2002-2006,Néstor,Jofré,Núñez,1284,1102,4,Partido Renovación Nacional,Distrito N° 2,term_same_chamber,183
+495,chamber,LI,2002-2006,Osvaldo,Palma,Flores,3371,1110,4,Partido Renovación Nacional,Distrito N° 39,term_same_chamber,1619
+499,chamber,LI,2002-2006,Pablo,Galilea,Carrillo,3178,1117,4,Partido Renovación Nacional,Distrito N° 59,term_same_chamber,1400
+500,chamber,LI,2002-2006,Pablo,Longueira,Montes,1900,1119,10,Partido Unión Demócrata Independiente,Distrito N° 17,term_same_chamber,1053
+501,chamber,LI,2002-2006,Pablo,Lorenzini,Basso,1001,1128,6,Partido Demócrata Cristiano,Distrito N° 38,term_same_chamber,1267
+502,chamber,LI,2002-2006,Pablo,Prieto,Lorca,864,1131,,,Distrito N° 37,term_same_chamber,1616
+505,chamber,LI,2002-2006,Patricio,Hales,Dib,2840,1137,1,Partido por la Democracia,Distrito N° 19,term_same_chamber,1425
+506,chamber,LI,2002-2006,Patricio,Cornejo,Vidaurrázaga,3404,1139,6,Partido Demócrata Cristiano,Distrito N° 11,term_same_chamber,1488
+508,chamber,LI,2002-2006,Patricio,Melero,Abaroa,504,1147,10,Partido Unión Demócrata Independiente,Distrito N° 16,term_same_chamber,1363
+510,chamber,LI,2002-2006,Patricio,Walker,Prieto,802,1155,6,Partido Demócrata Cristiano,Distrito N° 8,term_same_chamber,1597
+515,chamber,LI,2002-2006,Pedro,Araya,Guerrero,339,1167,6,Partido Demócrata Cristiano,Distrito N° 4,term_same_chamber,1674
+516,chamber,LI,2002-2006,Pedro,Muñoz,Aburto,66,1171,13,Partido Socialista de Chile,Distrito N° 60,term_same_chamber,1641
+518,chamber,LI,2002-2006,Pedro Pablo,Alvarez-Salamanca,Büchi,1616,1178,4,Partido Renovación Nacional,Distrito N° 38,term_same_chamber,1286
+528,chamber,LI,2002-2006,Ramón,Barros,Montero,3625,1204,10,Partido Unión Demócrata Independiente,Distrito N° 35,term_same_chamber,1593
+529,chamber,LI,2002-2006,Ramón,Pérez,Opazo,3745,1205,,,Distrito N° 2,term_same_chamber,1359
+542,chamber,LI,2002-2006,René Manuel,García,García,1470,1235,4,Partido Renovación Nacional,Distrito N° 52,term_same_chamber,1516
+552,chamber,LI,2002-2006,Roberto,Delmastro,Naso,1088,1255,4,Partido Renovación Nacional,Distrito N° 53,term_same_chamber,1484
+557,chamber,LI,2002-2006,Rodolfo,Seguel,Molina,2525,1269,6,Partido Demócrata Cristiano,Distrito N° 28,term_same_chamber,1660
+559,chamber,LI,2002-2006,Rodrigo,Alvarez,Zenteno,1011,1275,10,Partido Unión Demócrata Independiente,Distrito Nº 60,term_same_chamber,1595
+561,chamber,LI,2002-2006,Rodrigo,González,Torres,1893,1282,1,Partido por la Democracia,Distrito N° 14,term_same_chamber,1484
+567,chamber,LI,2002-2006,Rosa,González,Román,3685,1289,10,Partido Unión Demócrata Independiente,Distrito N° 1,term_same_chamber,833
+568,chamber,LI,2002-2006,Rosauro,Martínez,Labbé,3487,1294,4,Partido Renovación Nacional,Distrito N° 41,term_same_chamber,1197
+573,chamber,LI,2002-2006,Samuel,Venegas,Rubio,2960,1304,5,Partido Radical Socialdemócrata,Distrito N° 15,term_same_chamber,1426
+582,chamber,LI,2002-2006,Sergio,Aguiló,Melo,3883,1319,13,Partido Socialista de Chile,Distrito N° 37,term_same_chamber,1462
+586,chamber,LI,2002-2006,Sergio,Correa,De la Cerda,2782,1331,10,Partido Unión Demócrata Independiente,Distrito N° 36,term_same_chamber,1664
+594,chamber,LI,2002-2006,Sergio,Ojeda,Uribe,1175,1359,6,Partido Demócrata Cristiano,Distrito N° 55,term_same_chamber,1943
+618,chamber,LI,2002-2006,Víctor,Jeame,Barrueto,3775,1406,1,Partido por la Democracia,Distrito N° 43,term_same_chamber,1149
+619,chamber,LI,2002-2006,Víctor Manuel,Rebolledo,González,3127,1410,1,Partido por la Democracia,Distrito N° 7,term_same_chamber,73
+622,chamber,LI,2002-2006,Víctor,Pérez,Varela,963,1416,10,Partido Unión Demócrata Independiente,Distrito N° 47,term_same_chamber,1494
+624,chamber,LI,2002-2006,Waldo,Mora,Longa,1677,1426,6,Partido Demócrata Cristiano,Distrito N° 3,term_same_chamber,1267
+629,chamber,LI,2002-2006,Ximena,Vidal,Lázaro,1580,1435,1,Partido por la Democracia,Distrito N° 25,term_same_chamber,1557
+632,chamber,LI,2002-2006,Zarko,Luksic,Sandoval,3609,1439,6,Partido Demócrata Cristiano,Distrito N° 16,term_same_chamber,1508
+1,chamber,LII,2006-2010,Adriana,Muñoz,D' Albora,2600,2,1,Partido por la Democracia,Distrito N° 9,term_same_chamber,1787
+5,chamber,LII,2006-2010,Alberto,Cardemil,Herrera,2453,16,,,Distrito N° 22,term_same_chamber,1650
+6,chamber,LII,2006-2010,Alberto,Robles,Pantoja,2228,22,5,Partido Radical Socialdemócrata,Distrito N° 6,term_same_chamber,1602
+10,chamber,LII,2006-2010,Alejandra,Sepúlveda,Orbenes,2717,34,6,Partido Demócrata Cristiano,Distrito N° 34,term_same_chamber,1718
+11,chamber,LII,2006-2010,Alejandro,García Huidobro,Sanfuentes,2571,38,10,Partido Unión Demócrata Independiente,Distrito N° 32,term_same_chamber,1569
+14,chamber,LII,2006-2010,Alejandro,Sule,Fernández,498,48,5,Partido Radical Socialdemócrata,Distrito N° 33,term_same_chamber,1561
+20,chamber,LII,2006-2010,Alfonso,De Urresti,Longton,1925,64,13,Partido Socialista de Chile,Distrito N° 53,term_same_chamber,1736
+21,chamber,LII,2006-2010,Alfonso,Vargas,Lyng,3765,68,4,Partido Renovación Nacional,Distrito N° 10,term_same_chamber,1502
+23,chamber,LII,2006-2010,Amelia,Herrera,Silva,2099,73,4,Partido Renovación Nacional,Distrito N° 12,term_same_chamber,710
+28,chamber,LII,2006-2010,Andrés,Egaña,Respaldiza,902,82,10,Partido Unión Demócrata Independiente,Distrito N° 44,term_same_chamber,1848
+40,chamber,LII,2006-2010,Antonio,Leal,Labrín,372,112,2,Partido Por la Democracia,Distrito N° 5,term_same_chamber,1764
+64,chamber,LII,2006-2010,Carlos Abel,Jarpa,Wevar,2718,165,5,Partido Radical Socialdemócrata,Distrito N° 41,term_same_chamber,1585
+77,chamber,LII,2006-2010,Carlos,Montes,Cisternas,1667,202,13,Partido Socialista de Chile,Distrito N° 26,term_same_chamber,1715
+78,chamber,LII,2006-2010,Carlos,Olivares,Zepeda,3055,209,6,Partido Demócrata Cristiano,Distrito N° 18,term_same_chamber,1701
+80,chamber,LII,2006-2010,Carlos,Recondo,Lavanderos,303,215,10,Partido Unión Demócrata Independiente,Distrito N° 56,term_same_chamber,1555
+88,chamber,LII,2006-2010,Carolina,Goic,Boroevic,1706,230,6,Partido Demócrata Cristiano,Distrito N° 60,term_same_chamber,1297
+90,chamber,LII,2006-2010,Carolina,Tohá,Morales,1812,234,2,Partido Por la Democracia,Distrito N° 22,term_same_chamber,1371
+98,chamber,LII,2006-2010,Claudia,Nogueira,Fernández,1619,249,10,Partido Unión Demócrata Independiente,Distrito N° 19,term_same_chamber,1504
+100,chamber,LII,2006-2010,Claudio,Alvarado,Andrade,1,251,10,Partido Unión Demócrata Independiente,Distrito N° 58,term_same_chamber,1574
+103,chamber,LII,2006-2010,Clemira,Pacheco,Rivas,2797,261,13,Partido Socialista de Chile,Distrito N° 45,term_same_chamber,1484
+112,chamber,LII,2006-2010,Cristián,Monckeberg,Bruner,3039,280,4,Partido Renovación Nacional,Distrito N° 23,term_same_chamber,1500
+129,chamber,LII,2006-2010,Darío,Paya,Mira,3675,304,10,Partido Unión Demócrata Independiente,Distrito N° 28,term_same_chamber,1131
+131,chamber,LII,2006-2010,Denise,Pascal,Allende,2464,313,13,Partido Socialista de Chile,Distrito N° 31,term_same_chamber,1768
+138,chamber,LII,2006-2010,Edmundo,Eluchans,Urenda,3473,325,10,Partido Unión Demócrata Independiente,Distrito N° 15,term_same_chamber,1588
+144,chamber,LII,2006-2010,Eduardo,Díaz,Del Río,3108,342,,,Distrito N° 51,term_same_chamber,1277
+147,chamber,LII,2006-2010,Eduardo,Saffirio,Suárez,2986,349,6,Partido Demócrata Cristiano,Distrito N° 50,term_same_chamber,1381
+152,chamber,LII,2006-2010,Enrique,Accorsi,Opazo,2200,361,1,Partido por la Democracia,Distrito N° 24,term_same_chamber,1746
+153,chamber,LII,2006-2010,Enrique,Estay,Peñaloza,1494,364,10,Partido Unión Demócrata Independiente,Distrito N° 49,term_same_chamber,1253
+154,chamber,LII,2006-2010,Enrique,Jaramillo,Becker,627,367,1,Partido por la Democracia,Distrito N° 54,term_same_chamber,1906
+167,chamber,LII,2006-2010,Esteban,Valenzuela,Van Treek,1997,389,1,Partido por la Democracia,Distrito N° 32,term_same_chamber,1540
+168,chamber,LII,2006-2010,Eugenio,Bauer,Jouanne,2904,392,10,Partido Unión Demócrata Independiente,Distrito N° 33,term_same_chamber,1738
+172,chamber,LII,2006-2010,Eugenio,Tuma,Zedan,1745,398,1,Partido por la Democracia,Distrito N° 51,term_same_chamber,1542
+182,chamber,LII,2006-2010,Felipe,Harboe,Bascuñán,862,419,2,Partido Por la Democracia,Distrito N° 22,term_same_chamber,352
+185,chamber,LII,2006-2010,Felipe,Salaberry,Soto,3486,429,10,Partido Unión Demócrata Independiente,Distrito N° 25,term_same_chamber,1357
+187,chamber,LII,2006-2010,Felipe,Ward,Edwards,75,436,10,Partido Unión Demócrata Independiente,Distrito N° 3,term_same_chamber,1886
+190,chamber,LII,2006-2010,Fernando,Meza,Moncada,3138,442,5,Partido Radical Socialdemócrata,Distrito N° 52,term_same_chamber,1547
+191,chamber,LII,2006-2010,Fidel,Espinoza,Sandoval,1438,447,13,Partido Socialista de Chile,Distrito N° 56,term_same_chamber,1491
+195,chamber,LII,2006-2010,Francisco,Chahuán,Chahuán,685,456,4,Partido Renovación Nacional,Distrito N° 14,term_same_chamber,1691
+201,chamber,LII,2006-2010,Renán,Fuentealba,Vildósola,3724,471,6,Partido Demócrata Cristiano,Distrito N° 9,term_same_chamber,1563
+205,chamber,LII,2006-2010,Fulvio,Rossi,Ciocca,2312,479,13,Partido Socialista de Chile,Distrito N° 2,term_same_chamber,1322
+208,chamber,LII,2006-2010,Gabriel,Ascencio,Mansilla,1777,487,6,Partido Demócrata Cristiano,Distrito N° 58,term_same_chamber,1523
+210,chamber,LII,2006-2010,Gabriel,Silber,Romo,2787,496,6,Partido Demócrata Cristiano,Distrito N° 16,term_same_chamber,1739
+215,chamber,LII,2006-2010,Gastón,Von Mühlenbrock,Zamora,1482,509,10,Partido Unión Demócrata Independiente,Distrito N° 54,term_same_chamber,1880
+216,chamber,LII,2006-2010,Germán,Becker,Alvear,212,513,4,Partido Renovación Nacional,Distrito N° 50,term_same_chamber,1710
+217,chamber,LII,2006-2010,Germán,Verdugo,Soto,3446,517,4,Partido Renovación Nacional,Distrito N° 37,term_same_chamber,1868
+220,chamber,LII,2006-2010,Gonzalo,Arenas,Hödar,690,521,10,Partido Unión Demócrata Independiente,Distrito N° 48,term_same_chamber,1608
+222,chamber,LII,2006-2010,Gonzalo,Duarte,Leiva,2934,523,6,Partido Demócrata Cristiano,Distrito N° 26,term_same_chamber,1928
+226,chamber,LII,2006-2010,Gonzalo,Uriarte,Herrera,1487,531,10,Partido Unión Demócrata Independiente,Distrito N° 31,term_same_chamber,1628
+227,chamber,LII,2006-2010,Guido,Girardi,Briere,420,534,1,Partido por la Democracia,Distrito N° 18,term_same_chamber,1613
+230,chamber,LII,2006-2010,Guillermo,Ceroni,Fuentes,3732,544,1,Partido por la Democracia,Distrito N° 40,term_same_chamber,1845
+262,chamber,LII,2006-2010,Ignacio,Urrutia,Bonilla,3201,604,10,Partido Unión Demócrata Independiente,Distrito N° 40,term_same_chamber,1567
+270,chamber,LII,2006-2010,Iván,Norambuena,Farías,3360,623,10,Partido Unión Demócrata Independiente,Distrito N° 46,term_same_chamber,1496
+272,chamber,LII,2006-2010,Iván,Moreira,Barros,1713,627,10,Partido Unión Demócrata Independiente,Distrito N° 27,term_same_chamber,1165
+273,chamber,LII,2006-2010,Iván,Paredes,Fierro,2020,634,13,Partido Socialista de Chile,Distrito N° 1,term_same_chamber,1225
+284,chamber,LII,2006-2010,Jaime,Mulet,Martínez,1782,654,9,Partido Regionalista de los Independientes,Distrito N° 6,term_same_chamber,1294
+287,chamber,LII,2006-2010,Jaime,Quintana,Leal,1570,668,1,Partido por la Democracia,Distrito N° 49,term_same_chamber,1488
+291,chamber,LII,2006-2010,Javier,Hernández,Hernández,3251,683,10,Partido Unión Demócrata Independiente,Distrito N° 55,term_same_chamber,1700
+295,chamber,LII,2006-2010,Joaquín,Godoy,Ibáñez,2100,692,4,Partido Renovación Nacional,Distrito N° 13,term_same_chamber,1477
+303,chamber,LII,2006-2010,Jorge,Burgos,Varela,1578,707,6,Partido Demócrata Cristiano,Distrito N° 21,term_same_chamber,1447
+304,chamber,LII,2006-2010,Jorge,Sabag,Villalobos,168,712,6,Partido Demócrata Cristiano,Distrito N° 42,term_same_chamber,1655
+309,chamber,LII,2006-2010,Jorge,Insunza,Gregorio de las Heras,2805,728,1,Partido por la Democracia,Distrito N° 28,term_same_chamber,1852
+311,chamber,LII,2006-2010,Jorge,Ulloa,Aguillón,2635,733,10,Partido Unión Demócrata Independiente,Distrito N° 43,term_same_chamber,1608
+321,chamber,LII,2006-2010,Jorge,Tarud,Daccarett,1734,756,1,Partido por la Democracia,Distrito N° 39,term_same_chamber,1568
+325,chamber,LII,2006-2010,José Antonio,Kast,Rist,2231,766,10,Partido Unión Demócrata Independiente,Distrito N° 30,term_same_chamber,1464
+327,chamber,LII,2006-2010,Francisco,Encina,Moriamez,1786,771,13,Partido Socialista de Chile,Distrito N° 8,term_same_chamber,1770
+337,chamber,LII,2006-2010,José Miguel,Ortiz,Novoa,1209,796,6,Partido Demócrata Cristiano,Distrito N° 44,term_same_chamber,2064
+340,chamber,LII,2006-2010,José,Pérez,Arriagada,2399,806,5,Partido Radical Socialdemócrata,Distrito N° 47,term_same_chamber,1571
+349,chamber,LII,2006-2010,Juan Carlos,Latorre,Carmona,427,827,6,Partido Demócrata Cristiano,Distrito N° 35,term_same_chamber,1355
+357,chamber,LII,2006-2010,Juan,Bustos,Ramírez,2696,839,13,Partido Socialista de Chile,Distrito N° 12,term_same_chamber,848
+358,chamber,LII,2006-2010,Juan,Lobos,Krause,3021,843,10,Partido Unión Demócrata Independiente,Distrito N° 47,term_same_chamber,1710
+363,chamber,LII,2006-2010,Juan,Masferrer,Pellizzari,1079,852,10,Partido Unión Demócrata Independiente,Distrito N° 34,term_same_chamber,1465
+368,chamber,LII,2006-2010,Julio,Dittborn,Cordua,3097,868,10,Partido Unión Demócrata Independiente,Distrito N° 23,term_same_chamber,1676
+374,chamber,LII,2006-2010,Karla,Rubilar,Barahona,3270,880,4,Partido Renovación Nacional,Distrito N° 17,term_same_chamber,1209
+379,chamber,LII,2006-2010,Laura,Soto,González,1403,888,1,Partido por la Democracia,Distrito N° 13,term_same_chamber,1301
+385,chamber,LII,2006-2010,Lily,Pérez,San Martín,2581,904,4,Partido Renovación Nacional,Distrito N° 38,term_same_chamber,426
+405,chamber,LII,2006-2010,Manuel,Rojas,Molina,2640,938,10,Partido Unión Demócrata Independiente,Distrito N° 4,term_same_chamber,1597
+406,chamber,LII,2006-2010,Manuel,Monsalve,Benavides,1827,944,13,Partido Socialista de Chile,Distrito N° 46,term_same_chamber,1607
+408,chamber,LII,2006-2010,Marcela,Cubillos,Sigall,83,949,10,Partido Unión Demócrata Independiente,Distrito N° 21,term_same_chamber,1286
+412,chamber,LII,2006-2010,Marcelo,Díaz,Díaz,730,957,13,Partido Socialista de Chile,Distrito N° 7,term_same_chamber,1797
+413,chamber,LII,2006-2010,Marcelo,Forni,Lobos,3848,958,10,Partido Unión Demócrata Independiente,Distrito N° 11,term_same_chamber,1225
+415,chamber,LII,2006-2010,Marcelo,Schilling,Rodríguez,3014,964,13,Partido Socialista de Chile,Distrito N° 12,term_same_chamber,636
+418,chamber,LII,2006-2010,Marco,Enríquez-Ominami,Gumucio,507,967,13,Partido Socialista de Chile,Distrito N° 10,term_same_chamber,1427
+419,chamber,LII,2006-2010,Marco Antonio,Núñez,Lozano,1831,970,1,Partido por la Democracia,Distrito N° 11,term_same_chamber,1600
+423,chamber,LII,2006-2010,Marcos,Espinosa,Monardes,3557,977,5,Partido Radical Socialdemócrata,Distrito N° 3,term_same_chamber,1759
+427,chamber,LII,2006-2010,Mario,Bertolino,Rendic,86,986,4,Partido Renovación Nacional,Distrito N° 7,term_same_chamber,1729
+434,chamber,LII,2006-2010,Mario,Venegas,Cárdenas,3192,1001,6,Partido Demócrata Cristiano,Distrito N° 48,term_same_chamber,1781
+436,chamber,LII,2006-2010,Marisol,Turres,Figueroa,1050,1006,10,Partido Unión Demócrata Independiente,Distrito N° 57,term_same_chamber,1605
+440,chamber,LII,2006-2010,Marta,Isasi,Barbieri,3107,1012,,,Distrito N° 2,term_same_chamber,1010
+444,chamber,LII,2006-2010,María Angélica,Cristi,Marfil,2849,1017,10,Partido Unión Demócrata Independiente,Distrito N° 24,term_same_chamber,1480
+445,chamber,LII,2006-2010,María Antonieta,Saa,Díaz,3145,1023,1,Partido por la Democracia,Distrito N° 17,term_same_chamber,1560
+450,chamber,LII,2006-2010,Isabel,Allende,Bussi,3494,1032,13,Partido Socialista de Chile,Distrito N° 29,term_same_chamber,1295
+465,chamber,LII,2006-2010,Maximiano,Errázuriz,Eguiguren,835,1062,4,Partido Renovación Nacional,Distrito N° 29,term_same_chamber,960
+487,chamber,LII,2006-2010,Nicolás,Monckeberg,Díaz,428,1097,4,Partido Renovación Nacional,Distrito N° 42,term_same_chamber,1062
+495,chamber,LII,2006-2010,Osvaldo,Palma,Flores,3371,1109,4,Partido Renovación Nacional,Distrito N° 39,term_same_chamber,1673
+499,chamber,LII,2006-2010,Pablo,Galilea,Carrillo,3178,1116,4,Partido Renovación Nacional,Distrito N° 59,term_same_chamber,1460
+501,chamber,LII,2006-2010,Pablo,Lorenzini,Basso,1001,1127,6,Partido Demócrata Cristiano,Distrito N° 38,term_same_chamber,1264
+505,chamber,LII,2006-2010,Patricio,Hales,Dib,2840,1136,1,Partido por la Democracia,Distrito N° 19,term_same_chamber,1449
+508,chamber,LII,2006-2010,Patricio,Melero,Abaroa,504,1146,10,Partido Unión Demócrata Independiente,Distrito N° 16,term_same_chamber,1848
+509,chamber,LII,2006-2010,Patricio,Vallespín,López,3449,1153,6,Partido Demócrata Cristiano,Distrito N° 57,term_same_chamber,1666
+510,chamber,LII,2006-2010,Patricio,Walker,Prieto,802,1154,6,Partido Demócrata Cristiano,Distrito N° 8,term_same_chamber,1623
+515,chamber,LII,2006-2010,Pedro,Araya,Guerrero,339,1166,6,Partido Demócrata Cristiano,Distrito N° 4,term_same_chamber,1647
+518,chamber,LII,2006-2010,Pedro Pablo,Alvarez-Salamanca,Büchi,1616,1177,4,Partido Renovación Nacional,Distrito N° 38,term_same_chamber,826
+527,chamber,LII,2006-2010,Ramón,Farías,Ponce,2993,1199,1,Partido por la Democracia,Distrito N° 30,term_same_chamber,1796
+528,chamber,LII,2006-2010,Ramón,Barros,Montero,3625,1203,10,Partido Unión Demócrata Independiente,Distrito N° 35,term_same_chamber,1745
+535,chamber,LII,2006-2010,Raúl,Sunico,Galdames,1399,1216,13,Partido Socialista de Chile,Distrito N° 43,term_same_chamber,1819
+539,chamber,LII,2006-2010,René,Aedo,Ormeño,2555,1223,4,Partido Renovación Nacional,Distrito N° 5,term_same_chamber,1556
+540,chamber,LII,2006-2010,René,Alinco,Bustos,135,1227,1,Partido por la Democracia,Distrito N° 59,term_same_chamber,1384
+542,chamber,LII,2006-2010,René Manuel,García,García,1470,1234,4,Partido Renovación Nacional,Distrito N° 52,term_same_chamber,1555
+552,chamber,LII,2006-2010,Roberto,Delmastro,Naso,1088,1254,19,Renovación Nacional,Distrito N° 53,term_same_chamber,1632
+554,chamber,LII,2006-2010,Roberto,León,Ramírez,1860,1260,6,Partido Demócrata Cristiano,Distrito N° 36,term_same_chamber,1244
+556,chamber,LII,2006-2010,Roberto,Sepúlveda,Hermosilla,1753,1268,4,Partido Renovación Nacional,Distrito N° 20,term_same_chamber,1647
+559,chamber,LII,2006-2010,Rodrigo,Alvarez,Zenteno,1011,1274,10,Partido Unión Demócrata Independiente,Distrito Nº 60,term_same_chamber,1652
+561,chamber,LII,2006-2010,Rodrigo,González,Torres,1893,1281,1,Partido por la Democracia,Distrito N° 14,term_same_chamber,1277
+568,chamber,LII,2006-2010,Rosauro,Martínez,Labbé,3487,1293,4,Partido Renovación Nacional,Distrito N° 41,term_same_chamber,1413
+573,chamber,LII,2006-2010,Samuel,Venegas,Rubio,2960,1303,5,Partido Radical Socialdemócrata,Distrito N° 15,term_same_chamber,1416
+582,chamber,LII,2006-2010,Sergio,Aguiló,Melo,3883,1318,13,Partido Socialista de Chile,Distrito N° 37,term_same_chamber,1412
+586,chamber,LII,2006-2010,Sergio,Correa,De la Cerda,2782,1330,10,Partido Unión Demócrata Independiente,Distrito N° 36,term_same_chamber,1703
+588,chamber,LII,2006-2010,Sergio,Bobadilla,Muñoz,2861,1344,10,Partido Unión Demócrata Independiente,Distrito N° 45,term_same_chamber,1637
+594,chamber,LII,2006-2010,Sergio,Ojeda,Uribe,1175,1358,6,Partido Demócrata Cristiano,Distrito N° 55,term_same_chamber,2000
+608,chamber,LII,2006-2010,Tucapel,Jiménez,Fuentes,3635,1391,1,Partido por la Democracia,Distrito N° 27,term_same_chamber,1794
+628,chamber,LII,2006-2010,Ximena,Valcarce,Becerra,3196,1432,4,Partido Renovación Nacional,Distrito N° 1,term_same_chamber,1412
+629,chamber,LII,2006-2010,Ximena,Vidal,Lázaro,1580,1434,1,Partido por la Democracia,Distrito N° 25,term_same_chamber,1760
+634,chamber,LII,2006-2010,Alvaro,Escobar,Rufatt,516,1443,,,,term_same_chamber,1220
+1,chamber,LIII,2010-2014,Adriana,Muñoz,D' Albora,2600,1,1,Partido por la Democracia,Distrito N° 9,term_same_chamber,3060
+5,chamber,LIII,2010-2014,Alberto,Cardemil,Herrera,2453,15,4,Partido Renovación Nacional,Distrito N° 22,term_same_chamber,2936
+6,chamber,LIII,2010-2014,Alberto,Robles,Pantoja,2228,21,5,Partido Radical Socialdemócrata,Distrito N° 6,term_same_chamber,2617
+8,chamber,LIII,2010-2014,Aldo,Cornejo,González,1714,26,6,Partido Demócrata Cristiano,Distrito N° 13,term_same_chamber,2684
+10,chamber,LIII,2010-2014,Alejandra,Sepúlveda,Orbenes,2717,33,9,Partido Regionalista de los Independientes,Distrito N° 34,term_same_chamber,2954
+11,chamber,LIII,2010-2014,Alejandro,García Huidobro,Sanfuentes,2571,37,10,Partido Unión Demócrata Independiente,Distrito N° 32,term_same_chamber,852
+17,chamber,LIII,2010-2014,Alejandro,Santana,Tirachini,167,59,4,Partido Renovación Nacional,Distrito N° 58,term_same_chamber,3017
+20,chamber,LIII,2010-2014,Alfonso,De Urresti,Longton,1925,63,13,Partido Socialista de Chile,Distrito N° 53,term_same_chamber,2802
+26,chamber,LIII,2010-2014,Andrea,Molina,Oliva,1252,77,10,Partido Unión Demócrata Independiente,Distrito N° 10,term_same_chamber,2420
+47,chamber,LIII,2010-2014,Arturo,Squella,Ovalle,2413,129,10,Partido Unión Demócrata Independiente,Distrito N° 12,term_same_chamber,3134
+64,chamber,LIII,2010-2014,Carlos Abel,Jarpa,Wevar,2718,164,5,Partido Radical Socialdemócrata,Distrito N° 41,term_same_chamber,2652
+65,chamber,LIII,2010-2014,Carlos,Vilches,Guzmán,845,168,10,Partido Unión Demócrata Independiente,Distrito N° 5,term_same_chamber,2927
+70,chamber,LIII,2010-2014,Cristián,Campos,Jara,770,188,1,Partido por la Democracia,Distrito N° 43,term_same_chamber,2430
+77,chamber,LIII,2010-2014,Carlos,Montes,Cisternas,1667,201,13,Partido Socialista de Chile,Distrito N° 26,term_same_chamber,2701
+80,chamber,LIII,2010-2014,Carlos,Recondo,Lavanderos,303,214,10,Partido Unión Demócrata Independiente,Distrito N° 56,term_same_chamber,2947
+88,chamber,LIII,2010-2014,Carolina,Goic,Boroevic,1706,229,6,Partido Demócrata Cristiano,Distrito N° 60,term_same_chamber,2093
+92,chamber,LIII,2010-2014,Celso,Morales,Muñoz,3369,240,10,Partido Unión Demócrata Independiente,Distrito N° 36,term_same_chamber,2907
+98,chamber,LIII,2010-2014,Claudia,Nogueira,Fernández,1619,248,10,Partido Unión Demócrata Independiente,Distrito N° 19,term_same_chamber,2809
+103,chamber,LIII,2010-2014,Clemira,Pacheco,Rivas,2797,260,13,Partido Socialista de Chile,Distrito N° 45,term_same_chamber,2251
+109,chamber,LIII,2010-2014,Cristina,Girardi,Lavín,2356,274,2,Partido Por la Democracia,Distrito N° 18,term_same_chamber,2774
+112,chamber,LIII,2010-2014,Cristián,Monckeberg,Bruner,3039,279,4,Partido Renovación Nacional,Distrito N° 23,term_same_chamber,2883
+113,chamber,LIII,2010-2014,Cristian,Letelier,Aguilar,856,281,10,Partido Unión Demócrata Independiente,Distrito N° 31,term_same_chamber,2243
+130,chamber,LIII,2010-2014,David,Sandoval,Plaza,1646,309,10,Partido Unión Demócrata Independiente,Distrito N° 59,term_same_chamber,3025
+131,chamber,LIII,2010-2014,Denise,Pascal,Allende,2464,312,13,Partido Socialista de Chile,Distrito N° 31,term_same_chamber,2718
+138,chamber,LIII,2010-2014,Edmundo,Eluchans,Urenda,3473,324,10,Partido Unión Demócrata Independiente,Distrito N° 14,term_same_chamber,3055
+142,chamber,LIII,2010-2014,Eduardo,Cerda,García,318,336,6,Partido Demócrata Cristiano,Distrito N° 10,term_same_chamber,2466
+152,chamber,LIII,2010-2014,Enrique,Accorsi,Opazo,2200,360,1,Partido por la Democracia,Distrito N° 24,term_same_chamber,2427
+153,chamber,LIII,2010-2014,Enrique,Estay,Peñaloza,1494,363,10,Partido Unión Demócrata Independiente,Distrito N° 49,term_same_chamber,2035
+154,chamber,LIII,2010-2014,Enrique,Jaramillo,Becker,627,366,1,Partido por la Democracia,Distrito N° 54,term_same_chamber,3047
+158,chamber,LIII,2010-2014,Enrique,Van Rysselberghe,Herrera,2128,376,10,Partido Unión Demócrata Independiente,Distrito N° 44,term_same_chamber,3082
+165,chamber,LIII,2010-2014,Ernesto,Silva,Méndez,826,386,10,Partido Unión Demócrata Independiente,Distrito N° 23,term_same_chamber,3102
+168,chamber,LIII,2010-2014,Eugenio,Bauer,Jouanne,2904,391,10,Partido Unión Demócrata Independiente,Distrito N° 33,term_same_chamber,2578
+182,chamber,LIII,2010-2014,Felipe,Harboe,Bascuñán,862,418,,,Distrito N° 22,term_same_chamber,2794
+185,chamber,LIII,2010-2014,Felipe,Salaberry,Soto,3486,428,10,Partido Unión Demócrata Independiente,Distrito N° 25,term_same_chamber,2522
+187,chamber,LIII,2010-2014,Felipe,Ward,Edwards,75,435,10,Partido Unión Demócrata Independiente,Distrito N° 3,term_same_chamber,3296
+190,chamber,LIII,2010-2014,Fernando,Meza,Moncada,3138,441,5,Partido Radical Socialdemócrata,Distrito N° 52,term_same_chamber,2380
+191,chamber,LIII,2010-2014,Fidel,Espinoza,Sandoval,1438,446,13,Partido Socialista de Chile,Distrito N° 56,term_same_chamber,2348
+203,chamber,LIII,2010-2014,Frank,Sauerbaum,Muñoz,3669,476,4,Partido Renovación Nacional,Distrito N° 42,term_same_chamber,2805
+204,chamber,LIII,2010-2014,Fuad,Chahin,Valenzuela,3356,478,6,Partido Demócrata Cristiano,Distrito N° 49,term_same_chamber,2680
+208,chamber,LIII,2010-2014,Gabriel,Ascencio,Mansilla,1777,486,6,Partido Demócrata Cristiano,Distrito N° 58,term_same_chamber,2691
+210,chamber,LIII,2010-2014,Gabriel,Silber,Romo,2787,495,6,Partido Demócrata Cristiano,Distrito N° 16,term_same_chamber,3071
+213,chamber,LIII,2010-2014,Gaspar,Rivas,Sánchez,1894,503,4,Partido Renovación Nacional,Distrito N° 11,term_same_chamber,2522
+215,chamber,LIII,2010-2014,Gastón,Von Mühlenbrock,Zamora,1482,508,10,Partido Unión Demócrata Independiente,Distrito N° 54,term_same_chamber,2931
+216,chamber,LIII,2010-2014,Germán,Becker,Alvear,212,512,4,Partido Renovación Nacional,Distrito N° 50,term_same_chamber,2978
+217,chamber,LIII,2010-2014,Germán,Verdugo,Soto,3446,516,4,Partido Renovación Nacional,Distrito N° 37,term_same_chamber,3204
+218,chamber,LIII,2010-2014,Giovanni,Calderón,Bassi,996,518,10,Partido Unión Demócrata Independiente,Distrito N° 6,term_same_chamber,2605
+220,chamber,LIII,2010-2014,Gonzalo,Arenas,Hödar,690,520,10,Partido Unión Demócrata Independiente,Distrito N° 48,term_same_chamber,2925
+226,chamber,LIII,2010-2014,Gonzalo,Uriarte,Herrera,1487,530,10,Partido Unión Demócrata Independiente,Distrito N° 31,term_same_chamber,656
+230,chamber,LIII,2010-2014,Guillermo,Ceroni,Fuentes,3732,543,1,Partido por la Democracia,Distrito N° 40,term_same_chamber,2762
+231,chamber,LIII,2010-2014,Guillermo,Teillier,Del Valle,302,550,7,Partido Comunista de Chile,Distrito N° 28,term_same_chamber,2859
+237,chamber,LIII,2010-2014,Gustavo,Hasbún,Selume,3102,558,10,Partido Unión Demócrata Independiente,Distrito N° 26,term_same_chamber,2933
+251,chamber,LIII,2010-2014,Hugo,Gutiérrez,Gálvez,3516,584,7,Partido Comunista de Chile,Distrito N° 2,term_same_chamber,2481
+262,chamber,LIII,2010-2014,Ignacio,Urrutia,Bonilla,3201,603,10,Partido Unión Demócrata Independiente,Distrito N° 40,term_same_chamber,2950
+266,chamber,LIII,2010-2014,Issa Farid,Kort,Garriga,3397,614,23,Unión Demócrata Independiente,Distrito N° 32,term_same_chamber,1987
+270,chamber,LIII,2010-2014,Iván,Norambuena,Farías,3360,622,10,Partido Unión Demócrata Independiente,Distrito N° 46,term_same_chamber,2686
+272,chamber,LIII,2010-2014,Iván,Moreira,Barros,1713,626,10,Partido Unión Demócrata Independiente,Distrito N° 27,term_same_chamber,2590
+290,chamber,LIII,2010-2014,Javier,Macaya,Danús,2281,678,10,Partido Unión Demócrata Independiente,Distrito N° 34,term_same_chamber,2613
+291,chamber,LIII,2010-2014,Javier,Hernández,Hernández,3251,682,10,Partido Unión Demócrata Independiente,Distrito N° 55,term_same_chamber,3004
+295,chamber,LIII,2010-2014,Joaquín,Godoy,Ibáñez,2100,691,4,Partido Renovación Nacional,Distrito N° 13,term_same_chamber,2559
+298,chamber,LIII,2010-2014,Joaquín,Tuma,Zedan,2928,700,2,Partido Por la Democracia,Distrito N° 51,term_same_chamber,2491
+299,chamber,LIII,2010-2014,Joel,Rosales,Guzmán,2881,701,10,Partido Unión Demócrata Independiente,Distrito N° 47,term_same_chamber,2111
+303,chamber,LIII,2010-2014,Jorge,Burgos,Varela,1578,706,6,Partido Demócrata Cristiano,Distrito N° 21,term_same_chamber,2449
+304,chamber,LIII,2010-2014,Jorge,Sabag,Villalobos,168,711,6,Partido Demócrata Cristiano,Distrito N° 42,term_same_chamber,2844
+311,chamber,LIII,2010-2014,Jorge,Ulloa,Aguillón,2635,732,10,Partido Unión Demócrata Independiente,Distrito N° 43,term_same_chamber,2940
+321,chamber,LIII,2010-2014,Jorge,Tarud,Daccarett,1734,755,1,Partido por la Democracia,Distrito N° 39,term_same_chamber,2633
+325,chamber,LIII,2010-2014,José Antonio,Kast,Rist,2231,765,10,Partido Unión Demócrata Independiente,Distrito N° 30,term_same_chamber,3020
+331,chamber,LIII,2010-2014,Rojo,Edwards,Silva,187,784,4,Partido Renovación Nacional,Distrito N° 51,term_same_chamber,2701
+337,chamber,LIII,2010-2014,José Miguel,Ortiz,Novoa,1209,795,6,Partido Demócrata Cristiano,Distrito N° 44,term_same_chamber,3437
+340,chamber,LIII,2010-2014,José,Pérez,Arriagada,2399,805,5,Partido Radical Socialdemócrata,Distrito N° 47,term_same_chamber,2348
+349,chamber,LIII,2010-2014,Juan Carlos,Latorre,Carmona,427,826,6,Partido Demócrata Cristiano,Distrito N° 35,term_same_chamber,2518
+358,chamber,LIII,2010-2014,Juan,Lobos,Krause,3021,842,10,Partido Unión Demócrata Independiente,Distrito N° 47,term_same_chamber,512
+359,chamber,LIII,2010-2014,Juan Luis,Castro,González,3399,846,13,Partido Socialista de Chile,Distrito N° 32,term_same_chamber,2580
+374,chamber,LIII,2010-2014,Karla,Rubilar,Barahona,3270,879,4,Partido Renovación Nacional,Distrito N° 17,term_same_chamber,1943
+380,chamber,LIII,2010-2014,Lautaro,Carmona,Soto,1588,893,7,Partido Comunista de Chile,Distrito N° 5,term_same_chamber,2856
+383,chamber,LIII,2010-2014,Leopoldo,Pérez,Lahsen,686,901,4,Partido Renovación Nacional,Distrito N° 29,term_same_chamber,3199
+398,chamber,LIII,2010-2014,Luis,Lemus,Aracena,2716,924,13,Partido Socialista de Chile,Distrito N° 9,term_same_chamber,2930
+405,chamber,LIII,2010-2014,Manuel,Rojas,Molina,2640,937,10,Partido Unión Demócrata Independiente,Distrito N° 4,term_same_chamber,2612
+406,chamber,LIII,2010-2014,Manuel,Monsalve,Benavides,1827,943,13,Partido Socialista de Chile,Distrito N° 46,term_same_chamber,2703
+407,chamber,LIII,2010-2014,Marcela,Sabat,Fernández,2073,947,4,Partido Renovación Nacional,Distrito N° 21,term_same_chamber,2592
+412,chamber,LIII,2010-2014,Marcelo,Díaz,Díaz,730,956,13,Partido Socialista de Chile,Distrito N° 7,term_same_chamber,2731
+415,chamber,LIII,2010-2014,Marcelo,Schilling,Rodríguez,3014,963,13,Partido Socialista de Chile,Distrito N° 12,term_same_chamber,2917
+419,chamber,LIII,2010-2014,Marco Antonio,Núñez,Lozano,1831,969,1,Partido por la Democracia,Distrito N° 11,term_same_chamber,2535
+423,chamber,LIII,2010-2014,Marcos,Espinosa,Monardes,3557,976,5,Partido Radical Socialdemócrata,Distrito N° 3,term_same_chamber,3202
+427,chamber,LIII,2010-2014,Mario,Bertolino,Rendic,86,985,4,Partido Renovación Nacional,Distrito N° 7,term_same_chamber,2875
+434,chamber,LIII,2010-2014,Mario,Venegas,Cárdenas,3192,1000,6,Partido Demócrata Cristiano,Distrito N° 48,term_same_chamber,2803
+436,chamber,LIII,2010-2014,Marisol,Turres,Figueroa,1050,1005,10,Partido Unión Demócrata Independiente,Distrito N° 57,term_same_chamber,2487
+440,chamber,LIII,2010-2014,Marta,Isasi,Barbieri,3107,1011,,,Distrito N° 2,term_same_chamber,1536
+444,chamber,LIII,2010-2014,María Angélica,Cristi,Marfil,2849,1016,10,Partido Unión Demócrata Independiente,Distrito N° 24,term_same_chamber,2684
+445,chamber,LIII,2010-2014,María Antonieta,Saa,Díaz,3145,1022,2,Partido Por la Democracia,Distrito N° 17,term_same_chamber,2741
+452,chamber,LIII,2010-2014,María José,Hoffmann,Opazo,3002,1041,10,Partido Unión Demócrata Independiente,Distrito N° 15,term_same_chamber,2826
+462,chamber,LIII,2010-2014,Matías,Walker,Prieto,3735,1058,6,Partido Demócrata Cristiano,Distrito N° 8,term_same_chamber,3070
+475,chamber,LIII,2010-2014,Miodrag,Marinovic,Solo de Zaldívar,349,1081,,,Distrito N° 60,term_same_chamber,2368
+478,chamber,LIII,2010-2014,Mónica,Zalaquett,Said,246,1084,10,Partido Unión Demócrata Independiente,Distrito N° 20,term_same_chamber,2800
+487,chamber,LIII,2010-2014,Nicolás,Monckeberg,Díaz,428,1096,4,Partido Renovación Nacional,Distrito N° 18,term_same_chamber,2527
+488,chamber,LIII,2010-2014,Nino,Baltolu,Rasera,899,1100,10,Partido Unión Demócrata Independiente,Distrito N° 1,term_same_chamber,2858
+493,chamber,LIII,2010-2014,Orlando,Vargas,Pizarro,2589,1106,,,Distrito N° 1,term_same_chamber,2494
+496,chamber,LIII,2010-2014,Osvaldo,Andrade,Lara,3643,1113,13,Partido Socialista de Chile,Distrito N° 29,term_same_chamber,2864
+501,chamber,LIII,2010-2014,Pablo,Lorenzini,Basso,1001,1126,6,Partido Demócrata Cristiano,Distrito N° 38,term_same_chamber,2613
+505,chamber,LIII,2010-2014,Patricio,Hales,Dib,2840,1135,2,Partido Por la Democracia,Distrito N° 19,term_same_chamber,2155
+508,chamber,LIII,2010-2014,Patricio,Melero,Abaroa,504,1145,10,Partido Unión Demócrata Independiente,Distrito N° 16,term_same_chamber,3136
+509,chamber,LIII,2010-2014,Patricio,Vallespín,López,3449,1152,6,Partido Demócrata Cristiano,Distrito N° 57,term_same_chamber,2632
+514,chamber,LIII,2010-2014,Pedro,Velásquez,Seguel,1942,1164,,,Distrito N° 8,term_same_chamber,2545
+515,chamber,LIII,2010-2014,Pedro,Araya,Guerrero,339,1165,37,Partido Regionalista Independiente,Distrito N° 4,term_same_chamber,2832
+517,chamber,LIII,2010-2014,Pedro,Browne,Urrejola,1763,1176,4,Partido Renovación Nacional,Distrito N° 28,term_same_chamber,3086
+519,chamber,LIII,2010-2014,Pedro Pablo,Álvarez-Salamanca,Ramírez,994,1184,10,Partido Unión Demócrata Independiente,Distrito N° 38,term_same_chamber,2596
+520,chamber,LIII,2010-2014,Pepe,Auth,Stewart,1390,1187,1,Partido por la Democracia,Distrito N° 20,term_same_chamber,2937
+527,chamber,LIII,2010-2014,Ramón,Farías,Ponce,2993,1198,2,Partido Por la Democracia,Distrito N° 30,term_same_chamber,2728
+528,chamber,LIII,2010-2014,Ramón,Barros,Montero,3625,1202,10,Partido Unión Demócrata Independiente,Distrito N° 35,term_same_chamber,2613
+540,chamber,LIII,2010-2014,René,Alinco,Bustos,135,1226,1,Partido por la Democracia,Distrito N° 59,term_same_chamber,2471
+541,chamber,LIII,2010-2014,René,Saffirio,Espinoza,122,1230,6,Partido Demócrata Cristiano,Distrito N° 50,term_same_chamber,3197
+542,chamber,LIII,2010-2014,René Manuel,García,García,1470,1233,4,Partido Renovación Nacional,Distrito N° 52,term_same_chamber,2491
+544,chamber,LIII,2010-2014,Ricardo,Rincón,González,3562,1241,6,Partido Demócrata Cristiano,Distrito N° 33,term_same_chamber,2986
+552,chamber,LIII,2010-2014,Roberto,Delmastro,Naso,1088,1253,,,Distrito N° 53,term_same_chamber,2399
+554,chamber,LIII,2010-2014,Roberto,León,Ramírez,1860,1259,6,Partido Demócrata Cristiano,Distrito N° 36,term_same_chamber,2505
+561,chamber,LIII,2010-2014,Rodrigo,González,Torres,1893,1280,1,Partido por la Democracia,Distrito N° 14,term_same_chamber,2609
+564,chamber,LIII,2010-2014,Romilio,Gutiérrez,Pino,2616,1286,10,Partido Unión Demócrata Independiente,Distrito N° 39,term_same_chamber,2954
+568,chamber,LIII,2010-2014,Rosauro,Martínez,Labbé,3487,1292,4,Partido Renovación Nacional,Distrito N° 41,term_same_chamber,2584
+582,chamber,LIII,2010-2014,Sergio,Aguiló,Melo,3883,1317,,,Distrito N° 37,term_same_chamber,2281
+588,chamber,LIII,2010-2014,Sergio,Bobadilla,Muñoz,2861,1343,10,Partido Unión Demócrata Independiente,Distrito N° 45,term_same_chamber,2634
+594,chamber,LIII,2010-2014,Sergio,Ojeda,Uribe,1175,1357,6,Partido Demócrata Cristiano,Distrito N° 55,term_same_chamber,3398
+608,chamber,LIII,2010-2014,Tucapel,Jiménez,Fuentes,3635,1390,1,Partido por la Democracia,Distrito N° 27,term_same_chamber,3064
+620,chamber,LIII,2010-2014,Víctor,Torres,Jeldes,1950,1414,6,Partido Demócrata Cristiano,Distrito N° 15,term_same_chamber,3001
+629,chamber,LIII,2010-2014,Ximena,Vidal,Lázaro,1580,1433,2,Partido Por la Democracia,Distrito N° 25,term_same_chamber,2731
+6,chamber,LIV,2014-2018,Alberto,Robles,Pantoja,2228,20,5,Partido Radical Socialdemócrata,Distrito N° 6,term_same_chamber,2997
+8,chamber,LIV,2014-2018,Aldo,Cornejo,González,1714,25,6,Partido Demócrata Cristiano,Distrito N° 13,term_same_chamber,2368
+10,chamber,LIV,2014-2018,Alejandra,Sepúlveda,Orbenes,2717,32,,,Distrito N° 34,term_same_chamber,3161
+17,chamber,LIV,2014-2018,Alejandro,Santana,Tirachini,167,58,4,Partido Renovación Nacional,Distrito N° 58,term_same_chamber,2743
+26,chamber,LIV,2014-2018,Andrea,Molina,Oliva,1252,76,10,Partido Unión Demócrata Independiente,Distrito N° 10,term_same_chamber,2738
+47,chamber,LIV,2014-2018,Arturo,Squella,Ovalle,2413,128,10,Partido Unión Demócrata Independiente,Distrito N° 12,term_same_chamber,3142
+53,chamber,LIV,2014-2018,Bernardo,Berger,Fett,4528,144,4,Partido Renovación Nacional,Distrito N° 53,term_same_chamber,3161
+58,chamber,LIV,2014-2018,Camila,Vallejo,Dowling,4538,152,7,Partido Comunista de Chile,Distrito N° 26,term_same_chamber,3150
+64,chamber,LIV,2014-2018,Carlos Abel,Jarpa,Wevar,2718,163,5,Partido Radical Socialdemócrata,Distrito N° 41,term_same_chamber,3102
+70,chamber,LIV,2014-2018,Cristián,Campos,Jara,770,187,1,Partido por la Democracia,Distrito N° 43,term_same_chamber,2753
+92,chamber,LIV,2014-2018,Celso,Morales,Muñoz,3369,239,10,Partido Unión Demócrata Independiente,Distrito N° 36,term_same_chamber,2775
+94,chamber,LIV,2014-2018,Christian,Urízar,Muñoz,4532,242,13,Partido Socialista de Chile,Distrito N° 10,term_same_chamber,2481
+98,chamber,LIV,2014-2018,Claudia,Nogueira,Fernández,1619,247,10,Partido Unión Demócrata Independiente,Distrito N° 19,term_same_chamber,2650
+101,chamber,LIV,2014-2018,Claudio,Arriagada,Macaya,4518,256,6,Partido Demócrata Cristiano,Distrito N° 25,term_same_chamber,3240
+103,chamber,LIV,2014-2018,Clemira,Pacheco,Rivas,2797,259,13,Partido Socialista de Chile,Distrito N° 45,term_same_chamber,2399
+109,chamber,LIV,2014-2018,Cristina,Girardi,Lavín,2356,273,2,Partido Por la Democracia,Distrito N° 18,term_same_chamber,2797
+112,chamber,LIV,2014-2018,Cristián,Monckeberg,Bruner,3039,278,4,Partido Renovación Nacional,Distrito N° 23,term_same_chamber,2543
+119,chamber,LIV,2014-2018,Daniel,Farcas,Guendelman,4505,288,2,Partido Por la Democracia,Distrito N° 17,term_same_chamber,2893
+120,chamber,LIV,2014-2018,Daniel,Melo,Contreras,4537,290,13,Partido Socialista de Chile,Distrito N° 27,term_same_chamber,3151
+121,chamber,LIV,2014-2018,Daniel,Núñez,Arancibia,4513,292,7,Partido Comunista de Chile,Distrito N° 8,term_same_chamber,3037
+126,chamber,LIV,2014-2018,Daniella,Cicardini,Milla,4510,300,13,Partido Socialista de Chile,Distrito N° 5,term_same_chamber,2997
+130,chamber,LIV,2014-2018,David,Sandoval,Plaza,1646,308,10,Partido Unión Demócrata Independiente,Distrito N° 59,term_same_chamber,3110
+131,chamber,LIV,2014-2018,Denise,Pascal,Allende,2464,311,13,Partido Socialista de Chile,Distrito N° 31,term_same_chamber,2748
+132,chamber,LIV,2014-2018,Diego,Paulsen,Kehr,4515,315,4,Partido Renovación Nacional,Distrito N° 49,term_same_chamber,2876
+154,chamber,LIV,2014-2018,Enrique,Jaramillo,Becker,627,365,1,Partido por la Democracia,Distrito N° 54,term_same_chamber,2797
+158,chamber,LIV,2014-2018,Enrique,Van Rysselberghe,Herrera,2128,375,10,Partido Unión Demócrata Independiente,Distrito N° 44,term_same_chamber,2856
+165,chamber,LIV,2014-2018,Ernesto,Silva,Méndez,826,385,10,Partido Unión Demócrata Independiente,Distrito N° 23,term_same_chamber,2407
+180,chamber,LIV,2014-2018,Felipe,De Mussy,Hiriart,4529,416,10,Partido Unión Demócrata Independiente,Distrito N° 56,term_same_chamber,2903
+183,chamber,LIV,2014-2018,Felipe,Kast,Sommerhoff,4030,422,28,Partido Evolución Política (Evópoli),Distrito N° 22,term_same_chamber,2270
+184,chamber,LIV,2014-2018,Felipe,Letelier,Norambuena,2395,424,2,Partido Por la Democracia,Distrito N° 33,term_same_chamber,2800
+187,chamber,LIV,2014-2018,Felipe,Ward,Edwards,75,434,10,Partido Unión Demócrata Independiente,Distrito N° 3,term_same_chamber,2808
+190,chamber,LIV,2014-2018,Fernando,Meza,Moncada,3138,440,5,Partido Radical Socialdemócrata,Distrito N° 52,term_same_chamber,2364
+191,chamber,LIV,2014-2018,Fidel,Espinoza,Sandoval,1438,445,13,Partido Socialista de Chile,Distrito N° 56,term_same_chamber,2688
+204,chamber,LIV,2014-2018,Fuad,Chahin,Valenzuela,3356,477,6,Partido Demócrata Cristiano,Distrito N° 49,term_same_chamber,2903
+209,chamber,LIV,2014-2018,Gabriel,Boric,Font,4536,492,,,Distrito N° 60,term_same_chamber,2837
+210,chamber,LIV,2014-2018,Gabriel,Silber,Romo,2787,494,6,Partido Demócrata Cristiano,Distrito N° 16,term_same_chamber,3070
+213,chamber,LIV,2014-2018,Gaspar,Rivas,Sánchez,1894,502,,,Distrito N° 11,term_same_chamber,1932
+216,chamber,LIV,2014-2018,Germán,Becker,Alvear,212,511,4,Partido Renovación Nacional,Distrito N° 50,term_same_chamber,2714
+217,chamber,LIV,2014-2018,Germán,Verdugo,Soto,3446,515,,,Distrito N° 37,term_same_chamber,3078
+223,chamber,LIV,2014-2018,Gonzalo,Fuenzalida,Figueroa,4535,525,4,Partido Renovación Nacional,Distrito N° 54,term_same_chamber,2821
+230,chamber,LIV,2014-2018,Guillermo,Ceroni,Fuentes,3732,542,1,Partido por la Democracia,Distrito N° 40,term_same_chamber,2714
+231,chamber,LIV,2014-2018,Guillermo,Teillier,Del Valle,302,549,7,Partido Comunista de Chile,Distrito N° 28,term_same_chamber,3144
+237,chamber,LIV,2014-2018,Gustavo,Hasbún,Selume,3102,557,10,Partido Unión Demócrata Independiente,Distrito N° 26,term_same_chamber,2178
+251,chamber,LIV,2014-2018,Hugo,Gutiérrez,Gálvez,3516,583,7,Partido Comunista de Chile,Distrito N° 2,term_same_chamber,2973
+262,chamber,LIV,2014-2018,Ignacio,Urrutia,Bonilla,3201,602,10,Partido Unión Demócrata Independiente,Distrito N° 40,term_same_chamber,2759
+266,chamber,LIV,2014-2018,Issa Farid,Kort,Garriga,3397,613,23,Unión Demócrata Independiente,Distrito N° 32,term_same_chamber,2556
+267,chamber,LIV,2014-2018,Iván,Fuentes,Castillo,4525,615,6,Partido Demócrata Cristiano,Distrito N° 59,term_same_chamber,3103
+268,chamber,LIV,2014-2018,Iván,Flores,García,4530,617,6,Partido Demócrata Cristiano,Distrito N° 53,term_same_chamber,2993
+270,chamber,LIV,2014-2018,Iván,Norambuena,Farías,3360,621,10,Partido Unión Demócrata Independiente,Distrito N° 46,term_same_chamber,2889
+275,chamber,LIV,2014-2018,Jaime,Bellolio,Avaria,4526,639,10,Partido Unión Demócrata Independiente,Distrito N° 30,term_same_chamber,3122
+282,chamber,LIV,2014-2018,Jaime,Pilowsky,Greene,4527,650,6,Partido Demócrata Cristiano,Distrito N° 24,term_same_chamber,3148
+290,chamber,LIV,2014-2018,Javier,Macaya,Danús,2281,677,10,Partido Unión Demócrata Independiente,Distrito N° 34,term_same_chamber,2919
+291,chamber,LIV,2014-2018,Javier,Hernández,Hernández,3251,681,10,Partido Unión Demócrata Independiente,Distrito N° 55,term_same_chamber,2695
+293,chamber,LIV,2014-2018,Jenny,Álvarez,Vera,4509,687,13,Partido Socialista de Chile,Distrito N° 58,term_same_chamber,2991
+295,chamber,LIV,2014-2018,Joaquín,Godoy,Ibáñez,2100,690,,,Distrito N° 13,term_same_chamber,1704
+296,chamber,LIV,2014-2018,Joaquín,Lavín,León,4524,695,23,Unión Demócrata Independiente,Distrito N° 20,term_same_chamber,2654
+298,chamber,LIV,2014-2018,Joaquín,Tuma,Zedan,2928,699,2,Partido Por la Democracia,Distrito N° 51,term_same_chamber,2714
+304,chamber,LIV,2014-2018,Jorge,Sabag,Villalobos,168,710,6,Partido Demócrata Cristiano,Distrito N° 42,term_same_chamber,2977
+306,chamber,LIV,2014-2018,Jorge,Rathgeb,Schifferli,4506,717,4,Partido Renovación Nacional,Distrito N° 48,term_same_chamber,3141
+309,chamber,LIV,2014-2018,Jorge,Insunza,Gregorio de las Heras,2805,727,2,Partido Por la Democracia,Distrito N° 9,term_same_chamber,724
+311,chamber,LIV,2014-2018,Jorge,Ulloa,Aguillón,2635,731,10,Partido Unión Demócrata Independiente,Distrito N° 43,term_same_chamber,2819
+321,chamber,LIV,2014-2018,Jorge,Tarud,Daccarett,1734,754,2,Partido Por la Democracia,Distrito N° 39,term_same_chamber,2654
+325,chamber,LIV,2014-2018,José Antonio,Kast,Rist,2231,764,,,Distrito N° 24,term_same_chamber,2253
+331,chamber,LIV,2014-2018,Rojo,Edwards,Silva,187,783,4,Partido Renovación Nacional,Distrito N° 51,term_same_chamber,2439
+337,chamber,LIV,2014-2018,José Miguel,Ortiz,Novoa,1209,794,6,Partido Demócrata Cristiano,Distrito N° 44,term_same_chamber,3439
+340,chamber,LIV,2014-2018,José,Pérez,Arriagada,2399,804,5,Partido Radical Socialdemócrata,Distrito N° 47,term_same_chamber,2548
+347,chamber,LIV,2014-2018,Juan Antonio,Coloma,Álamos,4543,824,10,Partido Unión Demócrata Independiente,Distrito N° 31,term_same_chamber,2992
+352,chamber,LIV,2014-2018,Juan Enrique,Morano,Cornejo,4507,832,6,Partido Demócrata Cristiano,Distrito N° 60,term_same_chamber,2973
+359,chamber,LIV,2014-2018,Juan Luis,Castro,González,3399,845,13,Partido Socialista de Chile,Distrito N° 32,term_same_chamber,2806
+374,chamber,LIV,2014-2018,Karla,Rubilar,Barahona,3270,878,,,Distrito N° 17,term_same_chamber,2525
+375,chamber,LIV,2014-2018,Karol,Cariola,Oliva,4520,883,7,Partido Comunista de Chile,Distrito N° 19,term_same_chamber,3054
+376,chamber,LIV,2014-2018,Giorgio,Jackson,Drago,4541,885,,,Distrito N° 22,term_same_chamber,3292
+380,chamber,LIV,2014-2018,Lautaro,Carmona,Soto,1588,892,7,Partido Comunista de Chile,Distrito N° 5,term_same_chamber,3015
+381,chamber,LIV,2014-2018,Leonardo,Soto,Ferrada,4523,896,13,Partido Socialista de Chile,Distrito N° 30,term_same_chamber,3294
+383,chamber,LIV,2014-2018,Leopoldo,Pérez,Lahsen,686,900,4,Partido Renovación Nacional,Distrito N° 29,term_same_chamber,3235
+389,chamber,LIV,2014-2018,Luis,Rocafull,López,4522,913,13,Partido Socialista de Chile,Distrito N° 1,term_same_chamber,3236
+398,chamber,LIV,2014-2018,Luis,Lemus,Aracena,2716,923,13,Partido Socialista de Chile,Distrito N° 9,term_same_chamber,3159
+406,chamber,LIV,2014-2018,Manuel,Monsalve,Benavides,1827,942,13,Partido Socialista de Chile,Distrito N° 46,term_same_chamber,2623
+407,chamber,LIV,2014-2018,Marcela,Sabat,Fernández,2073,946,4,Partido Renovación Nacional,Distrito N° 21,term_same_chamber,2375
+411,chamber,LIV,2014-2018,Marcela,Hernando,Pérez,4534,954,34,Partido Radical Social Demócrata,Distrito N° 4,term_same_chamber,3284
+414,chamber,LIV,2014-2018,Marcelo,Chávez,Velásquez,4516,960,6,Partido Demócrata Cristiano,Distrito N° 45,term_same_chamber,2969
+415,chamber,LIV,2014-2018,Marcelo,Schilling,Rodríguez,3014,962,13,Partido Socialista de Chile,Distrito N° 12,term_same_chamber,3183
+419,chamber,LIV,2014-2018,Marco Antonio,Núñez,Lozano,1831,968,1,Partido por la Democracia,Distrito N° 11,term_same_chamber,2530
+423,chamber,LIV,2014-2018,Marcos,Espinosa,Monardes,3557,975,5,Partido Radical Socialdemócrata,Distrito N° 3,term_same_chamber,3172
+434,chamber,LIV,2014-2018,Mario,Venegas,Cárdenas,3192,999,6,Partido Demócrata Cristiano,Distrito N° 48,term_same_chamber,2953
+436,chamber,LIV,2014-2018,Marisol,Turres,Figueroa,1050,1004,10,Partido Unión Demócrata Independiente,Distrito N° 57,term_same_chamber,2556
+452,chamber,LIV,2014-2018,María José,Hoffmann,Opazo,3002,1040,10,Partido Unión Demócrata Independiente,Distrito N° 15,term_same_chamber,2558
+453,chamber,LIV,2014-2018,Loreto,Carvajal,Ambiado,4539,1043,2,Partido Por la Democracia,Distrito N° 42,term_same_chamber,2927
+462,chamber,LIV,2014-2018,Matías,Walker,Prieto,3735,1057,6,Partido Demócrata Cristiano,Distrito N° 8,term_same_chamber,3346
+466,chamber,LIV,2014-2018,Maya,Fernández,Allende,4508,1068,13,Partido Socialista de Chile,Distrito N° 21,term_same_chamber,3196
+472,chamber,LIV,2014-2018,Miguel Ángel,Alvarado,Ramírez,4544,1077,2,Partido Por la Democracia,Distrito N° 9,term_same_chamber,2259
+487,chamber,LIV,2014-2018,Nicolás,Monckeberg,Díaz,428,1095,4,Partido Renovación Nacional,Distrito N° 18,term_same_chamber,2451
+494,chamber,LIV,2014-2018,Osvaldo,Urrutia,Soto,4511,1108,23,Unión Demócrata Independiente,Distrito N° 14,term_same_chamber,2920
+496,chamber,LIV,2014-2018,Osvaldo,Andrade,Lara,3643,1112,13,Partido Socialista de Chile,Distrito N° 29,term_same_chamber,3086
+501,chamber,LIV,2014-2018,Pablo,Lorenzini,Basso,1001,1125,6,Partido Demócrata Cristiano,Distrito N° 38,term_same_chamber,2440
+508,chamber,LIV,2014-2018,Patricio,Melero,Abaroa,504,1144,10,Partido Unión Demócrata Independiente,Distrito N° 16,term_same_chamber,3206
+509,chamber,LIV,2014-2018,Patricio,Vallespín,López,3449,1151,6,Partido Demócrata Cristiano,Distrito N° 57,term_same_chamber,2596
+512,chamber,LIV,2014-2018,Paulina,Núñez,Urrutia,4542,1160,19,Renovación Nacional,Distrito N° 4,term_same_chamber,2641
+517,chamber,LIV,2014-2018,Pedro,Browne,Urrejola,1763,1175,,,Distrito N° 28,term_same_chamber,2576
+519,chamber,LIV,2014-2018,Pedro Pablo,Álvarez-Salamanca,Ramírez,994,1183,10,Partido Unión Demócrata Independiente,Distrito N° 38,term_same_chamber,2540
+520,chamber,LIV,2014-2018,Pepe,Auth,Stewart,1390,1186,,,Distrito N° 20,term_same_chamber,3165
+527,chamber,LIV,2014-2018,Ramón,Farías,Ponce,2993,1197,2,Partido Por la Democracia,Distrito N° 25,term_same_chamber,2839
+528,chamber,LIV,2014-2018,Ramón,Barros,Montero,3625,1201,,,Distrito N° 35,term_same_chamber,2883
+532,chamber,LIV,2014-2018,Raúl,Saldívar,Auger,4533,1212,13,Partido Socialista de Chile,Distrito N° 7,term_same_chamber,3152
+538,chamber,LIV,2014-2018,Renzo,Trisotti,Martínez,4540,1222,23,Unión Demócrata Independiente,Distrito N° 2,term_same_chamber,3152
+541,chamber,LIV,2014-2018,René,Saffirio,Espinoza,122,1229,,,Distrito N° 50,term_same_chamber,3289
+542,chamber,LIV,2014-2018,René Manuel,García,García,1470,1232,4,Partido Renovación Nacional,Distrito N° 52,term_same_chamber,2386
+544,chamber,LIV,2014-2018,Ricardo,Rincón,González,3562,1240,6,Partido Demócrata Cristiano,Distrito N° 33,term_same_chamber,2869
+553,chamber,LIV,2014-2018,Roberto,Poblete,Zapata,4517,1257,,,Distrito N° 47,term_same_chamber,3316
+554,chamber,LIV,2014-2018,Roberto,León,Ramírez,1860,1258,6,Partido Demócrata Cristiano,Distrito N° 36,term_same_chamber,2419
+561,chamber,LIV,2014-2018,Rodrigo,González,Torres,1893,1279,1,Partido por la Democracia,Distrito N° 14,term_same_chamber,2629
+564,chamber,LIV,2014-2018,Romilio,Gutiérrez,Pino,2616,1285,10,Partido Unión Demócrata Independiente,Distrito N° 39,term_same_chamber,2243
+568,chamber,LIV,2014-2018,Rosauro,Martínez,Labbé,3487,1291,4,Partido Renovación Nacional,Distrito N° 41,term_same_chamber,93
+582,chamber,LIV,2014-2018,Sergio,Aguiló,Melo,3883,1316,,,Distrito N° 37,term_same_chamber,2672
+583,chamber,LIV,2014-2018,Sergio,Gahona,Salazar,4504,1324,23,Unión Demócrata Independiente,Distrito N° 7,term_same_chamber,2478
+589,chamber,LIV,2014-2018,Sergio,Espejo,Yaksic,4332,1345,,,Distrito N° 35,term_same_chamber,2753
+594,chamber,LIV,2014-2018,Sergio,Ojeda,Uribe,1175,1356,6,Partido Demócrata Cristiano,Distrito N° 55,term_same_chamber,3368
+608,chamber,LIV,2014-2018,Tucapel,Jiménez,Fuentes,3635,1389,1,Partido por la Democracia,Distrito N° 27,term_same_chamber,2932
+617,chamber,LIV,2014-2018,Vlado,Mirosevic,Verdugo,4531,1405,12,Partido Liberal de Chile,Distrito N° 1,term_same_chamber,2824
+620,chamber,LIV,2014-2018,Víctor,Torres,Jeldes,1950,1413,6,Partido Demócrata Cristiano,Distrito N° 15,term_same_chamber,3319
+630,chamber,LIV,2014-2018,Yasna,Provoste,Campillay,4323,1436,6,Partido Demócrata Cristiano,Distrito N° 6,term_same_chamber,3217
+10,chamber,LV,2018-2022,Alejandra,Sepúlveda,Orbenes,2717,31,8,Federación Regionalista Verde Social,16° Distrito,term_same_chamber,4394
+12,chamber,LV,2018-2022,Alejandro,Bernales,Maldonado,4552,46,12,Partido Liberal de Chile,26º Distrito,term_same_chamber,4318
+17,chamber,LV,2018-2022,Alejandro,Santana,Tirachini,167,57,4,Partido Renovación Nacional,26° Distrito,term_same_chamber,4050
+19,chamber,LV,2018-2022,Alexis,Sepúlveda,Soto,4545,62,5,Partido Radical Socialdemócrata,17° Distrito,term_same_chamber,4036
+22,chamber,LV,2018-2022,Amaro,Labra,Sepúlveda,4556,72,7,Partido Comunista de Chile,12° Distrito,term_same_chamber,4453
+30,chamber,LV,2018-2022,Andrés,Celis,Montt,4546,90,4,Partido Renovación Nacional,7º Distrito,term_same_chamber,3885
+33,chamber,LV,2018-2022,Andrés,Longton,Herrera,4559,94,4,Partido Renovación Nacional,6º Distrito,term_same_chamber,4523
+42,chamber,LV,2018-2022,César,Valenzuela,Maass,4595,118,4,Partido Renovación Nacional,27º Distrito,term_same_chamber,2690
+53,chamber,LV,2018-2022,Bernardo,Berger,Fett,4528,143,,,24° Distrito,term_same_chamber,4494
+54,chamber,LV,2018-2022,Boris,Barrera,Moreno,4560,146,7,Partido Comunista de Chile,9º Distrito,term_same_chamber,4467
+57,chamber,LV,2018-2022,Camila,Flores,Oporto,4594,150,4,Partido Renovación Nacional,6º Distrito,term_same_chamber,3826
+58,chamber,LV,2018-2022,Camila,Vallejo,Dowling,4538,151,7,Partido Comunista de Chile,12° Distrito,term_same_chamber,4139
+60,chamber,LV,2018-2022,Camila,Rojas,Valderrama,4596,155,18,Partido Comunes,7º Distrito,term_same_chamber,4546
+62,chamber,LV,2018-2022,Camilo Andrés,Morán,Bahamondes,4639,160,4,Partido Renovación Nacional,8º Distrito,term_same_chamber,1722
+64,chamber,LV,2018-2022,Carlos Abel,Jarpa,Wevar,2718,162,,,19° Distrito,term_same_chamber,4062
+75,chamber,LV,2018-2022,Carlos Ignacio,Kuschel,Silva,3069,193,4,Partido Renovación Nacional,26º Distrito,term_same_chamber,4402
+84,chamber,LV,2018-2022,Carmen,Hertz,Cádiz,4597,224,7,Partido Comunista de Chile,8º Distrito,term_same_chamber,3304
+91,chamber,LV,2018-2022,Catalina,Pérez,Salinas,4607,237,21,Revolución Democrática,3 Distrito Nº3,term_same_chamber,4465
+92,chamber,LV,2018-2022,Celso,Morales,Muñoz,3369,238,10,Partido Unión Demócrata Independiente,17° Distrito,term_same_chamber,4053
+97,chamber,LV,2018-2022,Claudia,Mix,Jiménez,4548,246,18,Partido Comunes,8º Distrito,term_same_chamber,4283
+105,chamber,LV,2018-2022,Cosme,Mellado,Pino,4562,264,5,Partido Radical Socialdemócrata,16° Distrito,term_same_chamber,4210
+106,chamber,LV,2018-2022,Cristhian,Moreira,Barros,4611,266,10,Partido Unión Demócrata Independiente,13er Distrito,term_same_chamber,4522
+109,chamber,LV,2018-2022,Cristina,Girardi,Lavín,2356,272,2,Partido Por la Democracia,9° Distrito,term_same_chamber,3131
+111,chamber,LV,2018-2022,Cristian,Labbé,Martínez,4647,277,23,Unión Demócrata Independiente,8° Distrito,term_same_chamber,873
+115,chamber,LV,2018-2022,Cristóbal,Urruticoechea,Ríos,4549,284,4,Partido Renovación Nacional,21er Distrito,term_same_chamber,4140
+121,chamber,LV,2018-2022,Daniel,Núñez,Arancibia,4513,291,7,Partido Comunista de Chile,5° Distrito,term_same_chamber,4044
+124,chamber,LV,2018-2022,Daniel,Verdessi,Belemmi,4614,296,6,Partido Demócrata Cristiano,6º Distrito,term_same_chamber,3986
+126,chamber,LV,2018-2022,Daniella,Cicardini,Milla,4510,299,13,Partido Socialista de Chile,4° Distrito,term_same_chamber,4319
+132,chamber,LV,2018-2022,Diego,Paulsen,Kehr,4515,314,4,Partido Renovación Nacional,22° Distrito,term_same_chamber,3601
+133,chamber,LV,2018-2022,Diego,Ibáñez,Cotroneo,4551,317,24,Partido Convergencia Social,6º Distrito,term_same_chamber,4305
+134,chamber,LV,2018-2022,Diego,Schalper,Sepúlveda,4617,319,4,Partido Renovación Nacional,15° Distrito,term_same_chamber,3888
+141,chamber,LV,2018-2022,Eduardo,Durán,Salinas,4598,335,4,Partido Renovación Nacional,13er Distrito,term_same_chamber,3866
+149,chamber,LV,2018-2022,Emilia,Nuyado,Ancapichún,4553,355,13,Partido Socialista de Chile,25º Distrito,term_same_chamber,4457
+158,chamber,LV,2018-2022,Enrique,Van Rysselberghe,Herrera,2128,374,10,Partido Unión Demócrata Independiente,20° Distrito,term_same_chamber,3717
+164,chamber,LV,2018-2022,Erika,Olivera,De La Fuente,4621,384,,,9º Distrito,term_same_chamber,4372
+166,chamber,LV,2018-2022,Esteban,Velásquez,Núñez,4599,387,8,Federación Regionalista Verde Social,3er Distrito,term_same_chamber,4003
+190,chamber,LV,2018-2022,Fernando,Meza,Moncada,3138,439,,,23er Distrito,term_same_chamber,2766
+191,chamber,LV,2018-2022,Fidel,Espinoza,Sandoval,1438,444,13,Partido Socialista de Chile,25° Distrito,term_same_chamber,3183
+193,chamber,LV,2018-2022,Francesca,Muñoz,González,4600,452,4,Partido Renovación Nacional,20º Distrito,term_same_chamber,4550
+202,chamber,LV,2018-2022,Francisco,Eguiguren,Correa,4555,473,4,Partido Renovación Nacional,5º Distrito,term_same_chamber,3982
+203,chamber,LV,2018-2022,Frank,Sauerbaum,Muñoz,3669,475,4,Partido Renovación Nacional,19° Distrito,term_same_chamber,4109
+207,chamber,LV,2018-2022,Félix,González,Gatica,4554,484,30,Partido Ecologista Verde,20º Distrito,term_same_chamber,4683
+208,chamber,LV,2018-2022,Gabriel,Ascencio,Mansilla,1777,485,6,Partido Demócrata Cristiano,26º Distrito,term_same_chamber,3986
+209,chamber,LV,2018-2022,Gabriel,Boric,Font,4536,491,24,Partido Convergencia Social,28º Distrito,term_same_chamber,3605
+210,chamber,LV,2018-2022,Gabriel,Silber,Romo,2787,493,6,Partido Demócrata Cristiano,8° Distrito,term_same_chamber,4272
+212,chamber,LV,2018-2022,Gael,Yeomans,Araya,4622,500,24,Partido Convergencia Social,13erDistrito,term_same_chamber,4421
+214,chamber,LV,2018-2022,Gastón,Saavedra,Chandía,4601,504,13,Partido Socialista de Chile,20° Distrito,term_same_chamber,4157
+215,chamber,LV,2018-2022,Gastón,Von Mühlenbrock,Zamora,1482,507,10,Partido Unión Demócrata Independiente,24° Distrito,term_same_chamber,4615
+223,chamber,LV,2018-2022,Gonzalo,Fuenzalida,Figueroa,4535,524,4,Partido Renovación Nacional,11° Distrito,term_same_chamber,4366
+225,chamber,LV,2018-2022,Gonzalo,Winter,Etcheberry,4602,529,24,Partido Convergencia Social,10° Distrito,term_same_chamber,4391
+229,chamber,LV,2018-2022,Guillermo,Ramírez,Diez,4570,541,10,Partido Unión Demócrata Independiente,11° Distrito,term_same_chamber,3933
+231,chamber,LV,2018-2022,Guillermo,Teillier,Del Valle,302,548,7,Partido Comunista de Chile,13erDistrito,term_same_chamber,3953
+234,chamber,LV,2018-2022,Gustavo,Sanhueza,Dueñas,4623,553,10,Partido Unión Demócrata Independiente,19° Distrito,term_same_chamber,4098
+241,chamber,LV,2018-2022,Harry,Jürgensen,Rundshagen,4603,565,,,25º Distrito,term_same_chamber,4316
+251,chamber,LV,2018-2022,Hugo,Gutiérrez,Gálvez,3516,582,7,Partido Comunista de Chile,2° Distrito,term_same_chamber,2895
+254,chamber,LV,2018-2022,Hugo,Rey,Martínez,4564,588,4,Partido Renovación Nacional,17 ° Distrito,term_same_chamber,4288
+262,chamber,LV,2018-2022,Ignacio,Urrutia,Bonilla,3201,601,3,Partido Republicano de Chile,18° Distrito,term_same_chamber,3581
+264,chamber,LV,2018-2022,Andrea,Parra,Sauterel,4547,609,1,Partido por la Democracia,22º Distrito,term_same_chamber,4079
+266,chamber,LV,2018-2022,Issa Farid,Kort,Garriga,3397,612,23,Unión Demócrata Independiente,15° Distrito,term_same_chamber,3236
+268,chamber,LV,2018-2022,Iván,Flores,García,4530,616,6,Partido Demócrata Cristiano,24° Distrito,term_same_chamber,4251
+270,chamber,LV,2018-2022,Iván,Norambuena,Farías,3360,620,10,Partido Unión Demócrata Independiente,21erDistrito,term_same_chamber,3697
+275,chamber,LV,2018-2022,Jaime,Bellolio,Avaria,4526,638,10,Partido Unión Demócrata Independiente,14° Distrito,term_same_chamber,2399
+283,chamber,LV,2018-2022,Jaime,Tohá,González,4096,651,13,Partido Socialista de Chile,20º Distrito,term_same_chamber,4048
+284,chamber,LV,2018-2022,Jaime,Mulet,Martínez,1782,653,8,Federación Regionalista Verde Social,4° Distrito,term_same_chamber,3613
+285,chamber,LV,2018-2022,Jaime,Naranjo,Ortiz,1978,658,13,Partido Socialista de Chile,18° Distrito,term_same_chamber,4247
+290,chamber,LV,2018-2022,Javier,Macaya,Danús,2281,676,10,Partido Unión Demócrata Independiente,15° Distrito,term_same_chamber,3783
+291,chamber,LV,2018-2022,Javier,Hernández,Hernández,3251,680,23,Unión Demócrata Independiente,25° Distrito,term_same_chamber,3781
+293,chamber,LV,2018-2022,Jenny,Álvarez,Vera,4509,686,13,Partido Socialista de Chile,26° Distrito,term_same_chamber,3895
+294,chamber,LV,2018-2022,Joanna,Pérez,Olea,4565,689,6,Partido Demócrata Cristiano,21erDistrito,term_same_chamber,4287
+296,chamber,LV,2018-2022,Joaquín,Lavín,León,4524,694,23,Unión Demócrata Independiente,8° Distrito,term_same_chamber,4015
+302,chamber,LV,2018-2022,Jorge,Durán,Espinoza,4567,705,4,Partido Renovación Nacional,9º Distrito,term_same_chamber,3469
+304,chamber,LV,2018-2022,Jorge,Sabag,Villalobos,168,709,6,Partido Demócrata Cristiano,19° Distrito,term_same_chamber,4308
+305,chamber,LV,2018-2022,Jorge,Brito,Hasbún,4572,714,21,Revolución Democrática,7º Distrito,term_same_chamber,4451
+306,chamber,LV,2018-2022,Jorge,Rathgeb,Schifferli,4506,716,4,Partido Renovación Nacional,22° Distrito,term_same_chamber,4515
+310,chamber,LV,2018-2022,Jorge,Alessandri,Vergara,4604,730,10,Partido Unión Demócrata Independiente,10º Distrito,term_same_chamber,3738
+335,chamber,LV,2018-2022,José Miguel,Castro,Bascuñán,4581,791,4,Partido Renovación Nacional,3erDistrito,term_same_chamber,4398
+337,chamber,LV,2018-2022,José Miguel,Ortiz,Novoa,1209,793,6,Partido Demócrata Cristiano,20° Distrito,term_same_chamber,4056
+340,chamber,LV,2018-2022,José,Pérez,Arriagada,2399,803,5,Partido Radical Socialdemócrata,21erDistrito,term_same_chamber,3761
+342,chamber,LV,2018-2022,Andrés,Molina,Magofke,4557,811,28,Partido Evolución Política (Evópoli),23º Distrito,term_same_chamber,4204
+347,chamber,LV,2018-2022,Juan Antonio,Coloma,Álamos,4543,823,10,Partido Unión Demócrata Independiente,14° Distrito,term_same_chamber,4214
+354,chamber,LV,2018-2022,Francisco,Undurraga,Gazitúa,4563,836,28,Partido Evolución Política (Evópoli),Distrito N° 11,term_same_chamber,4399
+359,chamber,LV,2018-2022,Juan Luis,Castro,González,3399,844,13,Partido Socialista de Chile,15° Distrito,term_same_chamber,3220
+360,chamber,LV,2018-2022,Juan,Fuenzalida,Cobo,4568,849,10,Partido Unión Demócrata Independiente,5º Distrito,term_same_chamber,3926
+361,chamber,LV,2018-2022,Juan Manuel,Masferrer,Vidal,4820,850,23,Unión Demócrata Independiente,15° Distrito,term_same_chamber,605
+366,chamber,LV,2018-2022,Juan,Santana,Castillo,4624,866,13,Partido Socialista de Chile,4º Distrito,term_same_chamber,3890
+372,chamber,LV,2018-2022,Karim,Bianchi,Retamales,4605,875,,,28º Distrito,term_same_chamber,2874
+373,chamber,LV,2018-2022,Karin,Luck,Urban,4574,877,4,Partido Renovación Nacional,11° Distrito,term_same_chamber,4443
+375,chamber,LV,2018-2022,Karol,Cariola,Oliva,4520,882,7,Partido Comunista de Chile,9° Distrito,term_same_chamber,4138
+376,chamber,LV,2018-2022,Giorgio,Jackson,Drago,4541,884,21,Revolución Democrática,10° Distrito,term_same_chamber,4353
+381,chamber,LV,2018-2022,Leonardo,Soto,Ferrada,4523,895,13,Partido Socialista de Chile,14° Distrito,term_same_chamber,4097
+382,chamber,LV,2018-2022,Leonidas,Romero,Sáez,4608,898,4,Partido Renovación Nacional,20º Distrito,term_same_chamber,4502
+383,chamber,LV,2018-2022,Leopoldo,Pérez,Lahsen,686,899,4,Partido Renovación Nacional,12° Distrito,term_same_chamber,4561
+388,chamber,LV,2018-2022,Luciano,Cruz-Coke,Carvallo,4569,910,28,Partido Evolución Política (Evópoli),10° Distrito,term_same_chamber,4286
+389,chamber,LV,2018-2022,Luis,Rocafull,López,4522,912,13,Partido Socialista de Chile,1er. Distrito,term_same_chamber,4388
+396,chamber,LV,2018-2022,Luis,Pardo,Sáinz,4625,920,4,Partido Renovación Nacional,6º Distrito,term_same_chamber,4472
+401,chamber,LV,2018-2022,Maite,Orsini,Pascal,4576,928,21,Revolución Democrática,9º Distrito,term_same_chamber,3833
+404,chamber,LV,2018-2022,Manuel Antonio,Matta,Aragay,3292,933,6,Partido Demócrata Cristiano,18° Distrito,term_same_chamber,2703
+406,chamber,LV,2018-2022,Manuel,Monsalve,Benavides,1827,941,13,Partido Socialista de Chile,21er Distrito,term_same_chamber,4025
+407,chamber,LV,2018-2022,Marcela,Sabat,Fernández,2073,945,4,Partido Renovación Nacional,10° Distrito,term_same_chamber,1744
+409,chamber,LV,2018-2022,Marcela,Sandoval,Osorio,4644,951,21,Revolución Democrática,14º Distrito,term_same_chamber,1168
+411,chamber,LV,2018-2022,Marcela,Hernando,Pérez,4534,953,34,Partido Radical Social Demócrata,3erDistrito,term_same_chamber,4231
+412,chamber,LV,2018-2022,Marcelo,Díaz,Díaz,730,955,,,7° Distrito,term_same_chamber,4285
+415,chamber,LV,2018-2022,Marcelo,Schilling,Rodríguez,3014,961,13,Partido Socialista de Chile,6° Distrito,term_same_chamber,4236
+421,chamber,LV,2018-2022,Marcos,Ilabaca,Cerda,4609,973,13,Partido Socialista de Chile,24º Distrito,term_same_chamber,4611
+431,chamber,LV,2018-2022,Mario,Desbordes,Jiménez,4214,995,4,Partido Renovación Nacional,8º Distrito,term_same_chamber,2110
+434,chamber,LV,2018-2022,Mario,Venegas,Cárdenas,3192,998,6,Partido Demócrata Cristiano,22° Distrito,term_same_chamber,3936
+435,chamber,LV,2018-2022,Marisela,Santibáñez,Novoa,4578,1003,35,Partido Progresista (PRO),14° Distrito,term_same_chamber,4015
+439,chamber,LV,2018-2022,Carolina,Marzán,Pinto,4550,1010,2,Partido Por la Democracia,6º Distrito,term_same_chamber,4107
+447,chamber,LV,2018-2022,Catalina,Del Real,Mihovilovic,4561,1029,4,Partido Renovación Nacional,11° Distrito,term_same_chamber,4060
+452,chamber,LV,2018-2022,María José,Hoffmann,Opazo,3002,1039,10,Partido Unión Demócrata Independiente,7° Distrito,term_same_chamber,3654
+453,chamber,LV,2018-2022,Loreto,Carvajal,Ambiado,4539,1042,2,Partido Por la Democracia,19° Distrito,term_same_chamber,3140
+460,chamber,LV,2018-2022,Ximena,Ossandón,Irarrázabal,4618,1054,4,Partido Renovación Nacional,12° Distrito,term_same_chamber,4493
+462,chamber,LV,2018-2022,Matías,Walker,Prieto,3735,1056,6,Partido Demócrata Cristiano,5° Distrito,term_same_chamber,4444
+466,chamber,LV,2018-2022,Maya,Fernández,Allende,4508,1067,13,Partido Socialista de Chile,10° Distrito,term_same_chamber,4275
+468,chamber,LV,2018-2022,Miguel,Mellado,Suazo,4571,1072,4,Partido Renovación Nacional,23° Distrito,term_same_chamber,4474
+470,chamber,LV,2018-2022,Miguel,Crispi,Serrano,4582,1074,21,Revolución Democrática,12° Distrito,term_same_chamber,4399
+473,chamber,LV,2018-2022,Miguel Ángel,Calisto,Águila,4610,1079,6,Partido Demócrata Cristiano,27º Distrito,term_same_chamber,3715
+480,chamber,LV,2018-2022,Natalia,Castillo,Muñoz,4626,1086,,,10° Distrito,term_same_chamber,4525
+486,chamber,LV,2018-2022,Nicolás,Noman,Garrido,4612,1094,23,Unión Demócrata Independiente,4º Distrito,term_same_chamber,3448
+488,chamber,LV,2018-2022,Nino,Baltolu,Rasera,899,1099,10,Partido Unión Demócrata Independiente,1erdistrito,term_same_chamber,4556
+489,chamber,LV,2018-2022,María Nora,Cuevas,Contreras,4640,1101,10,Partido Unión Demócrata Independiente,14º Distrito,term_same_chamber,1844
+494,chamber,LV,2018-2022,Osvaldo,Urrutia,Soto,4511,1107,23,Unión Demócrata Independiente,7° Distrito,term_same_chamber,4373
+497,chamber,LV,2018-2022,Pablo,Kast,Sommerhoff,4627,1114,28,Partido Evolución Política (Evópoli),6º Distrito,term_same_chamber,3718
+498,chamber,LV,2018-2022,Pablo,Vidal,Rojas,4573,1115,,,8º Distrito,term_same_chamber,4464
+501,chamber,LV,2018-2022,Pablo,Lorenzini,Basso,1001,1124,,,17° Distrito,term_same_chamber,3798
+502,chamber,LV,2018-2022,Pablo,Prieto,Lorca,864,1130,,,17° Distrito,term_same_chamber,4065
+503,chamber,LV,2018-2022,Pamela,Jiles,Moreno,4628,1133,33,Partido Humanista,12° Distrito,term_same_chamber,4005
+504,chamber,LV,2018-2022,Patricia,Rubio,Escobar,4646,1134,2,Partido Por la Democracia,19° Distrito,term_same_chamber,935
+507,chamber,LV,2018-2022,Patricio,Rosas,Barrientos,4583,1142,,,24º Distrito,term_same_chamber,4134
+508,chamber,LV,2018-2022,Patricio,Melero,Abaroa,504,1143,10,Partido Unión Demócrata Independiente,8° Distrito,term_same_chamber,3532
+512,chamber,LV,2018-2022,Paulina,Núñez,Urrutia,4542,1159,19,Renovación Nacional,3er. Distrito,term_same_chamber,3631
+514,chamber,LV,2018-2022,Pedro,Velásquez,Seguel,1942,1163,,,5° Distrito,term_same_chamber,2726
+519,chamber,LV,2018-2022,Pedro Pablo,Álvarez-Salamanca,Ramírez,994,1182,10,Partido Unión Demócrata Independiente,17° Distrito,term_same_chamber,3410
+520,chamber,LV,2018-2022,Pepe,Auth,Stewart,1390,1185,,,8° Distrito,term_same_chamber,4503
+526,chamber,LV,2018-2022,Ramón,Galleguillos,Castillo,4575,1196,4,Partido Renovación Nacional,2º Distrito,term_same_chamber,4344
+528,chamber,LV,2018-2022,Ramón,Barros,Montero,3625,1200,23,Unión Demócrata Independiente,16° Distrito,term_same_chamber,4082
+531,chamber,LV,2018-2022,Raúl,Leiva,Carvajal,4585,1210,13,Partido Socialista de Chile,14° Distrito,term_same_chamber,3878
+532,chamber,LV,2018-2022,Raúl,Saldívar,Auger,4533,1211,13,Partido Socialista de Chile,5° Distrito,term_same_chamber,4530
+533,chamber,LV,2018-2022,Florcita,Alarcón,Rojas,4613,1213,,,17° Distrito,term_same_chamber,4613
+534,chamber,LV,2018-2022,Raúl,Soto,Mardones,4629,1215,,,15° Distrito,term_same_chamber,4366
+537,chamber,LV,2018-2022,Renato,Garín,González,4615,1219,,,14° Distrito,term_same_chamber,3074
+538,chamber,LV,2018-2022,Renzo,Trisotti,Martínez,4540,1221,23,Unión Demócrata Independiente,2° Distrito,term_same_chamber,4420
+540,chamber,LV,2018-2022,René,Alinco,Bustos,135,1225,,,27° Distrito,term_same_chamber,3209
+541,chamber,LV,2018-2022,René,Saffirio,Espinoza,122,1228,,,23erDistrito,term_same_chamber,4407
+542,chamber,LV,2018-2022,René Manuel,García,García,1470,1231,4,Partido Renovación Nacional,23erDistrito,term_same_chamber,3926
+549,chamber,LV,2018-2022,Ricardo,Celis,Araya,4586,1250,1,Partido por la Democracia,23erDistrito,term_same_chamber,4213
+561,chamber,LV,2018-2022,Rodrigo,González,Torres,1893,1278,1,Partido por la Democracia,7° Distrito,term_same_chamber,4188
+563,chamber,LV,2018-2022,Rolando,Rentería,Moller,4630,1284,10,Partido Unión Demócrata Independiente,18° Distrito,term_same_chamber,3608
+570,chamber,LV,2018-2022,Rubén,Moraga,Mamani,4643,1299,7,Partido Comunista de Chile,2° Distrito,term_same_chamber,1086
+574,chamber,LV,2018-2022,Sandra,Amar,Mancilla,4616,1307,,,28º Distrito,term_same_chamber,3767
+577,chamber,LV,2018-2022,Sebastián,Álvarez,Ramírez,4587,1310,28,Partido Evolución Política (Evópoli),23º Distrito,term_same_chamber,4343
+578,chamber,LV,2018-2022,Sebastián,Keitel,Bianchi,4577,1311,28,Partido Evolución Política (Evópoli),9º Distrito,term_same_chamber,3913
+580,chamber,LV,2018-2022,Sebastián,Torrealba,Alvarado,4631,1314,4,Partido Renovación Nacional,10º Distrito,term_same_chamber,4115
+583,chamber,LV,2018-2022,Sergio,Gahona,Salazar,4504,1323,23,Unión Demócrata Independiente,5° Distrito,term_same_chamber,3816
+588,chamber,LV,2018-2022,Sergio,Bobadilla,Muñoz,2861,1342,10,Partido Unión Demócrata Independiente,20° Distrito,term_same_chamber,3912
+600,chamber,LV,2018-2022,Sofía,Cid,Versalovic,4579,1376,4,Partido Renovación Nacional,4º Distrito,term_same_chamber,3915
+604,chamber,LV,2018-2022,Tomás Andrés,Fuentes,Barros,4641,1382,4,Partido Renovación Nacional,10º Distrito,term_same_chamber,1537
+607,chamber,LV,2018-2022,Tomás,Hirsch,Goldschmidt,4632,1387,33,Partido Humanista,Distrito N°11,term_same_chamber,4143
+608,chamber,LV,2018-2022,Tucapel,Jiménez,Fuentes,3635,1388,2,Partido Por la Democracia,13er Distrito,term_same_chamber,3914
+613,chamber,LV,2018-2022,Virginia,Troncoso,Hellman,4580,1398,,,16° Distrito,term_same_chamber,4038
+617,chamber,LV,2018-2022,Vlado,Mirosevic,Verdugo,4531,1404,12,Partido Liberal de Chile,1er. Distrito,term_same_chamber,3984
+620,chamber,LV,2018-2022,Víctor,Torres,Jeldes,1950,1412,6,Partido Demócrata Cristiano,7º Distrito,term_same_chamber,4036
+635,chamber,LV,2018-2022,Álvaro,Carter,Fernández,4558,1445,,,12° Distrito,term_same_chamber,4078
+2,chamber,LVI,2022-2026,Agustín,Romero,Leiva,5250,8,3,Partido Republicano de Chile,8° Distrito,term_same_chamber,6751
+7,chamber,LVI,2022-2026,Alberto,Undurraga,Vicuña,5245,24,6,Partido Demócrata Cristiano,8° Distrito,term_same_chamber,6719
+9,chamber,LVI,2022-2026,Alejandra,Placencia,Cabello,5267,30,7,Partido Comunista de Chile,10° Distrito,term_same_chamber,6851
+12,chamber,LVI,2022-2026,Alejandro,Bernales,Maldonado,4552,45,12,Partido Liberal de Chile,26º Distrito,term_same_chamber,6032
+19,chamber,LVI,2022-2026,Alexis,Sepúlveda,Soto,4545,61,5,Partido Radical Socialdemócrata,17° Distrito,term_same_chamber,6098
+24,chamber,LVI,2022-2026,Ana María,Bravo,Castro,5223,74,13,Partido Socialista de Chile,24° Distrito,term_same_chamber,6420
+25,chamber,LVI,2022-2026,Ana María,Gazmuri,Vieira,5211,75,14,Partido Acción Humanista,12° Distrito,term_same_chamber,6126
+30,chamber,LVI,2022-2026,Andrés,Celis,Montt,4546,89,,,7º Distrito,term_same_chamber,5967
+31,chamber,LVI,2022-2026,Andrés,Giordano,Salazar,5273,91,15,Partido Frente Amplio,9° Distrito,term_same_chamber,6621
+32,chamber,LVI,2022-2026,Andrés,Jouannet,Valderrama,5231,92,16,Movimiento Amarillos por Chile,23er Distrito,term_same_chamber,6122
+33,chamber,LVI,2022-2026,Andrés,Longton,Herrera,4559,93,4,Partido Renovación Nacional,6º Distrito,term_same_chamber,6506
+45,chamber,LVI,2022-2026,Arturo,Barrios,Oteíza,5000,123,13,Partido Socialista de Chile,7° distrito,term_same_chamber,2020
+52,chamber,LVI,2022-2026,Benjamín,Moreno,Bascur,5259,141,3,Partido Republicano de Chile,17° Distrito,term_same_chamber,6524
+53,chamber,LVI,2022-2026,Bernardo,Berger,Fett,4528,142,,,24° Distrito,term_same_chamber,6783
+54,chamber,LVI,2022-2026,Boris,Barrera,Moreno,4560,145,7,Partido Comunista de Chile,9º Distrito,term_same_chamber,6652
+57,chamber,LVI,2022-2026,Camila,Flores,Oporto,4594,149,4,Partido Renovación Nacional,6º Distrito,term_same_chamber,4266
+59,chamber,LVI,2022-2026,Camila,Musante,Müller,5238,153,,,14° Distrito,term_same_chamber,6134
+60,chamber,LVI,2022-2026,Camila,Rojas,Valderrama,4596,154,15,Partido Frente Amplio,7º Distrito,term_same_chamber,6282
+63,chamber,LVI,2022-2026,Carla,Morales,Maldonado,5249,161,4,Partido Renovación Nacional,16° Distrito,term_same_chamber,6192
+66,chamber,LVI,2022-2026,Carlos,Bianchi,Chelech,1274,173,,,28° Distrito,term_same_chamber,6383
+84,chamber,LVI,2022-2026,Carmen,Hertz,Cádiz,4597,223,7,Partido Comunista de Chile,8º Distrito,term_same_chamber,4638
+89,chamber,LVI,2022-2026,Carolina,Tello,Rojas,5206,233,15,Partido Frente Amplio,5° Distrito,term_same_chamber,6473
+91,chamber,LVI,2022-2026,Catalina,Pérez,Salinas,4607,236,,,Distrito Nº3,term_same_chamber,6352
+93,chamber,LVI,2022-2026,Chiara,Barchiesi,Chávez,5218,241,3,Partido Republicano de Chile,6° Distrito,term_same_chamber,6524
+95,chamber,LVI,2022-2026,Christian,Matheson,Villán,5189,243,,,28° Distrito,term_same_chamber,6727
+96,chamber,LVI,2022-2026,Clara,Sagardia,Cabezas,5239,244,15,Partido Frente Amplio,21° Distrito,term_same_chamber,6782
+97,chamber,LVI,2022-2026,Claudia,Mix,Jiménez,4548,245,15,Partido Frente Amplio,8º Distrito,term_same_chamber,6255
+104,chamber,LVI,2022-2026,Consuelo,Veloso,Ávila,5268,262,,,18° Distrito,term_same_chamber,5932
+105,chamber,LVI,2022-2026,Cosme,Mellado,Pino,4562,263,5,Partido Radical Socialdemócrata,16° Distrito,term_same_chamber,6702
+106,chamber,LVI,2022-2026,Cristhian,Moreira,Barros,4611,265,10,Partido Unión Demócrata Independiente,13er Distrito,term_same_chamber,6286
+110,chamber,LVI,2022-2026,Cristián,Araya,Lerdo de Tejada,5203,275,3,Partido Republicano de Chile,11° Distrito,term_same_chamber,6272
+111,chamber,LVI,2022-2026,Cristian,Labbé,Martínez,4647,276,22,Partido Nacional Libertario,8º Distrito,term_same_chamber,5946
+114,chamber,LVI,2022-2026,Cristián,Tapia,Ramos,5194,282,,,4° Distrito,term_same_chamber,6516
+115,chamber,LVI,2022-2026,Cristóbal,Urruticoechea,Ríos,4549,283,22,Partido Nacional Libertario,21erDistrito,term_same_chamber,5469
+116,chamber,LVI,2022-2026,Cristóbal,Martínez,Ramírez,5265,285,10,Partido Unión Demócrata Independiente,19° Distrito,term_same_chamber,6380
+120,chamber,LVI,2022-2026,Daniel,Melo,Contreras,4537,289,13,Partido Socialista de Chile,13er Distrito,term_same_chamber,5891
+122,chamber,LVI,2022-2026,Daniel,Lilayu,Vivanco,5216,294,10,Partido Unión Demócrata Independiente,25° Distrito,term_same_chamber,6577
+123,chamber,LVI,2022-2026,Daniel,Manouchehri,Lobos,5201,295,13,Partido Socialista de Chile,5° Distrito,term_same_chamber,6418
+125,chamber,LVI,2022-2026,Daniela,Serrano,Salazar,5209,297,7,Partido Comunista de Chile,12° Distrito,term_same_chamber,6562
+126,chamber,LVI,2022-2026,Daniella,Cicardini,Milla,4510,298,13,Partido Socialista de Chile,4° Distrito,term_same_chamber,6457
+127,chamber,LVI,2022-2026,Danisa,Astudillo,Peiretti,5186,301,13,Partido Socialista de Chile,2° Distrito,term_same_chamber,6471
+133,chamber,LVI,2022-2026,Diego,Ibáñez,Cotroneo,4551,316,15,Partido Frente Amplio,6º Distrito,term_same_chamber,6408
+134,chamber,LVI,2022-2026,Diego,Schalper,Sepúlveda,4617,318,4,Partido Renovación Nacional,15° Distrito,term_same_chamber,5668
+141,chamber,LVI,2022-2026,Eduardo,Durán,Salinas,4598,334,4,Partido Renovación Nacional,13er Distrito,term_same_chamber,6034
+143,chamber,LVI,2022-2026,Eduardo,Cornejo,Lagos,5251,341,10,Partido Unión Demócrata Independiente,16° Distrito,term_same_chamber,6633
+149,chamber,LVI,2022-2026,Emilia,Nuyado,Ancapichún,4553,354,13,Partido Socialista de Chile,25º Distrito,term_same_chamber,6264
+150,chamber,LVI,2022-2026,Emilia,Schneider,Videla,5266,356,15,Partido Frente Amplio,10° Distrito,term_same_chamber,6394
+156,chamber,LVI,2022-2026,Enrique,Lee,Flores,5184,372,,,1er Distrito,term_same_chamber,5709
+161,chamber,LVI,2022-2026,Eric,Aedo,Jeldres,5253,380,6,Partido Demócrata Cristiano,20° Distrito,term_same_chamber,6062
+163,chamber,LVI,2022-2026,Ericka,Ñanco,Vásquez,5225,382,15,Partido Frente Amplio,23er Distrito,term_same_chamber,6029
+164,chamber,LVI,2022-2026,Erika,Olivera,De La Fuente,4621,383,27,Partido Demócratas Chile,9º Distrito,term_same_chamber,6362
+179,chamber,LVI,2022-2026,Felipe,Camaño,Cárdenas,5260,415,,,19° Distrito,term_same_chamber,5601
+181,chamber,LVI,2022-2026,Felipe,Donoso,Castro,5257,417,10,Partido Unión Demócrata Independiente,17° Distrito,term_same_chamber,6733
+188,chamber,LVI,2022-2026,Fernando,Bórquez,Montecinos,5213,437,23,Unión Demócrata Independiente,26° Distrito,term_same_chamber,6614
+192,chamber,LVI,2022-2026,Flor,Weisse,Novoa,5244,450,23,Unión Demócrata Independiente,21° Distrito,term_same_chamber,6612
+193,chamber,LVI,2022-2026,Francesca,Muñoz,González,4600,451,29,Partido Social Cristiano,20º Distrito,term_same_chamber,6400
+200,chamber,LVI,2022-2026,Francisco,Pulgar,Castillo,5263,470,,,17° Distrito,term_same_chamber,6455
+203,chamber,LVI,2022-2026,Frank,Sauerbaum,Muñoz,3669,474,4,Partido Renovación Nacional,19° Distrito,term_same_chamber,6594
+206,chamber,LVI,2022-2026,Félix,Bugueño,Sotelo,5254,482,15,Partido Frente Amplio,16° Distrito,term_same_chamber,6557
+207,chamber,LVI,2022-2026,Félix,González,Gatica,4554,483,30,Partido Ecologista Verde,20º Distrito,term_same_chamber,6499
+212,chamber,LVI,2022-2026,Gael,Yeomans,Araya,4622,499,15,Partido Frente Amplio,13erDistrito,term_same_chamber,6517
+213,chamber,LVI,2022-2026,Gaspar,Rivas,Sánchez,1894,501,,,6° Distrito,term_same_chamber,5750
+215,chamber,LVI,2022-2026,Gastón,Von Mühlenbrock,Zamora,1482,506,10,Partido Unión Demócrata Independiente,24° Distrito,term_same_chamber,6744
+219,chamber,LVI,2022-2026,Gloria,Naveillan,Arriagada,5235,519,22,Partido Nacional Libertario,22° Distrito,term_same_chamber,6049
+221,chamber,LVI,2022-2026,Gonzalo,De la Carrera,Correa,5202,522,22,Partido Nacional Libertario,11° Distrito,term_same_chamber,4320
+225,chamber,LVI,2022-2026,Gonzalo,Winter,Etcheberry,4602,528,15,Partido Frente Amplio,10° Distrito,term_same_chamber,6275
+229,chamber,LVI,2022-2026,Guillermo,Ramírez,Diez,4570,540,10,Partido Unión Demócrata Independiente,11° Distrito,term_same_chamber,6112
+236,chamber,LVI,2022-2026,Gustavo,Benavente,Vergara,5270,556,10,Partido Unión Demócrata Independiente,18° Distrito,term_same_chamber,6338
+241,chamber,LVI,2022-2026,Harry,Jürgensen,Rundshagen,4603,564,3,Partido Republicano de Chile,25º Distrito,term_same_chamber,6136
+242,chamber,LVI,2022-2026,Helia,Molina,Milman,5275,566,2,Partido Por la Democracia,10° Distrito,term_same_chamber,5937
+243,chamber,LVI,2022-2026,Henry,Leal,Bizama,5233,567,10,Partido Unión Demócrata Independiente,23er Distrito,term_same_chamber,6309
+245,chamber,LVI,2022-2026,Hernán,Palma,Pérez,5207,571,,,12° Distrito,term_same_chamber,6075
+250,chamber,LVI,2022-2026,Hotuiti,Teao,Drago,5220,581,,,7° Distrito,term_same_chamber,6290
+254,chamber,LVI,2022-2026,Hugo,Rey,Martínez,4564,587,4,Partido Renovación Nacional,17 ° Distrito,term_same_chamber,6461
+257,chamber,LVI,2022-2026,Héctor,Barría,Angulo,5215,595,6,Partido Demócrata Cristiano,25° Distrito,term_same_chamber,6410
+258,chamber,LVI,2022-2026,Héctor,Ulloa,Aguilera,5212,596,,,26° Distrito,term_same_chamber,6702
+276,chamber,LVI,2022-2026,Jaime,Araya,Guerrero,5192,640,,,3erDistrito,term_same_chamber,6346
+284,chamber,LVI,2022-2026,Jaime,Mulet,Martínez,1782,652,8,Federación Regionalista Verde Social,4° Distrito,term_same_chamber,4993
+285,chamber,LVI,2022-2026,Jaime,Naranjo,Ortiz,1978,657,,,18° Distrito,term_same_chamber,6485
+289,chamber,LVI,2022-2026,Jaime,Sáez,Quiroz,5210,675,15,Partido Frente Amplio,26° Distrito,term_same_chamber,6327
+292,chamber,LVI,2022-2026,Javiera,Morales,Alvarado,5190,685,15,Partido Frente Amplio,28° Distrito,term_same_chamber,6467
+294,chamber,LVI,2022-2026,Joanna,Pérez,Olea,4565,688,27,Partido Demócratas Chile,21erDistrito,term_same_chamber,6486
+296,chamber,LVI,2022-2026,Joaquín,Lavín,León,4524,693,,,8° Distrito,term_same_chamber,4582
+300,chamber,LVI,2022-2026,Johannes,Kaiser,Barents-Von Hohenhagen,5271,702,22,Partido Nacional Libertario,10° Distrito,term_same_chamber,6618
+302,chamber,LVI,2022-2026,Jorge,Durán,Espinoza,4567,704,4,Partido Renovación Nacional,9º Distrito,term_same_chamber,4505
+305,chamber,LVI,2022-2026,Jorge,Brito,Hasbún,4572,713,15,Partido Frente Amplio,7º Distrito,term_same_chamber,5948
+306,chamber,LVI,2022-2026,Jorge,Rathgeb,Schifferli,4506,715,4,Partido Renovación Nacional,22° Distrito,term_same_chamber,6483
+308,chamber,LVI,2022-2026,Jorge,Guzmán,Zepeda,5255,726,28,Partido Evolución Política (Evópoli),17° Distrito,term_same_chamber,6507
+310,chamber,LVI,2022-2026,Jorge,Alessandri,Vergara,4604,729,10,Partido Unión Demócrata Independiente,10º Distrito,term_same_chamber,5496
+318,chamber,LVI,2022-2026,Jorge,Saffirio,Espinoza,5236,749,27,Partido Demócratas Chile,22° Distrito,term_same_chamber,5914
+333,chamber,LVI,2022-2026,José Carlos,Meza,Pereira,5272,788,3,Partido Republicano de Chile,9° Distrito,term_same_chamber,6572
+335,chamber,LVI,2022-2026,José Miguel,Castro,Bascuñán,4581,790,4,Partido Renovación Nacional,3erDistrito,term_same_chamber,5869
+347,chamber,LVI,2022-2026,Juan Antonio,Coloma,Álamos,4543,822,10,Partido Unión Demócrata Independiente,14° Distrito,term_same_chamber,6221
+348,chamber,LVI,2022-2026,Juan Carlos,Beltrán,Silva,5237,825,4,Partido Renovación Nacional,22º Distrito,term_same_chamber,6518
+354,chamber,LVI,2022-2026,Francisco,Undurraga,Gazitúa,4563,835,28,Partido Evolución Política (Evópoli),Distrito N° 11,term_same_chamber,6147
+356,chamber,LVI,2022-2026,Juan,Irarrázaval,Rossel,5227,838,3,Partido Republicano de Chile,14° Distrito,term_same_chamber,6320
+360,chamber,LVI,2022-2026,Juan,Fuenzalida,Cobo,4568,848,10,Partido Unión Demócrata Independiente,5º Distrito,term_same_chamber,5773
+366,chamber,LVI,2022-2026,Juan,Santana,Castillo,4624,865,13,Partido Socialista de Chile,4º Distrito,term_same_chamber,6370
+371,chamber,LVI,2022-2026,Karen,Medina,Vásquez,5242,874,,,21erDistrito,term_same_chamber,5998
+375,chamber,LVI,2022-2026,Karol,Cariola,Oliva,4520,881,7,Partido Comunista de Chile,9° Distrito,term_same_chamber,6204
+381,chamber,LVI,2022-2026,Leonardo,Soto,Ferrada,4523,894,13,Partido Socialista de Chile,14° Distrito,term_same_chamber,5993
+382,chamber,LVI,2022-2026,Leonidas,Romero,Sáez,4608,897,22,Partido Nacional Libertario,20º Distrito,term_same_chamber,5657
+386,chamber,LVI,2022-2026,Lorena,Fries,Monleón,5264,908,15,Partido Frente Amplio,10° Distrito,term_same_chamber,6021
+387,chamber,LVI,2022-2026,Lorena,Pizarro,Sierra,5221,909,7,Partido Comunista de Chile,13erDistrito,term_same_chamber,6629
+390,chamber,LVI,2022-2026,Luis,Cuello,Peña y Lillo,5230,914,7,Partido Comunista de Chile,7° Distrito,term_same_chamber,6709
+391,chamber,LVI,2022-2026,Luis,Sánchez,Ossa,5228,915,3,Partido Republicano de Chile,7° Distrito,term_same_chamber,6834
+393,chamber,LVI,2022-2026,Luis,Malla,Valenzuela,5185,917,12,Partido Liberal de Chile,1erDistrito,term_same_chamber,6549
+401,chamber,LVI,2022-2026,Maite,Orsini,Pascal,4576,927,,,9º Distrito,term_same_chamber,5087
+410,chamber,LVI,2022-2026,Marcela,Riquelme,Aliaga,5246,952,,,15° Distrito,term_same_chamber,5941
+416,chamber,LVI,2022-2026,Marcia,Raphael,Mora,5204,965,4,Partido Renovación Nacional,27° Distrito,term_same_chamber,6345
+420,chamber,LVI,2022-2026,Marco Antonio,Sulantay,Olivares,5198,971,10,Partido Unión Demócrata Independiente,5° Distrito,term_same_chamber,6676
+421,chamber,LVI,2022-2026,Marcos,Ilabaca,Cerda,4609,972,13,Partido Socialista de Chile,24º Distrito,term_same_chamber,6442
+435,chamber,LVI,2022-2026,Marisela,Santibáñez,Novoa,4578,1002,,,14° Distrito,term_same_chamber,5156
+437,chamber,LVI,2022-2026,Marlene,Pérez,Cartes,5256,1007,,,20° Distrito,term_same_chamber,6320
+438,chamber,LVI,2022-2026,Marta,Bravo,Salinas,5262,1008,23,Unión Demócrata Independiente,19° Distrito,term_same_chamber,6224
+439,chamber,LVI,2022-2026,Carolina,Marzán,Pinto,4550,1009,,,6º Distrito,term_same_chamber,5287
+441,chamber,LVI,2022-2026,Marta,González,Olea,5243,1013,,,15° Distrito,term_same_chamber,5721
+446,chamber,LVI,2022-2026,María Candelaria,Acevedo,Sáez,5247,1027,7,Partido Comunista de Chile,20° Distrito,term_same_chamber,6692
+447,chamber,LVI,2022-2026,Catalina,Del Real,Mihovilovic,4561,1028,3,Partido Republicano de Chile,11° Distrito,term_same_chamber,5298
+449,chamber,LVI,2022-2026,María Francisca,Bello,Campos,5219,1031,15,Partido Frente Amplio,6° Distrito,term_same_chamber,6068
+454,chamber,LVI,2022-2026,María Luisa,Cordero,Velásquez,5274,1046,,,10° Distrito,term_same_chamber,4817
+455,chamber,LVI,2022-2026,Mercedes,Bulnes,Núñez,5261,1047,,,17° Distrito,term_same_chamber,1966
+460,chamber,LVI,2022-2026,Ximena,Ossandón,Irarrázabal,4618,1053,4,Partido Renovación Nacional,12° Distrito,term_same_chamber,6469
+461,chamber,LVI,2022-2026,Matías,Ramírez,Pascal,5187,1055,7,Partido Comunista de Chile,2° Distrito,term_same_chamber,6262
+463,chamber,LVI,2022-2026,Mauricio,Ojeda,Rebolledo,5226,1060,,,23erDistrito,term_same_chamber,5045
+464,chamber,LVI,2022-2026,Mauro,González,Villarroel,5214,1061,4,Partido Renovación Nacional,26° Distrito,term_same_chamber,6114
+468,chamber,LVI,2022-2026,Miguel,Mellado,Suazo,4571,1071,,,23° Distrito,term_same_chamber,6619
+469,chamber,LVI,2022-2026,Miguel Ángel,Becker,Alvear,5234,1073,4,Partido Renovación Nacional,23er Distrito,term_same_chamber,6875
+473,chamber,LVI,2022-2026,Miguel Ángel,Calisto,Águila,4610,1078,,,27º Distrito,term_same_chamber,5948
+477,chamber,LVI,2022-2026,Mónica,Arce,Castro,5208,1083,,,12° Distrito,term_same_chamber,5778
+479,chamber,LVI,2022-2026,Natalia,Romero,Talguia,5241,1085,,,15° Distrito,term_same_chamber,6627
+481,chamber,LVI,2022-2026,Nathalie,Castillo,Rojas,5205,1087,7,Partido Comunista de Chile,5° Distrito,term_same_chamber,6088
+483,chamber,LVI,2022-2026,Nelson,Venegas,Salazar,5217,1091,13,Partido Socialista de Chile,6° Distrito,term_same_chamber,5976
+503,chamber,LVI,2022-2026,Pamela,Jiles,Moreno,4628,1132,36,Partido de la Gente,12° Distrito,term_same_chamber,5543
+507,chamber,LVI,2022-2026,Patricio,Rosas,Barrientos,4583,1141,,,24º Distrito,term_same_chamber,5912
+511,chamber,LVI,2022-2026,Paula,Labra,Besserer,5269,1158,,,18° Distrito,term_same_chamber,5255
+531,chamber,LVI,2022-2026,Raúl,Leiva,Carvajal,4585,1209,13,Partido Socialista de Chile,14° Distrito,term_same_chamber,5932
+534,chamber,LVI,2022-2026,Raúl,Soto,Mardones,4629,1214,2,Partido Por la Democracia,15° Distrito,term_same_chamber,5757
+538,chamber,LVI,2022-2026,Renzo,Trisotti,Martínez,4540,1220,3,Partido Republicano de Chile,2° Distrito,term_same_chamber,6676
+540,chamber,LVI,2022-2026,René,Alinco,Bustos,135,1224,,,27° Distrito,term_same_chamber,5653
+543,chamber,LVI,2022-2026,Ricardo,Cifuentes,Lillo,5200,1239,6,Partido Demócrata Cristiano,5° Distrito,term_same_chamber,6628
+550,chamber,LVI,2022-2026,Roberto,Celedón,Fernández,5001,1251,,,17º distrito,term_same_chamber,2613
+551,chamber,LVI,2022-2026,Roberto,Arroyo,Muñoz,5252,1252,29,Partido Social Cristiano,20° Distrito,term_same_chamber,6067
+571,chamber,LVI,2022-2026,Rubén Darío,Oyarzo,Figueroa,5232,1300,5,Partido Radical Socialdemócrata,8° Distrito,term_same_chamber,6614
+576,chamber,LVI,2022-2026,Sara,Concha,Smith,5258,1309,29,Partido Social Cristiano,19° Distrito,term_same_chamber,6545
+581,chamber,LVI,2022-2026,Sebastián,Videla,Castillo,5191,1315,,,3erDistrito,term_same_chamber,6720
+588,chamber,LVI,2022-2026,Sergio,Bobadilla,Muñoz,2861,1341,10,Partido Unión Demócrata Independiente,20° Distrito,term_same_chamber,6297
+600,chamber,LVI,2022-2026,Sofía,Cid,Versalovic,4579,1375,3,Partido Republicano de Chile,4º Distrito,term_same_chamber,6011
+601,chamber,LVI,2022-2026,Stephan,Schubert,Rubio,5229,1377,3,Partido Republicano de Chile,23erDistrito,term_same_chamber,6545
+603,chamber,LVI,2022-2026,Tomás,De Rementería,Venegas,5222,1380,13,Partido Socialista de Chile,7° distrito,term_same_chamber,3845
+606,chamber,LVI,2022-2026,Tomás,Lagomarsino,Guzmán,5224,1385,,,7° Distrito,term_same_chamber,6608
+607,chamber,LVI,2022-2026,Tomás,Hirsch,Goldschmidt,4632,1386,14,Partido Acción Humanista,11° Distrito,term_same_chamber,5797
+614,chamber,LVI,2022-2026,Viviana,Delgado,Riquelme,5248,1399,12,Partido Liberal de Chile,8° Distrito,term_same_chamber,6799
+617,chamber,LVI,2022-2026,Vlado,Mirosevic,Verdugo,4531,1403,12,Partido Liberal de Chile,1er. Distrito,term_same_chamber,5955
+621,chamber,LVI,2022-2026,Víctor Alejandro,Pino,Fuentes,5199,1415,27,Partido Demócratas Chile,5° Distrito,term_same_chamber,5412
+631,chamber,LVI,2022-2026,Yovana,Ahumada,Palma,5188,1438,29,Partido Social Cristiano,3erDistrito,term_same_chamber,6150
+635,chamber,LVI,2022-2026,Álvaro,Carter,Fernández,4558,1444,3,Partido Republicano de Chile,12° Distrito,term_same_chamber,5777
+4,senate,LI,2002-2006,Alberto,Espina,Otero,2566,14,4,Partido Renovación Nacional,14ª Circunscripción Norte,term_same_chamber,192
+18,senate,LI,2002-2006,Alejandro,Foxley,Rioseco,68,60,6,Partido Demócrata Cristiano,8ª Circunscripción Santiago Oriente,term_same_chamber,127
+35,senate,LI,2002-2006,Andrés,Chadwick,Piñera,2021,101,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,182
+37,senate,LI,2002-2006,Andrés,Zaldívar,Larraín,2035,104,6,Partido Demócrata Cristiano,7ª Circunscripción Santiago Poniente,term_same_chamber,211
+39,senate,LI,2002-2006,Antonio,Horvath,Kiss,325,110,,,18ª Circunscripción,term_same_chamber,243
+50,senate,LI,2002-2006,Baldo,Prokurica,Prokurica,2017,138,4,Partido Renovación Nacional,3ª Circunscripción,term_same_chamber,242
+67,senate,LI,2002-2006,Carlos,Bombal,Otaegui,2721,179,10,Partido Unión Demócrata Independiente,8ª Circunscripción Santiago Oriente,term_same_chamber,183
+69,senate,LI,2002-2006,Carlos,Cantero,Ojeda,337,186,,,2ª Circunscripción,term_same_chamber,181
+71,senate,LI,2002-2006,Fernando,Flores,Labra,673,189,20,ChilePrimero,1ª Circunscripción,term_same_chamber,151
+79,senate,LI,2002-2006,Carlos,Ominami,Pascual,2457,212,,,5ª Circunscripción Cordillera,term_same_chamber,153
+85,senate,LI,2002-2006,Carmen,Frei,Ruiz-Tagle,139,225,6,Partido Demócrata Cristiano,2ª Circunscripción,term_same_chamber,216
+117,senate,LI,2002-2006,Augusto,Parra,Muñoz,857,286,,,,term_same_chamber,249
+136,senate,LI,2002-2006,Edgardo,Boeninger,Kausel,2070,321,6,Partido Demócrata Cristiano,,term_same_chamber,215
+145,senate,LI,2002-2006,Eduardo,Frei,Ruiz-tagle,3080,,,,,no_term_record,119
+157,senate,LI,2002-2006,Enrique,Silva,Cimma,3167,373,,,,term_same_chamber,148
+160,senate,LI,2002-2006,Enrique,Zurita,Camps,3269,379,,,,term_same_chamber,221
+173,senate,LI,2002-2006,Evelyn,Matthei,Fornet,53,406,,,4ª Circunscripción,term_same_chamber,198
+189,senate,LI,2002-2006,Fernando,Cordero,Rusque,1821,438,,,,term_same_chamber,224
+211,senate,LI,2002-2006,Gabriel,Valdés,Subercaseaux,160,497,6,Partido Demócrata Cristiano,16ª Circunscripción,term_same_chamber,111
+232,senate,LI,2002-2006,Guillermo,Vásquez,Ubeda,1720,551,5,Partido Radical Socialdemócrata,15ª Circunscripción,term_same_chamber,16
+244,senate,LI,2002-2006,Hernán,Larraín,Fernández,2008,569,10,Partido Unión Demócrata Independiente,11ª Circunscripción Sur,term_same_chamber,35
+249,senate,LI,2002-2006,Hosain,Sabag,Castillo,828,580,6,Partido Demócrata Cristiano,12ª Circunscripción Norte,term_same_chamber,221
+280,senate,LI,2002-2006,Jaime,Gazmuri,Mujica,1819,646,13,Partido Socialista de Chile,10ª Circunscripción Norte,term_same_chamber,100
+285,senate,LI,2002-2006,Jaime,Naranjo,Ortiz,1978,662,13,Partido Socialista de Chile,11ª Circunscripción Sur,term_same_chamber,206
+286,senate,LI,2002-2006,Jaime,Orpis,Bouchon,637,667,10,Partido Unión Demócrata Independiente,1ª Circunscripción,term_same_chamber,226
+307,senate,LI,2002-2006,Jorge,Lavandero,Illanes,119,722,6,Partido Demócrata Cristiano,15ª Circunscripción Senatorial,term_same_chamber,66
+312,senate,LI,2002-2006,Jorge,Martínez,Busch,2678,738,,,,term_same_chamber,218
+316,senate,LI,2002-2006,Jorge,Arancibia,Reyes,2425,742,10,Partido Unión Demócrata Independiente,6ª Circunscripción Costa,term_same_chamber,215
+317,senate,LI,2002-2006,Jorge,Pizarro,Soto,218,748,6,Partido Demócrata Cristiano,4ª Circunscripción,term_same_chamber,136
+326,senate,LI,2002-2006,José Antonio,Viera-Gallo,Quesney,2469,770,13,Partido Socialista de Chile,12ª Circunscripción,term_same_chamber,180
+328,senate,LI,2002-2006,José,García,Ruminot,279,780,4,Partido Renovación Nacional,15ª Circunscripción Sur,term_same_chamber,203
+341,senate,LI,2002-2006,José,Ruiz,de Giorgio,2935,809,6,Partido Demócrata Cristiano,19ª Circunscripción,term_same_chamber,186
+343,senate,LI,2002-2006,Jovino,Novoa,Vásquez,2093,813,10,Partido Unión Demócrata Independiente,7ª Circunscripción Santiago Poniente,term_same_chamber,133
+346,senate,LI,2002-2006,Juan Antonio,Coloma,Correa,1778,821,10,Partido Unión Demócrata Independiente,10ª Circunscripción,term_same_chamber,199
+367,senate,LI,2002-2006,Julio,Canessa,Robert,1083,867,,,,term_same_chamber,240
+417,senate,LI,2002-2006,Marco,Cariola,Barroilhet,2310,966,10,Partido Unión Demócrata Independiente,17ª Circunscripción Región de Los Lagos Norte,term_same_chamber,174
+422,senate,LI,2002-2006,Marcos,Aburto,Ochoa,331,974,,,,term_same_chamber,122
+429,senate,LI,2002-2006,Mario,Ríos,Santander,3638,992,4,Partido Renovación Nacional,13ª Circunscripción Sur,term_same_chamber,137
+467,senate,LI,2002-2006,Adolfo,Zaldívar,Larraín,566,1069,,,18ª Circunscripción Senatorial,term_same_chamber,63
+482,senate,LI,2002-2006,Nelson,Ávila,Contreras,662,1090,5,Partido Radical Socialdemócrata,Sexta Circunscripción Senatorial Costa,term_same_chamber,167
+522,senate,LI,2002-2006,Rafael,Moreno,Rojas,3414,1190,6,Partido Demócrata Cristiano,9ª Circunscripción,term_same_chamber,223
+530,senate,LI,2002-2006,Ramón,Vega,Hidalgo,1859,1208,,,,term_same_chamber,245
+548,senate,LI,2002-2006,Ricardo,Núñez,Muñoz,2645,1247,13,Partido Socialista de Chile,3ª Circunscripción,term_same_chamber,206
+555,senate,LI,2002-2006,Roberto,Muñoz,Barra,972,1266,,,14ª Circunscripción Norte,term_same_chamber,189
+558,senate,LI,2002-2006,Rodolfo,Stange,Oelckers,3322,1273,10,Partido Unión Demócrata Independiente,17ª Circunscripción,term_same_chamber,199
+590,senate,LI,2002-2006,Sergio,Fernández,Fernández,10,1346,10,Partido Unión Demócrata Independiente,19ª Circunscripción,term_same_chamber,208
+592,senate,LI,2002-2006,Mariano,Ruiz Esquide,Jara,1964,1353,6,Partido Demócrata Cristiano,13ª Circunscripción Sur,term_same_chamber,163
+597,senate,LI,2002-2006,Sergio,Páez,Verdugo,2048,1368,6,Partido Demócrata Cristiano,Décimoseptima Circunscripción Senatorial,term_same_chamber,114
+598,senate,LI,2002-2006,Sergio,Romero,Pizarro,443,1370,4,Partido Renovación Nacional,5ª Circunscripción Cordillera,term_same_chamber,144
+4,senate,LII,2006-2010,Alberto,Espina,Otero,2566,14,4,Partido Renovación Nacional,14ª Circunscripción Norte,term_same_chamber,511
+15,senate,LII,2006-2010,Alejandro,Navarro,Brain,3688,54,13,Partido Socialista de Chile,12ª Circunscripción Norte,term_same_chamber,576
+27,senate,LII,2006-2010,Andrés,Allamand,Zavala,2056,81,4,Partido Renovación Nacional,16ª Circunscripción,term_same_chamber,537
+35,senate,LII,2006-2010,Andrés,Chadwick,Piñera,2021,100,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,676
+39,senate,LII,2006-2010,Antonio,Horvath,Kiss,325,110,,,18ª Circunscripción,term_same_chamber,665
+50,senate,LII,2006-2010,Baldo,Prokurica,Prokurica,2017,138,4,Partido Renovación Nacional,3ª Circunscripción,term_same_chamber,822
+61,senate,LII,2006-2010,Camilo,Escalona,Medina,2146,159,13,Partido Socialista de Chile,17ª Circunscripción,term_same_chamber,641
+66,senate,LII,2006-2010,Carlos,Bianchi,Chelech,1274,176,,,19ª Circunscripción,term_same_chamber,616
+69,senate,LII,2006-2010,Carlos,Cantero,Ojeda,337,185,19,Renovación Nacional,2ª Circunscripción,term_same_chamber,528
+71,senate,LII,2006-2010,Fernando,Flores,Labra,673,189,20,ChilePrimero,1ª Circunscripción,term_same_chamber,390
+75,senate,LII,2006-2010,Carlos Ignacio,Kuschel,Silva,3069,199,4,Partido Renovación Nacional,17ª Circunscripción,term_same_chamber,714
+79,senate,LII,2006-2010,Carlos,Ominami,Pascual,2457,212,,,5ª Circunscripción Cordillera,term_same_chamber,578
+145,senate,LII,2006-2010,Eduardo,Frei,Ruiz-tagle,3080,345,6,Partido Demócrata Cristiano,16ª Circunscripción,term_same_chamber,523
+173,senate,LII,2006-2010,Evelyn,Matthei,Fornet,53,405,10,Partido Unión Demócrata Independiente,4ª Circunscripción,term_same_chamber,682
+228,senate,LII,2006-2010,Guido,Girardi,Lavín,1961,539,2,Partido Por la Democracia,7ª Circunscripción Santiago Poniente,term_same_chamber,483
+232,senate,LII,2006-2010,Guillermo,Vásquez,Ubeda,1720,551,5,Partido Radical Socialdemócrata,15ª Circunscripción,term_same_chamber,643
+244,senate,LII,2006-2010,Hernán,Larraín,Fernández,2008,569,10,Partido Unión Demócrata Independiente,11ª Circunscripción Sur,term_same_chamber,734
+249,senate,LII,2006-2010,Hosain,Sabag,Castillo,828,579,6,Partido Demócrata Cristiano,12ª Circunscripción Norte,term_same_chamber,821
+280,senate,LII,2006-2010,Jaime,Gazmuri,Mujica,1819,646,13,Partido Socialista de Chile,10ª Circunscripción Norte,term_same_chamber,606
+285,senate,LII,2006-2010,Jaime,Naranjo,Ortiz,1978,662,13,Partido Socialista de Chile,11ª Circunscripción Sur,term_same_chamber,509
+286,senate,LII,2006-2010,Jaime,Orpis,Bouchon,637,667,10,Partido Unión Demócrata Independiente,1ª Circunscripción,term_same_chamber,798
+316,senate,LII,2006-2010,Jorge,Arancibia,Reyes,2425,742,10,Partido Unión Demócrata Independiente,6ª Circunscripción Costa,term_same_chamber,697
+317,senate,LII,2006-2010,Jorge,Pizarro,Soto,218,747,6,Partido Demócrata Cristiano,4ª Circunscripción,term_same_chamber,509
+324,senate,LII,2006-2010,José Antonio,Gómez,Urrutia,2804,763,5,Partido Radical Socialdemócrata,2ª Circunscripción,term_same_chamber,650
+328,senate,LII,2006-2010,José,García,Ruminot,279,780,4,Partido Renovación Nacional,15ª Circunscripción Sur,term_same_chamber,751
+343,senate,LII,2006-2010,Jovino,Novoa,Vásquez,2093,812,10,Partido Unión Demócrata Independiente,7ª Circunscripción Santiago Poniente,term_same_chamber,678
+346,senate,LII,2006-2010,Juan Antonio,Coloma,Correa,1778,821,10,Partido Unión Demócrata Independiente,10ª Circunscripción,term_same_chamber,616
+365,senate,LII,2006-2010,Juan Pablo,Letelier,Morel,2605,864,13,Partido Socialista de Chile,9ª Circunscripción,term_same_chamber,608
+458,senate,LII,2006-2010,Soledad,Alvear,Valenzuela,2274,1051,6,Partido Demócrata Cristiano,8ª Circunscripción Santiago Oriente,term_same_chamber,560
+467,senate,LII,2006-2010,Adolfo,Zaldívar,Larraín,566,1069,,,18ª Circunscripción Senatorial,term_same_chamber,498
+482,senate,LII,2006-2010,Nelson,Ávila,Contreras,662,1090,5,Partido Radical Socialdemócrata,Sexta Circunscripción Senatorial Costa,term_same_chamber,548
+500,senate,LII,2006-2010,Pablo,Longueira,Montes,1900,1123,10,Partido Unión Demócrata Independiente,8ª Circunscripción Santiago Oriente,term_same_chamber,598
+516,senate,LII,2006-2010,Pedro,Muñoz,Aburto,66,1174,13,Partido Socialista de Chile,19ª Circunscripción,term_same_chamber,688
+548,senate,LII,2006-2010,Ricardo,Núñez,Muñoz,2645,1247,13,Partido Socialista de Chile,3ª Circunscripción,term_same_chamber,720
+555,senate,LII,2006-2010,Roberto,Muñoz,Barra,972,1266,,,14ª Circunscripción Norte,term_same_chamber,470
+592,senate,LII,2006-2010,Mariano,Ruiz Esquide,Jara,1964,1352,6,Partido Demócrata Cristiano,13ª Circunscripción Sur,term_same_chamber,488
+598,senate,LII,2006-2010,Sergio,Romero,Pizarro,443,1370,4,Partido Renovación Nacional,5ª Circunscripción Cordillera,term_same_chamber,539
+622,senate,LII,2006-2010,Víctor,Pérez,Varela,963,1422,10,Partido Unión Demócrata Independiente,13ª Circunscripción Sur,term_same_chamber,686
+4,senate,LIII,2010-2014,Alberto,Espina,Otero,2566,13,4,Partido Renovación Nacional,14ª Circunscripción Norte,term_same_chamber,817
+11,senate,LIII,2010-2014,Alejandro,García Huidobro,Sanfuentes,2571,44,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,739
+15,senate,LIII,2010-2014,Alejandro,Navarro,Brain,3688,54,13,Partido Socialista de Chile,12ª Circunscripción Norte,term_same_chamber,696
+27,senate,LIII,2010-2014,Andrés,Allamand,Zavala,2056,81,4,Partido Renovación Nacional,16ª Circunscripción,term_same_chamber,136
+35,senate,LIII,2010-2014,Andrés,Chadwick,Piñera,2021,100,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,213
+37,senate,LIII,2010-2014,Andrés,Zaldívar,Larraín,2035,103,6,Partido Demócrata Cristiano,10ª Circunscripción Norte,term_same_chamber,943
+39,senate,LIII,2010-2014,Antonio,Horvath,Kiss,325,109,4,Partido Renovación Nacional,18ª Circunscripción,term_same_chamber,937
+50,senate,LIII,2010-2014,Baldo,Prokurica,Prokurica,2017,137,4,Partido Renovación Nacional,3ª Circunscripción,term_same_chamber,1097
+61,senate,LIII,2010-2014,Camilo,Escalona,Medina,2146,159,13,Partido Socialista de Chile,17ª Circunscripción,term_same_chamber,924
+66,senate,LIII,2010-2014,Carlos,Bianchi,Chelech,1274,176,,,19ª Circunscripción,term_same_chamber,691
+69,senate,LIII,2010-2014,Carlos,Cantero,Ojeda,337,185,19,Renovación Nacional,2ª Circunscripción,term_same_chamber,682
+75,senate,LIII,2010-2014,Carlos Ignacio,Kuschel,Silva,3069,199,4,Partido Renovación Nacional,17ª Circunscripción,term_same_chamber,978
+76,senate,LIII,2010-2014,Carlos,Larraín,Peña,606,200,4,Partido Renovación Nacional,16ª Circunscripción,term_same_chamber,570
+145,senate,LIII,2010-2014,Eduardo,Frei,Ruiz-tagle,3080,345,6,Partido Demócrata Cristiano,16ª Circunscripción,term_same_chamber,737
+151,senate,LIII,2010-2014,Ena,Von Baer,Jahn,4016,359,10,Partido Unión Demócrata Independiente,8ª Circunscripción Santiago Oriente,term_same_chamber,747
+172,senate,LIII,2010-2014,Eugenio,Tuma,Zedan,1745,402,2,Partido Por la Democracia,15ª Circunscripción Sur,term_same_chamber,881
+173,senate,LIII,2010-2014,Evelyn,Matthei,Fornet,53,405,10,Partido Unión Demócrata Independiente,4ª Circunscripción,term_same_chamber,164
+195,senate,LIII,2010-2014,Francisco,Chahuán,Chahuán,685,458,4,Partido Renovación Nacional,6ª Circunscripción Costa,term_same_chamber,1090
+205,senate,LIII,2010-2014,Fulvio,Rossi,Ciocca,2312,481,,,1ª Circunscripción,term_same_chamber,614
+226,senate,LIII,2010-2014,Gonzalo,Uriarte,Herrera,1487,533,10,Partido Unión Demócrata Independiente,4ª Circunscripción,term_same_chamber,754
+228,senate,LIII,2010-2014,Guido,Girardi,Lavín,1961,539,2,Partido Por la Democracia,7ª Circunscripción Santiago Poniente,term_same_chamber,688
+244,senate,LIII,2010-2014,Hernán,Larraín,Fernández,2008,568,10,Partido Unión Demócrata Independiente,11ª Circunscripción Sur,term_same_chamber,1047
+249,senate,LIII,2010-2014,Hosain,Sabag,Castillo,828,579,6,Partido Demócrata Cristiano,12ª Circunscripción Norte,term_same_chamber,929
+263,senate,LIII,2010-2014,Ignacio,Walker,Prieto,3336,608,6,Partido Demócrata Cristiano,5ª Circunscripción Cordillera,term_same_chamber,744
+286,senate,LIII,2010-2014,Jaime,Orpis,Bouchon,637,666,,,1ª Circunscripción,term_same_chamber,1099
+287,senate,LIII,2010-2014,Jaime,Quintana,Leal,1570,671,2,Partido Por la Democracia,14ª Circunscripción Norte,term_same_chamber,717
+317,senate,LIII,2010-2014,Jorge,Pizarro,Soto,218,747,6,Partido Demócrata Cristiano,4ª Circunscripción,term_same_chamber,899
+324,senate,LIII,2010-2014,José Antonio,Gómez,Urrutia,2804,763,5,Partido Radical Socialdemócrata,2ª Circunscripción,term_same_chamber,873
+328,senate,LIII,2010-2014,José,García,Ruminot,279,779,4,Partido Renovación Nacional,15ª Circunscripción Sur,term_same_chamber,985
+343,senate,LIII,2010-2014,Jovino,Novoa,Vásquez,2093,812,10,Partido Unión Demócrata Independiente,7ª Circunscripción Santiago Poniente,term_same_chamber,927
+346,senate,LIII,2010-2014,Juan Antonio,Coloma,Correa,1778,820,10,Partido Unión Demócrata Independiente,10ª Circunscripción,term_same_chamber,987
+365,senate,LIII,2010-2014,Juan Pablo,Letelier,Morel,2605,864,13,Partido Socialista de Chile,9ª Circunscripción,term_same_chamber,657
+385,senate,LIII,2010-2014,Lily,Pérez,San Martín,2581,907,,,5ª Circunscripción Cordillera,term_same_chamber,865
+450,senate,LIII,2010-2014,Isabel,Allende,Bussi,3494,1037,13,Partido Socialista de Chile,3ª Circunscripción,term_same_chamber,761
+458,senate,LIII,2010-2014,Soledad,Alvear,Valenzuela,2274,1051,6,Partido Demócrata Cristiano,8ª Circunscripción Santiago Oriente,term_same_chamber,843
+500,senate,LIII,2010-2014,Pablo,Longueira,Montes,1900,1123,10,Partido Unión Demócrata Independiente,8ª Circunscripción Santiago Oriente,term_same_chamber,243
+510,senate,LIII,2010-2014,Patricio,Walker,Prieto,802,1157,6,Partido Demócrata Cristiano,18ª Circunscripción,term_same_chamber,931
+516,senate,LIII,2010-2014,Pedro,Muñoz,Aburto,66,1174,13,Partido Socialista de Chile,19ª Circunscripción,term_same_chamber,825
+545,senate,LIII,2010-2014,Ricardo,Lagos,Weber,3099,1244,2,Partido Por la Democracia,6ª Circunscripción Costa,term_same_chamber,763
+592,senate,LIII,2010-2014,Mariano,Ruiz Esquide,Jara,1964,1352,6,Partido Demócrata Cristiano,13ª Circunscripción Sur,term_same_chamber,548
+622,senate,LIII,2010-2014,Víctor,Pérez,Varela,963,1422,10,Partido Unión Demócrata Independiente,13ª Circunscripción Sur,term_same_chamber,920
+627,senate,LIII,2010-2014,Ximena,Rincón,González,2362,1431,6,Partido Demócrata Cristiano,11ª Circunscripción Sur,term_same_chamber,964
+1,senate,LIV,2014-2018,Adriana,Muñoz,D' Albora,2600,7,2,Partido Por la Democracia,4ª Circunscripción (2014- 2018),term_same_chamber,1219
+4,senate,LIV,2014-2018,Alberto,Espina,Otero,2566,13,4,Partido Renovación Nacional,14ª Circunscripción Norte,term_same_chamber,865
+11,senate,LIV,2014-2018,Alejandro,García Huidobro,Sanfuentes,2571,43,10,Partido Unión Demócrata Independiente,9ª Circunscripción (2014 - 2018),term_same_chamber,1178
+15,senate,LIV,2014-2018,Alejandro,Navarro,Brain,3688,53,,,12ª Circunscripción Norte (2014-2018),term_same_chamber,1010
+16,senate,LIV,2014-2018,Alejandro,Guillier,Álvarez,4512,56,,,Circunscripción N° 2 (2014 - 2018),term_same_chamber,1130
+20,senate,LIV,2014-2018,Alfonso,De Urresti,Longton,1925,67,13,Partido Socialista de Chile,Circunscripción N° 16 (2014 - 2018),term_same_chamber,950
+27,senate,LIV,2014-2018,Andrés,Allamand,Zavala,2056,80,4,Partido Renovación Nacional,8ª Circunscripción (2014-2018),term_same_chamber,857
+37,senate,LIV,2014-2018,Andrés,Zaldívar,Larraín,2035,103,6,Partido Demócrata Cristiano,10ª Circunscripción Norte,term_same_chamber,1134
+39,senate,LIV,2014-2018,Antonio,Horvath,Kiss,325,109,4,Partido Renovación Nacional,18ª Circunscripción,term_same_chamber,896
+50,senate,LIV,2014-2018,Baldo,Prokurica,Prokurica,2017,137,4,Partido Renovación Nacional,3ª Circunscripción,term_same_chamber,1316
+66,senate,LIV,2014-2018,Carlos,Bianchi,Chelech,1274,175,,,19ª Circunscripción (2014-2018),term_same_chamber,742
+77,senate,LIV,2014-2018,Carlos,Montes,Cisternas,1667,208,13,Partido Socialista de Chile,8ª Circunscripción Santiago Oriente (2014 - 2018),term_same_chamber,1167
+88,senate,LIV,2014-2018,Carolina,Goic,Boroevic,1706,232,6,Partido Demócrata Cristiano,19ª Circunscripción (2014 - 2018),term_same_chamber,1082
+151,senate,LIV,2014-2018,Ena,Von Baer,Jahn,4016,358,10,Partido Unión Demócrata Independiente,16ª Circunscripción (2014 - 2018),term_same_chamber,1099
+172,senate,LIV,2014-2018,Eugenio,Tuma,Zedan,1745,402,2,Partido Por la Democracia,15ª Circunscripción Sur,term_same_chamber,1076
+182,senate,LIV,2014-2018,Felipe,Harboe,Bascuñán,862,421,2,Partido Por la Democracia,13º Circunscripción(2014-2018),term_same_chamber,995
+195,senate,LIV,2014-2018,Francisco,Chahuán,Chahuán,685,458,4,Partido Renovación Nacional,6ª Circunscripción Costa,term_same_chamber,1115
+205,senate,LIV,2014-2018,Fulvio,Rossi,Ciocca,2312,481,,,1ª Circunscripción,term_same_chamber,582
+228,senate,LIV,2014-2018,Guido,Girardi,Lavín,1961,538,2,Partido Por la Democracia,7ª Circunscripción,term_same_chamber,899
+244,senate,LIV,2014-2018,Hernán,Larraín,Fernández,2008,568,10,Partido Unión Demócrata Independiente,11ª Circunscripción Sur,term_same_chamber,1130
+263,senate,LIV,2014-2018,Ignacio,Walker,Prieto,3336,608,6,Partido Demócrata Cristiano,5ª Circunscripción Cordillera,term_same_chamber,1069
+272,senate,LIV,2014-2018,Iván,Moreira,Barros,1713,633,10,Partido Unión Demócrata Independiente,17ª Circunscripción (2014-2018),term_same_chamber,974
+274,senate,LIV,2014-2018,Jacqueline,Van Rysselberghe,Herrera,4514,637,10,Partido Unión Demócrata Independiente,Circunscripción N° 12 (2014 - 2018),term_same_chamber,751
+286,senate,LIV,2014-2018,Jaime,Orpis,Bouchon,637,666,,,1ª Circunscripción,term_same_chamber,507
+287,senate,LIV,2014-2018,Jaime,Quintana,Leal,1570,671,2,Partido Por la Democracia,14ª Circunscripción Norte,term_same_chamber,938
+317,senate,LIV,2014-2018,Jorge,Pizarro,Soto,218,746,6,Partido Demócrata Cristiano,4ª Circunscripción (2014 - 2018),term_same_chamber,1051
+328,senate,LIV,2014-2018,José,García,Ruminot,279,779,4,Partido Renovación Nacional,15ª Circunscripción Sur,term_same_chamber,1113
+346,senate,LIV,2014-2018,Juan Antonio,Coloma,Correa,1778,820,10,Partido Unión Demócrata Independiente,10ª Circunscripción,term_same_chamber,1143
+365,senate,LIV,2014-2018,Juan Pablo,Letelier,Morel,2605,863,13,Partido Socialista de Chile,9ª Circunscripción (2014 - 2018),term_same_chamber,967
+385,senate,LIV,2014-2018,Lily,Pérez,San Martín,2581,907,,,5ª Circunscripción Cordillera,term_same_chamber,1125
+403,senate,LIV,2014-2018,Manuel José,Ossandón,Irarrázabal,4521,932,4,Partido Renovación Nacional,Circunscripción N° 8 (2014 - 2018),term_same_chamber,1120
+404,senate,LIV,2014-2018,Manuel Antonio,Matta,Aragay,3292,935,6,Partido Demócrata Cristiano,11ª Circunscripción Sur,term_same_chamber,746
+450,senate,LIV,2014-2018,Isabel,Allende,Bussi,3494,1037,13,Partido Socialista de Chile,3ª Circunscripción,term_same_chamber,1056
+510,senate,LIV,2014-2018,Patricio,Walker,Prieto,802,1157,6,Partido Demócrata Cristiano,18ª Circunscripción,term_same_chamber,1118
+515,senate,LIV,2014-2018,Pedro,Araya,Guerrero,339,1170,,,Circunscripción N° 2,term_same_chamber,1071
+521,senate,LIV,2014-2018,Rabindranath,Quinteros,Lara,4519,1189,13,Partido Socialista de Chile,17ª Circunscripción (2014 - 2018),term_same_chamber,1196
+545,senate,LIV,2014-2018,Ricardo,Lagos,Weber,3099,1244,2,Partido Por la Democracia,6ª Circunscripción Costa,term_same_chamber,989
+622,senate,LIV,2014-2018,Víctor,Pérez,Varela,963,1421,10,Partido Unión Demócrata Independiente,13ª Circunscripción (2014 - 2018),term_same_chamber,975
+1,senate,LV,2018-2022,Adriana,Muñoz,D' Albora,2600,6,2,Partido Por la Democracia,5ª Circunscripción (2018 - 2022),term_same_chamber,772
+11,senate,LV,2018-2022,Alejandro,García Huidobro,Sanfuentes,2571,42,10,Partido Unión Demócrata Independiente,8ª Circunscripción (2018 - 2022),term_same_chamber,911
+15,senate,LV,2018-2022,Alejandro,Navarro,Brain,3688,52,,,10ª Circunscripción (2018 - 2022),term_same_chamber,711
+16,senate,LV,2018-2022,Alejandro,Guillier,Álvarez,4512,55,,,Circunscripción N° 3 (2018 - 2022),term_same_chamber,819
+20,senate,LV,2018-2022,Alfonso,De Urresti,Longton,1925,66,13,Partido Socialista de Chile,12ª Circunscripción (2018-2022),term_same_chamber,750
+27,senate,LV,2018-2022,Andrés,Allamand,Zavala,2056,79,4,Partido Renovación Nacional,7ª Circunscripción (2018-2022),term_same_chamber,337
+66,senate,LV,2018-2022,Carlos,Bianchi,Chelech,1274,174,,,15ª Circunscripción (2018-2022),term_same_chamber,736
+77,senate,LV,2018-2022,Carlos,Montes,Cisternas,1667,207,13,Partido Socialista de Chile,7ª Circunscripción (2018 - 2022),term_same_chamber,876
+86,senate,LV,2018-2022,Carmen Gloria,Aravena,Acuña,4593,227,,,11ª Circunscripción,term_same_chamber,936
+88,senate,LV,2018-2022,Carolina,Goic,Boroevic,1706,231,6,Partido Demócrata Cristiano,15ª Circunscripción (2018 - 2022),term_same_chamber,833
+100,senate,LV,2018-2022,Claudio,Alvarado,Andrade,1,255,10,Partido Unión Demócrata Independiente,16ª Circunscripción (2018 - 2022),term_same_chamber,480
+130,senate,LV,2018-2022,David,Sandoval,Plaza,1646,310,10,Partido Unión Demócrata Independiente,14a Circunscripción,term_same_chamber,975
+151,senate,LV,2018-2022,Ena,Von Baer,Jahn,4016,357,10,Partido Unión Demócrata Independiente,12ª Circunscripción (2018 - 2022),term_same_chamber,774
+182,senate,LV,2018-2022,Felipe,Harboe,Bascuñán,862,420,2,Partido Por la Democracia,10º Circunscripción (2018-2022),term_same_chamber,407
+183,senate,LV,2018-2022,Felipe,Kast,Sommerhoff,4030,423,28,Partido Evolución Política (Evópoli),11° Circunscripción,term_same_chamber,612
+195,senate,LV,2018-2022,Francisco,Chahuán,Chahuán,685,457,4,Partido Renovación Nacional,6ª Circunscripción,term_same_chamber,880
+196,senate,LV,2018-2022,Francisco,Huenchumilla,Jaramillo,71,462,6,Partido Demócrata Cristiano,11ª Circunscripción,term_same_chamber,778
+228,senate,LV,2018-2022,Guido,Girardi,Lavín,1961,538,2,Partido Por la Democracia,7ª Circunscripción,term_same_chamber,609
+272,senate,LV,2018-2022,Iván,Moreira,Barros,1713,632,10,Partido Unión Demócrata Independiente,13ª Circunscripción (2018-2022),term_same_chamber,784
+274,senate,LV,2018-2022,Jacqueline,Van Rysselberghe,Herrera,4514,636,10,Partido Unión Demócrata Independiente,10ª Circunscripción (2018 - 2022),term_same_chamber,509
+287,senate,LV,2018-2022,Jaime,Quintana,Leal,1570,670,2,Partido Por la Democracia,11ª Circunscripción,term_same_chamber,732
+301,senate,LV,2018-2022,Jorge,Soria,Quiroga,4619,703,2,Partido Por la Democracia,2ª Circunscripción,term_same_chamber,762
+317,senate,LV,2018-2022,Jorge,Pizarro,Soto,218,745,6,Partido Demócrata Cristiano,5ª Circunscripción (2018 - 2022),term_same_chamber,843
+328,senate,LV,2018-2022,José,García,Ruminot,279,778,4,Partido Renovación Nacional,11ª Circunscripción,term_same_chamber,925
+334,senate,LV,2018-2022,José Miguel,Durana,Semir,4634,789,10,Partido Unión Demócrata Independiente,1ª Circunscripción,term_same_chamber,1024
+336,senate,LV,2018-2022,José Miguel,Insulza,Salinas,4141,792,13,Partido Socialista de Chile,1ª Circunscripción,term_same_chamber,891
+346,senate,LV,2018-2022,Juan Antonio,Coloma,Correa,1778,819,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,919
+351,senate,LV,2018-2022,Juan,Castro,Prieto,4588,831,29,Partido Social Cristiano,9ª Circunscripción,term_same_chamber,929
+355,senate,LV,2018-2022,Juan Ignacio,Latorre,Riveros,4606,837,15,Partido Frente Amplio,6ª Circunscripción,term_same_chamber,1016
+365,senate,LV,2018-2022,Juan Pablo,Letelier,Morel,2605,862,13,Partido Socialista de Chile,8ª Circunscripción (2018 - 2022),term_same_chamber,818
+377,senate,LV,2018-2022,Kenneth,Pugh,Olavarría,4620,886,,,6ª Circunscripción,term_same_chamber,953
+400,senate,LV,2018-2022,Luz Eliana,Ebensperger,Orrego,4589,926,10,Partido Unión Demócrata Independiente,2ª Circunscripción,term_same_chamber,975
+403,senate,LV,2018-2022,Manuel José,Ossandón,Irarrázabal,4521,931,4,Partido Renovación Nacional,7ª Circunscripción (2018 - 2022),term_same_chamber,788
+407,senate,LV,2018-2022,Marcela,Sabat,Fernández,2073,948,4,Partido Renovación Nacional,7ª Circunscripción (2018-2022),term_same_chamber,315
+450,senate,LV,2018-2022,Isabel,Allende,Bussi,3494,1036,13,Partido Socialista de Chile,6ª Circunscripción,term_same_chamber,883
+453,senate,LV,2018-2022,Loreto,Carvajal,Ambiado,4539,1045,2,Partido Por la Democracia,16ª Circunscripción (2018-2022),term_same_chamber,181
+515,senate,LV,2018-2022,Pedro,Araya,Guerrero,339,1169,,,Circunscripción N° 3,term_same_chamber,642
+521,senate,LV,2018-2022,Rabindranath,Quinteros,Lara,4519,1188,13,Partido Socialista de Chile,13ª Circunscripción (2018 - 2022),term_same_chamber,882
+524,senate,LV,2018-2022,Rafael,Prohens,Espinosa,4591,1193,4,Partido Renovación Nacional,4ª Circunscripción,term_same_chamber,818
+545,senate,LV,2018-2022,Ricardo,Lagos,Weber,3099,1243,2,Partido Por la Democracia,6ª Circunscripción,term_same_chamber,740
+560,senate,LV,2018-2022,Rodrigo,Galilea,Vial,4633,1277,4,Partido Renovación Nacional,9ª Circunscripción,term_same_chamber,806
+622,senate,LV,2018-2022,Víctor,Pérez,Varela,963,1420,10,Partido Unión Demócrata Independiente,10ª Circunscripción (2018 - 2022),term_same_chamber,391
+626,senate,LV,2018-2022,Ximena,Ordenes,Neira,4592,1429,,,14ª Circunscripción,term_same_chamber,993
+627,senate,LV,2018-2022,Ximena,Rincón,González,2362,1430,27,Partido Demócratas Chile,9ª Circunscripción,term_same_chamber,875
+630,senate,LV,2018-2022,Yasna,Provoste,Campillay,4323,1437,6,Partido Demócrata Cristiano,4ª Circunscripción,term_same_chamber,935
+633,senate,LV,2018-2022,Álvaro,Elizalde,Soto,4584,1442,13,Partido Socialista de Chile,9ª Circunscripción,term_same_chamber,938
+10,senate,LVI,2022-2026,Alejandra,Sepúlveda,Orbenes,2717,36,,,8ª Circunscripción,term_same_chamber,1054
+13,senate,LVI,2022-2026,Alejandro,Kusanovic,Glusevic,5197,47,,,15ª Circunscripción,term_same_chamber,851
+20,senate,LVI,2022-2026,Alfonso,De Urresti,Longton,1925,65,13,Partido Socialista de Chile,12ª Circunscripción,term_same_chamber,823
+75,senate,LVI,2022-2026,Carlos Ignacio,Kuschel,Silva,3069,198,4,Partido Renovación Nacional,13ª Circunscripción,term_same_chamber,906
+86,senate,LVI,2022-2026,Carmen Gloria,Aravena,Acuña,4593,227,,,11ª Circunscripción,term_same_chamber,829
+99,senate,LVI,2022-2026,Claudia,Pascual,Grau,5193,250,7,Partido Comunista de Chile,7ª Circunscripción,term_same_chamber,1049
+121,senate,LVI,2022-2026,Daniel,Núñez,Arancibia,4513,293,7,Partido Comunista de Chile,5ª Circunscripción,term_same_chamber,837
+130,senate,LVI,2022-2026,David,Sandoval,Plaza,1646,310,10,Partido Unión Demócrata Independiente,14a Circunscripción,term_same_chamber,1003
+158,senate,LVI,2022-2026,Enrique,Van Rysselberghe,Herrera,2128,377,10,Partido Unión Demócrata Independiente,10ª Circunscripción,term_same_chamber,977
+166,senate,LVI,2022-2026,Esteban,Velásquez,Núñez,4599,388,8,Federación Regionalista Verde Social,3a Circunscripción,term_same_chamber,854
+175,senate,LVI,2022-2026,Fabiola,Campillai,Rojas,5195,410,,,7ª Circunscripción,term_same_chamber,639
+183,senate,LVI,2022-2026,Felipe,Kast,Sommerhoff,4030,423,28,Partido Evolución Política (Evópoli),11° Circunscripción,term_same_chamber,478
+191,senate,LVI,2022-2026,Fidel,Espinoza,Sandoval,1438,449,13,Partido Socialista de Chile,13ª Circunscripción,term_same_chamber,602
+195,senate,LVI,2022-2026,Francisco,Chahuán,Chahuán,685,457,4,Partido Renovación Nacional,6ª Circunscripción,term_same_chamber,849
+196,senate,LVI,2022-2026,Francisco,Huenchumilla,Jaramillo,71,462,6,Partido Demócrata Cristiano,11ª Circunscripción,term_same_chamber,581
+214,senate,LVI,2022-2026,Gastón,Saavedra,Chandía,4601,505,13,Partido Socialista de Chile,10ª Circunscripción,term_same_chamber,946
+234,senate,LVI,2022-2026,Gustavo,Sanhueza,Dueñas,4623,554,10,Partido Unión Demócrata Independiente,16ª Circunscripción,term_same_chamber,936
+268,senate,LVI,2022-2026,Iván,Flores,García,4530,618,6,Partido Demócrata Cristiano,12ª Circunscripción,term_same_chamber,724
+272,senate,LVI,2022-2026,Iván,Moreira,Barros,1713,631,10,Partido Unión Demócrata Independiente,13ª Circunscripción,term_same_chamber,915
+287,senate,LVI,2022-2026,Jaime,Quintana,Leal,1570,670,2,Partido Por la Democracia,11ª Circunscripción,term_same_chamber,642
+290,senate,LVI,2022-2026,Javier,Macaya,Danús,2281,679,10,Partido Unión Demócrata Independiente,8ª Circunscripción,term_same_chamber,730
+301,senate,LVI,2022-2026,Jorge,Soria,Quiroga,4619,703,2,Partido Por la Democracia,2ª Circunscripción,term_same_chamber,318
+328,senate,LVI,2022-2026,José,García,Ruminot,279,778,4,Partido Renovación Nacional,11ª Circunscripción,term_same_chamber,939
+331,senate,LVI,2022-2026,Rojo,Edwards,Silva,187,785,,,7ª Circunscripción,term_same_chamber,641
+334,senate,LVI,2022-2026,José Miguel,Durana,Semir,4634,789,10,Partido Unión Demócrata Independiente,1ª Circunscripción,term_same_chamber,1011
+336,senate,LVI,2022-2026,José Miguel,Insulza,Salinas,4141,792,13,Partido Socialista de Chile,1ª Circunscripción,term_same_chamber,845
+346,senate,LVI,2022-2026,Juan Antonio,Coloma,Correa,1778,819,10,Partido Unión Demócrata Independiente,9ª Circunscripción,term_same_chamber,945
+351,senate,LVI,2022-2026,Juan,Castro,Prieto,4588,831,29,Partido Social Cristiano,9ª Circunscripción,term_same_chamber,690
+355,senate,LVI,2022-2026,Juan Ignacio,Latorre,Riveros,4606,837,15,Partido Frente Amplio,6ª Circunscripción,term_same_chamber,1010
+359,senate,LVI,2022-2026,Juan Luis,Castro,González,3399,847,13,Partido Socialista de Chile,8ª Circunscripción,term_same_chamber,643
+372,senate,LVI,2022-2026,Karim,Bianchi,Retamales,4605,876,,,15ª Circunscripción,term_same_chamber,538
+377,senate,LVI,2022-2026,Kenneth,Pugh,Olavarría,4620,886,,,6ª Circunscripción,term_same_chamber,923
+388,senate,LVI,2022-2026,Luciano,Cruz-Coke,Carvallo,4569,911,28,Partido Evolución Política (Evópoli),7ª Circunscripción,term_same_chamber,618
+400,senate,LVI,2022-2026,Luz Eliana,Ebensperger,Orrego,4589,926,10,Partido Unión Demócrata Independiente,2ª Circunscripción,term_same_chamber,1039
+403,senate,LVI,2022-2026,Manuel José,Ossandón,Irarrázabal,4521,930,4,Partido Renovación Nacional,7ª Circunscripción,term_same_chamber,796
+450,senate,LVI,2022-2026,Isabel,Allende,Bussi,3494,1036,13,Partido Socialista de Chile,6ª Circunscripción,term_same_chamber,494
+451,senate,LVI,2022-2026,María José,Gatica,Bertín,5196,1038,4,Partido Renovación Nacional,12ª Circunscripción,term_same_chamber,646
+453,senate,LVI,2022-2026,Loreto,Carvajal,Ambiado,4539,1044,1,Partido por la Democracia,16ª Circunscripción,term_same_chamber,591
+462,senate,LVI,2022-2026,Matías,Walker,Prieto,3735,1059,27,Partido Demócratas Chile,5ª Circunscripción,term_same_chamber,932
+512,senate,LVI,2022-2026,Paulina,Núñez,Urrutia,4542,1161,19,Renovación Nacional,3a Circunscripción,term_same_chamber,386
+513,senate,LVI,2022-2026,Paulina,Vodanovic,Rojas,5303,1162,13,Partido Socialista de Chile,9ª Circunscripción,term_same_chamber,386
+515,senate,LVI,2022-2026,Pedro,Araya,Guerrero,339,1168,,,Circunscripción N° 3,term_same_chamber,589
+524,senate,LVI,2022-2026,Rafael,Prohens,Espinosa,4591,1193,4,Partido Renovación Nacional,4ª Circunscripción,term_same_chamber,840
+545,senate,LVI,2022-2026,Ricardo,Lagos,Weber,3099,1243,2,Partido Por la Democracia,6ª Circunscripción,term_same_chamber,678
+560,senate,LVI,2022-2026,Rodrigo,Galilea,Vial,4633,1277,4,Partido Renovación Nacional,9ª Circunscripción,term_same_chamber,690
+578,senate,LVI,2022-2026,Sebastián,Keitel,Bianchi,4577,1312,,,10ª Circunscripción,term_same_chamber,784
+583,senate,LVI,2022-2026,Sergio,Gahona,Salazar,4504,1325,23,Unión Demócrata Independiente,5ª Circunscripción,term_same_chamber,583
+603,senate,LVI,2022-2026,Tomás,De Rementería,Venegas,5222,1381,13,Partido Socialista de Chile,6ª Circunscripción,term_same_chamber,312
+626,senate,LVI,2022-2026,Ximena,Ordenes,Neira,4592,1429,,,14ª Circunscripción,term_same_chamber,912
+627,senate,LVI,2022-2026,Ximena,Rincón,González,2362,1430,27,Partido Demócratas Chile,9ª Circunscripción,term_same_chamber,768
+630,senate,LVI,2022-2026,Yasna,Provoste,Campillay,4323,1437,6,Partido Demócrata Cristiano,4ª Circunscripción,term_same_chamber,877
+633,senate,LVI,2022-2026,Álvaro,Elizalde,Soto,4584,1442,13,Partido Socialista de Chile,9ª Circunscripción,term_same_chamber,225

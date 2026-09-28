@@ -1,0 +1,68 @@
+surname_key,source,match,cell
+PORTALES,censo1874_top_quartile,full_cell,Portales 
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+PORTALES,censo1874_top_quartile,full_cell,Portales
+COX,censo1874_top_quartile,full_cell,Cox
+DOMINGUEZ,censo1874_top_quartile,full_cell,Dominguez
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+PORTALES,censo1874_top_quartile,full_cell,Portales
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+PORTALES,censo1874_top_quartile,full_cell,Portales
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+SANTA CRUZ,censo1874_top_quartile,full_cell,Santa Cruz
+PORTALES,censo1874_top_quartile,full_cell,Portales 
+PORTALES,censo1874_top_quartile,full_cell,Portales 
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+GREZ,censo1874_top_quartile,full_cell,Grez
+BALMACEDA,censo1874_top_quartile,full_cell,Balmaceda
+GREZ,censo1874_top_quartile,full_cell,Grez
+GREZ,censo1874_top_quartile,full_cell,Grez
+GANA,censo1874_top_quartile,full_cell,Gana
+GREZ,censo1874_top_quartile,full_cell,Grez
+GANA,censo1874_top_quartile,token,Urzua de Gana
+GANA,censo1874_top_quartile,full_cell,Gana
+GREZ,censo1874_top_quartile,full_cell,Grez 
+GREZ,censo1874_top_quartile,full_cell,Grez
+GREZ,censo1874_top_quartile,full_cell,Grez
+GREZ,censo1874_top_quartile,full_cell,Grez
+GREZ,censo1874_top_quartile,full_cell,Grez
+NOGUERA,censo1874_top_quartile,full_cell,Noguera
+NOGUERA,censo1874_top_quartile,full_cell,Noguera
+DOMINGUEZ,censo1874_top_quartile,full_cell,Dominguez
+COX,censo1874_top_quartile,full_cell,Cox
+COX,censo1874_top_quartile,full_cell,Cox
+BULNES,censo1874_top_quartile,full_cell,Bulnes
+BULNES,censo1874_top_quartile,full_cell,Bulnes
+DOMINGUEZ,censo1874_top_quartile,full_cell,Dominguez
+BULNES,censo1874_top_quartile,full_cell,Bulnes
+BULNES,censo1874_top_quartile,full_cell,Bulnes
+GANA,censo1874_top_quartile,full_cell,Gana
+GARCIA HUIDOBRO,xlsx:Nob,full_cell,García Huidobro 
+GARCIA HUIDOBRO,xlsx:Nob,full_cell,García Huidobro 
+BALMACEDA,xlsx:Nob,token,Balmaceda entail 
+BALMACEDA,xlsx:Nob,token,Fernández de Balmaceda 
+PORTALES,xlsx:Merch2,token,Diego Portales
+BALMACEDA,xlsx:Merch2,token,José Fernández de Balmaceda
+GANA,xlsx:$$$,token,José Díaz Gana
+BALMACEDA,xlsx:$$$,token,50- Encarnacion Fernandez de Balmaceda
+GANA,xlsx:$$$,token,23-Jose Diaz Gana
+BALMACEDA,xlsx:$$$,token,Encarnación Fernández de Balmaceda
+BALMACEDA,xlsx:$$$,token,ncarnaci6n Fernandez de Balmaceda 
+BALMACEDA,xlsx:SA,token,José Manuel Balmaceda
+BALMACEDA,xlsx:SA,token,Manuel José Balmaceda
+PASCUAL,xlsx:SA3,token,Francisco Pascual Álvarez
+PASCUAL,xlsx:SA4,token,Francisco Pascual Álvarez
+SALVADOR,xlsx:FF,token,Salvador Castro Castro-1852(5) 
+SALVADOR,xlsx:FF,token,Salvador Concha Vergara-1855(1) 
+GANA,xlsx:FF,token,Juan de Dios Fernandez Gana-1852(2) 
+PORTALES,xlsx:FF,token,Manuel Eyzaguirre Portales-1855(25) 
+JAMES,xlsx:FF,token,James Heywood-6/69 (58)-1873 (61) 
+SALVADOR,xlsx:FF,token,Salvador Sanfuentes Torres-1855(5)-1860(2) 
+GREZ,xlsx:FF,token,Grez y Cia. (Juan Manuel representative)-1855(1) 
+BALMACEDA,xlsx:Terra,token,Balmaceda Manuel
+SALVADOR,xlsx:mines,token,Alvarez Salvador

@@ -7,21 +7,27 @@ multiplicity can be stated honestly (the cluster-robust theme test is the headli
 Inputs : data/processed/theme_effects.csv  (theme-level, cluster-robust by legislator)
          output/table1_topic_coefs_298.csv  (80 topic-level coefs + p, doc-level)
          data/processed/topic_theme_map.csv
-Output : ../paper/tables/table_stm_themes.tex  (bare tabular, INV-13)
+Output : tables/table_stm_themes.tex  (bare tabular, INV-13), published to ../paper/tables
+         if that tree exists (R&R 2026: not included in the paper; Table 1 comes from 39)
          data/processed/stm_theme_summary.csv
 No stochastic element -> no seed needed (INV-14)."""
 import pandas as pd, numpy as np
+from pathlib import Path
+import sys
 from scipy import stats
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _measure_helpers import DATA, OUTPUT, TABLES, publish  # noqa: E402
+
 # ---- theme-level (cluster-robust) effects ----
-th = pd.read_csv("data/processed/theme_effects.csv")
+th = pd.read_csv(DATA / "theme_effects.csv")
 th["elite_t"] = th.elite / th.elite_se
 th["comun_t"] = th.comun / th.comun_se
 th["elite_p"] = 2 * (1 - stats.norm.cdf(th.elite_t.abs()))
 th["comun_p"] = 2 * (1 - stats.norm.cdf(th.comun_t.abs()))
 th["contrast"] = th.elite - th.comun            # elite minus common emphasis (pts)
 th = th.sort_values("contrast")                 # common-leaning (neg) -> elite-leaning (pos)
-th.to_csv("data/processed/stm_theme_summary.csv", index=False)
+th.to_csv(DATA / "stm_theme_summary.csv", index=False)
 
 print("[N4] theme-level elite vs common contrast (cluster-robust by legislator):")
 for r in th.itertuples():
@@ -30,7 +36,7 @@ for r in th.itertuples():
           f"common={r.comun:+.2f} (p={r.comun_p:.3f})  contrast={r.contrast:+.2f} -> {lean}")
 
 # ---- multiplicity among the 80 topics (doc-level, no clustering) ----
-tp = pd.read_csv("output/table1_topic_coefs_298.csv")
+tp = pd.read_csv(OUTPUT / "table1_topic_coefs_298.csv")
 n_topics = len(tp)
 for a in [0.05, 0.01]:
     sig_e = int((tp.p_elite < a).sum()); sig_c = int((tp.p_comun < a).sum())
@@ -66,6 +72,8 @@ for r in th.itertuples():
         f"{theme} & {r.elite:+.2f}{star_from_p(r.elite_p)} & "
         f"{r.comun:+.2f}{star_from_p(r.comun_p)} & {r.contrast:+.2f} \\\\")
 lines += ["\\bottomrule", "\\end{tabular}"]
-with open("../paper/tables/table_stm_themes.tex", "w") as f:
+DST = TABLES / "table_stm_themes.tex"
+with open(DST, "w") as f:
     f.write("\n".join(lines) + "\n")
-print("[N4] wrote ../paper/tables/table_stm_themes.tex")
+print(f"[N4] wrote {DST}")
+publish(DST, "tables")

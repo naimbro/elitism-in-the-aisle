@@ -10,6 +10,8 @@ RAW_DATA_ROOT = Path(os.environ.get("RAW_DATA_ROOT", REPO.parent))
 DATOS_ROOT = Path(os.environ.get("DATOS_ROOT", RAW_DATA_ROOT.parent.parent))
 # 2020 electoral padron with imputed NSE per surname (NOT shipped in the repo).
 F=str(DATOS_ROOT / "geo_padron" / "geo_padron_2020" / "padron_2020_nse_surnames.csv")
+if not os.path.exists(F):   # R&R round 2: non-redistributed input absent -> exit 3 (SKIP in 00_run_all.sh)
+    print(f"[SKIP] 2020 padron not found (not redistributed): {F}"); raise SystemExit(3)
 agg=collections.defaultdict(lambda:[0,0.0,0])   # surname -> [n_occ, sum_nse, n_nse]
 def clean(series):
     return (series.astype(str).str.normalize("NFKD").str.encode("ascii","ignore")

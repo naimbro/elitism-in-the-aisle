@@ -5,11 +5,12 @@ marker, and the 1925/Congress-closed cues) and additionally (i) deposits the fig
 ../paper/figures and (ii) writes the M3 'other'-trajectory CSV. Keep this in sync with 04:
 any change to the figure must be made in both.
 Inputs : data/processed/cong_df.csv, enduring_elite_FINAL.csv, pop_prevalence_by_year.csv
-Output : ../paper/figures/figure2_dynamic.pdf (+ .png)   [the manuscript figure],
+Output : figures/figure2_dynamic.pdf (+ .png; published to ../paper/figures if present) [the manuscript figure],
          figures/figure2_dynamic.pdf (+ .png), output/m3_other_trajectory.csv
 No stochastic element -> no seed needed (INV-14)."""
 import pandas as pd, numpy as np, unicodedata
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
+from _measure_helpers import publish
 
 def dac(s): return unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().upper().strip()
 ELITE = set(pd.read_csv("data/processed/enduring_elite_FINAL.csv").surname.map(dac))
@@ -55,17 +56,17 @@ ax.legend(frameon=False, fontsize=9, loc="center left", bbox_to_anchor=(1.01, 0.
 for s in ["top", "right"]:
     ax.spines[s].set_visible(False)
 fig.tight_layout()
-fig.savefig("../paper/figures/figure2_dynamic.pdf", bbox_inches="tight")
-fig.savefig("../paper/figures/figure2_dynamic.png", dpi=150, bbox_inches="tight")
 # also refresh the repo copy for consistency
 fig.savefig("figures/figure2_dynamic.pdf", bbox_inches="tight")
 fig.savefig("figures/figure2_dynamic.png", dpi=150, bbox_inches="tight")
+for _ext in ("pdf", "png"):   # R&R round 2: copy to the manuscript tree only if it exists
+    publish(f"figures/figure2_dynamic.{_ext}", "figures")
 def at(s, y): return s.values[s.index.get_indexer([y], method="nearest")[0]]
 def cong(s, y): return s.values[np.where(yrs == y)[0][0]]
 print("[N5] over/under-representation (unchanged numbers):")
 for y in [1900, 1950, 2010]:
     print(f"  {y}: elite {cong(el, y):.0f}% / {at(pe, y):.1f}% = {cong(el, y) / at(pe, y):.0f}x over")
-print("[N5] saved ../paper/figures/figure2_dynamic.pdf with pre-1884 shading")
+print("[N5] saved figures/figure2_dynamic.pdf with pre-1884 shading (published if ../paper exists)")
 
 # ---- M3: "other" Congress trajectory (residual = 100 - elite - common) ----
 print("\n[M3] Congress surname-group shares (smoothed) at benchmark years:")

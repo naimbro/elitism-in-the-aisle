@@ -2,19 +2,22 @@
 Documents which of the 80 STM topics is assigned to each substantive theme, so the
 theme aggregation in Table 1 / appendix is auditable from the paper itself.
 Inputs : data/processed/topic_theme_map.csv  (topic, theme)
-         data/processed/theme_effects.csv     (theme ordering by elite/common emphasis)
-Output : ../paper/tables/table_theme_crosswalk.tex  (bare tabular, INV-13)"""
+Output : ../paper/tables/table_theme_crosswalk.tex  (bare tabular, INV-13)
+R&R 2026 (D19): row order updated to the revised main-text Table 1 (table_themes_two_column.tex,
+script 39), which orders themes by the column (1) no-party-control contrast on the 298 coding.
+Topic assignments are unchanged; only the row order moved."""
 import pandas as pd
 
 m = pd.read_csv("data/processed/topic_theme_map.csv")
 
 # Theme order = the eleven substantive themes in the same order as main-text Table 1
-# (by elite-minus-common contrast, descending), with the residual "Other" bucket last.
+# (by the column (1) elite-minus-common contrast, descending; script 39 output
+# A3_theme_contrasts_both_specs.csv), with the residual "Other" bucket last.
 ORDER = [
-    "Elections & parties", "Defense & security", "State administration",
-    "Foreign relations", "Education", "Finance & taxation",
-    "Social welfare & health", "Local government & land", "Justice & law",
-    "Public works", "Labor & industry", "Other",
+    "Elections & parties", "State administration", "Defense & security",
+    "Finance & taxation", "Foreign relations", "Education",
+    "Local government & land", "Social welfare & health", "Public works",
+    "Justice & law", "Labor & industry", "Other",
 ]
 
 def fmt_topics(nums):

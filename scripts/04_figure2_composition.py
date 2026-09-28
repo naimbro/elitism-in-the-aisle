@@ -16,10 +16,11 @@ Output : figures/figure2_dynamic.pdf (+ .png)
 No stochastic element -> no seed needed (INV-14). Run from the replication_repo root."""
 import pandas as pd, numpy as np, unicodedata
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
+from _measure_helpers import DATA, FIGURES   # repo-anchored paths (R&R round 3)
 def dac(s): return unicodedata.normalize("NFKD",str(s)).encode("ascii","ignore").decode().upper().strip()
-ELITE=set(pd.read_csv("data/processed/enduring_elite_FINAL.csv").surname.map(dac))
+ELITE=set(pd.read_csv(DATA / "enduring_elite_FINAL.csv").surname.map(dac))
 COMMON=set('GONZALEZ MUNOZ DIAZ ROJAS PEREZ SILVA SOTO MARTINEZ LOPEZ MORALES CONTRERAS RODRIGUEZ SEPULVEDA FUENTES VALENZUELA RAMIREZ ESPINOZA REYES HERNANDEZ GUTIERREZ FLORES CASTRO TORRES SANCHEZ VASQUEZ CASTILLO FERNANDEZ ARAYA HERRERA VARGAS NUNEZ ALVAREZ CARRASCO GOMEZ BRAVO VERGARA GARCIA TAPIA JARA ZUNIGA ORELLANA FIGUEROA MIRANDA RIQUELME CAMPOS MOLINA RIVERA GUZMAN SANDOVAL ORTIZ'.split())
-d=pd.read_csv("data/processed/cong_df.csv"); d["S"]=pd.to_numeric(d.Start,errors="coerce"); d["E"]=pd.to_numeric(d.End,errors="coerce")
+d=pd.read_csv(DATA / "cong_df.csv"); d["S"]=pd.to_numeric(d.Start,errors="coerce"); d["E"]=pd.to_numeric(d.End,errors="coerce")
 d=d.dropna(subset=["S","E"]); pat=d.Pat.map(dac); mat=d.Mat.map(dac)
 ie=(pat.isin(ELITE)|mat.isin(ELITE)).values
 ic=((~ie)&(pat.isin(COMMON)|mat.isin(COMMON))).values
@@ -32,7 +33,7 @@ def ser(f):
         o.append(100*f[m].sum()/n if n>=5 else np.nan)     # NaN when Congress closed/empty
     return pd.Series(o).rolling(5,center=True,min_periods=3).mean()
 el,co,ot=ser(ie),ser(ic),ser(io)
-pop=pd.read_csv("data/processed/pop_prevalence_by_year.csv")
+pop=pd.read_csv(DATA / "pop_prevalence_by_year.csv")
 pe=pop.set_index("year").pct_elite.rolling(7,center=True,min_periods=1).mean()
 pc=pop.set_index("year").pct_common.rolling(7,center=True,min_periods=1).mean()
 # M3 symmetry: population reference for the residual "other" group (= 100 - elite - common).
@@ -57,8 +58,8 @@ ax.set_xlim(1830,2020); ax.set_ylim(0,100)               # M3: raise ylim so the
 ax.legend(frameon=False,fontsize=9,loc="center left",bbox_to_anchor=(1.01,0.5)); ax.grid(alpha=.25,lw=.5)
 for s in ["top","right"]: ax.spines[s].set_visible(False)
 fig.tight_layout()
-fig.savefig("figures/figure2_dynamic.png",dpi=150,bbox_inches="tight")
-fig.savefig("figures/figure2_dynamic.pdf",bbox_inches="tight")
+fig.savefig(FIGURES / "figure2_dynamic.png",dpi=150,bbox_inches="tight")
+fig.savefig(FIGURES / "figure2_dynamic.pdf",bbox_inches="tight")
 def at(s,y): return s.values[s.index.get_indexer([y],method="nearest")[0]]
 def cong(s,y): return s.values[np.where(yrs==y)[0][0]]
 print("OVER/UNDER-representation  (Congress share / population share):")

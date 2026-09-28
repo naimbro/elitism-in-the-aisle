@@ -8,12 +8,12 @@ SUBSET of the unconditional list, the enduring-elite trend is a LOWER bound on e
 elite presence.
 Inputs : data/processed/cong_df.csv, enduring_elite_FINAL.csv, surname_nse.csv,
          1874 censo, elite-network xlsx (via _measure_helpers).
-Outputs: ../paper/figures/figure_survivorship_bound.pdf (+ .png)
+Outputs: figures/figure_survivorship_bound.pdf (+ .png; published to ../paper/figures if present)
          data/processed/survivorship_series.csv
 No stochastic element -> no seed needed (INV-14)."""
 import pandas as pd, numpy as np, unicodedata
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
-from _measure_helpers import dac, build_hist, load_ses, build_list
+from _measure_helpers import dac, build_hist, load_ses, build_list, publish
 
 # ---- enduring (published) list ----
 ENDUR = set(dac(s) for s in pd.read_csv("data/processed/enduring_elite_FINAL.csv").surname)
@@ -82,6 +82,8 @@ ax.grid(alpha=.25, lw=.5)
 for s in ["top", "right"]:
     ax.spines[s].set_visible(False)
 fig.tight_layout()
-fig.savefig("../paper/figures/figure_survivorship_bound.pdf")
-fig.savefig("../paper/figures/figure_survivorship_bound.png", dpi=150)
+fig.savefig("figures/figure_survivorship_bound.pdf")   # R&R round 2: in-repo, then publish
+fig.savefig("figures/figure_survivorship_bound.png", dpi=150)
+for _ext in ("pdf", "png"):
+    publish(f"figures/figure_survivorship_bound.{_ext}", "figures")
 print("[N2] saved figure_survivorship_bound.pdf")

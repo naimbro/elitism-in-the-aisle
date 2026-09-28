@@ -1,0 +1,351 @@
+audit_no,bio_id,field,hand_value,extracted_value,auto_category,needs_verdict,category,overridden,judgement
+1,PATRICIO_LETELIER_SILVA,secondary_school,Liceo de Hombres de Talca,Liceo de Hombres de Talca,exact,False,exact,False,False
+1,PATRICIO_LETELIER_SILVA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+1,PATRICIO_LETELIER_SILVA,father_surname_paternal,Letelier,Letelier,exact,False,exact,False,False
+1,PATRICIO_LETELIER_SILVA,spouse_surnames,,,correct_null,False,correct_null,False,False
+1,PATRICIO_LETELIER_SILVA,birth_year,,,correct_null,False,correct_null,False,False
+1,PATRICIO_LETELIER_SILVA,death_year,,,correct_null,False,correct_null,False,False
+1,PATRICIO_LETELIER_SILVA,elite_club,0,False,correct_null,False,correct_null,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,secondary_school,,,correct_null,False,correct_null,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,university,Universidad del Estado,Universidad del Estado,exact,False,exact,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,father_surname_paternal,Torres,Torres,exact,False,exact,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,spouse_surnames,Boonen,Boonen Rivera,wrong,False,partial,True,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,birth_year,1848,1848,exact,False,exact,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,death_year,1888,1888,exact,False,exact,False,False
+2,TOMAS_ROBERTO_TORRES_ECHAVARRIA,elite_club,0,False,correct_null,False,correct_null,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,secondary_school,Liceo de Hombres de Concepción,Liceo de Hombres de Concepción,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,university,Instituto Nacional,Instituto Nacional,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,father_surname_paternal,Sanhueza,Sanhueza,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,spouse_surnames,Novoa,Novoa,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,birth_year,1823,1823,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,death_year,1891,1891,exact,False,exact,False,False
+3,VIRGINIO_SANHUEZA_VASQUEZ_NOVOA,elite_club,1,False,miss,False,miss,False,True
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,secondary_school,Colegio San Luis de Quillota,Colegio San Luis de Quillota,exact,False,exact,False,False
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,university,,Universidad del Estado,hallucinated,False,hallucinated,False,True
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,father_surname_paternal,Rodríguez,Rodríguez,exact,False,exact,False,False
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,spouse_surnames,Rozas,Rozas,exact,False,exact,False,False
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,birth_year,1849,1849,exact,False,exact,False,False
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,death_year,1901,1901,exact,False,exact,False,False
+4,ZOROBABEL_RODRIGUEZ_BENAVIDES,elite_club,0,False,correct_null,False,correct_null,False,False
+5,EDUARDO_CASTILLO_VICUNA,secondary_school,Colegio San Ignacio,Colegio San Ignacio,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,father_surname_paternal,Castillo,Castillo,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,spouse_surnames,Sánchez,Sánchez,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,birth_year,1861,1861,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,death_year,1930,1930,exact,False,exact,False,False
+5,EDUARDO_CASTILLO_VICUNA,elite_club,0,False,correct_null,False,correct_null,False,False
+6,FRANCISCO_PUELMA_TUPPER,secondary_school,,,correct_null,False,correct_null,False,False
+6,FRANCISCO_PUELMA_TUPPER,university,,Universidad de Chile,hallucinated,False,hallucinated,False,True
+6,FRANCISCO_PUELMA_TUPPER,father_surname_paternal,Puelma,Puelma,exact,False,exact,False,False
+6,FRANCISCO_PUELMA_TUPPER,spouse_surnames,Yunge,Yunge,exact,False,exact,False,False
+6,FRANCISCO_PUELMA_TUPPER,birth_year,1850,1850,exact,False,exact,False,False
+6,FRANCISCO_PUELMA_TUPPER,death_year,1933,1933,exact,False,exact,False,False
+6,FRANCISCO_PUELMA_TUPPER,elite_club,0,False,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,secondary_school,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,university,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,father_surname_paternal,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,spouse_surnames,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,birth_year,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,death_year,,,correct_null,False,correct_null,False,False
+7,JOSE_NICOLAS_TOCORNAL_VELASCO,elite_club,0,False,correct_null,False,correct_null,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,secondary_school,,,correct_null,False,correct_null,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,university,,,correct_null,False,correct_null,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,father_surname_paternal,Castillo,Castillo,exact,False,exact,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,spouse_surnames,Baeza; Astaburuaga,Baeza; Astaburuaga,exact,False,exact,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,birth_year,,,correct_null,False,correct_null,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,death_year,1905,1905,exact,False,exact,False,False
+8,MIGUEL_CASTILLO_ANDUEZA,elite_club,0,False,correct_null,False,correct_null,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,secondary_school,,,correct_null,False,correct_null,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,university,,,correct_null,False,correct_null,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,father_surname_paternal,del Campo,Campo,exact,False,exact,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,spouse_surnames,,,correct_null,False,correct_null,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,birth_year,,,correct_null,False,correct_null,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,death_year,1917,1917,exact,False,exact,False,False
+9,VALENTIN_DEL_CAMPO_YAVAR,elite_club,0,False,correct_null,False,correct_null,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,secondary_school,Liceo de Valdivia,Liceo de Valdivia,exact,False,exact,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,university,,Universidad del Estado,hallucinated,False,hallucinated,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,father_surname_paternal,Pérez de Arce,Pérez de Arce,exact,False,exact,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,spouse_surnames,Adriasola,Adriasola,exact,False,exact,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,birth_year,1845,1845,exact,False,exact,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,death_year,1902,1902,exact,False,exact,False,False
+10,HERMOGENES_PEREZ_DE_ARCE_LOPETEGUI,elite_club,0,False,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,secondary_school,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,university,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,father_surname_paternal,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,spouse_surnames,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,birth_year,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,death_year,,,correct_null,False,correct_null,False,False
+11,JUAN_DE_DIOS_NAVARRO,elite_club,0,False,correct_null,False,correct_null,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,secondary_school,,,correct_null,False,correct_null,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,university,,,correct_null,False,correct_null,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,father_surname_paternal,Rivas,Rivas,exact,False,exact,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,spouse_surnames,Ramírez,Ramírez,exact,False,exact,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,birth_year,,,correct_null,False,correct_null,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,death_year,1922,1922,exact,False,exact,False,False
+12,JUAN_FRANCISCO_RIVAS_CRUZ,elite_club,0,False,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,secondary_school,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,university,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,father_surname_paternal,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,spouse_surnames,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,birth_year,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,death_year,,,correct_null,False,correct_null,False,False
+13,RAMON_VARAS_RECABARREN,elite_club,0,False,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,secondary_school,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,university,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,father_surname_paternal,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,spouse_surnames,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,birth_year,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,death_year,,,correct_null,False,correct_null,False,False
+14,MANUEL_BARTOLOME_PALACIOS_SILVA,elite_club,0,False,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,secondary_school,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,university,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,father_surname_paternal,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,spouse_surnames,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,birth_year,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,death_year,,,correct_null,False,correct_null,False,False
+15,MAXIMILIANO_ROLDAN_ALVAREZ,elite_club,0,False,correct_null,False,correct_null,False,False
+16,RAFAEL_SERRANO_VASQUEZ,secondary_school,,,correct_null,False,correct_null,False,False
+16,RAFAEL_SERRANO_VASQUEZ,university,,,correct_null,False,correct_null,False,False
+16,RAFAEL_SERRANO_VASQUEZ,father_surname_paternal,Serrano,Serrano,exact,False,exact,False,False
+16,RAFAEL_SERRANO_VASQUEZ,spouse_surnames,Vásquez; Reese; Lamas,Vásquez Larenas; Reese Franz; Lamas Benavente,wrong,False,partial,True,False
+16,RAFAEL_SERRANO_VASQUEZ,birth_year,,,correct_null,False,correct_null,False,False
+16,RAFAEL_SERRANO_VASQUEZ,death_year,,,correct_null,False,correct_null,False,False
+16,RAFAEL_SERRANO_VASQUEZ,elite_club,0,False,correct_null,False,correct_null,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,secondary_school,,,correct_null,False,correct_null,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,father_surname_paternal,Rodríguez,Rodríguez,exact,False,exact,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,spouse_surnames,Salcedo,Salcedo,exact,False,exact,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,birth_year,1865,1865,exact,False,exact,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,death_year,1911,1911,exact,False,exact,False,False
+17,RICARDO_RODRIGUEZ_HERRERA,elite_club,0,False,correct_null,False,correct_null,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,secondary_school,Liceo de Concepción,Liceo de Concepción,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,university,Liceo de Concepción,Liceo de Concepción,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,father_surname_paternal,Risopatrón,Risopatrón,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,spouse_surnames,Lamas,Lamas,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,birth_year,1850,1850,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,death_year,1926,1926,exact,False,exact,False,False
+18,CARLOS_VICENTE_RISOPATRON_ARGOMEDO,elite_club,0,False,correct_null,False,correct_null,False,False
+19,HECTOR_CLARO_SALAS,secondary_school,Instituto Nacional,Instituto Nacional,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,father_surname_paternal,Claro,Claro,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,spouse_surnames,Vial,Vial,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,birth_year,1887,1887,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,death_year,1964,1964,exact,False,exact,False,False
+19,HECTOR_CLARO_SALAS,elite_club,0,False,correct_null,False,correct_null,False,False
+20,LUIS_GARNHAM_MORENO,secondary_school,Liceo de Valparaíso,Liceo de Valparaíso,exact,False,exact,False,False
+20,LUIS_GARNHAM_MORENO,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+20,LUIS_GARNHAM_MORENO,father_surname_paternal,Garnham,Garnham,exact,False,exact,False,False
+20,LUIS_GARNHAM_MORENO,spouse_surnames,Lorca,Lorca,exact,False,exact,False,False
+20,LUIS_GARNHAM_MORENO,birth_year,1866,1866,exact,False,exact,False,False
+20,LUIS_GARNHAM_MORENO,death_year,,,correct_null,False,correct_null,False,False
+20,LUIS_GARNHAM_MORENO,elite_club,0,False,correct_null,False,correct_null,False,False
+21,LUIS_VICUNA_CIFUENTES,secondary_school,Liceo de La Serena; Seminario de La Serena,Liceo y Seminario de La Serena,partial,True,exact,True,False
+21,LUIS_VICUNA_CIFUENTES,university,Universidad de Chile,Universidad de Chile (Universidad del Estado),exact,False,exact,False,False
+21,LUIS_VICUNA_CIFUENTES,father_surname_paternal,Vicuña,Vicuña,exact,False,exact,False,False
+21,LUIS_VICUNA_CIFUENTES,spouse_surnames,,,correct_null,False,correct_null,False,False
+21,LUIS_VICUNA_CIFUENTES,birth_year,1873,1873,exact,False,exact,False,False
+21,LUIS_VICUNA_CIFUENTES,death_year,,,correct_null,False,correct_null,False,False
+21,LUIS_VICUNA_CIFUENTES,elite_club,1,True,exact,False,exact,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,secondary_school,Liceo de Temuco; Escuela de Artes y Oficios,Liceo de Temuco,partial,True,partial,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,university,Instituto Pedagógico; Universidad de Chile,Universidad de Chile,partial,True,exact,True,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,father_surname_paternal,Melivilu,Melivilu,exact,False,exact,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,spouse_surnames,Serani,Serani,exact,False,exact,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,birth_year,1882,1882,exact,False,exact,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,death_year,1934,1934,exact,False,exact,False,False
+22,FRANCISCO_MELIVILU_HENRIQUEZ,elite_club,0,False,correct_null,False,correct_null,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,secondary_school,Seminario Conciliar de Santiago; Instituto Nacional,Seminario Conciliar de Santiago e Instituto Nacional,partial,True,exact,True,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,father_surname_paternal,Guerra,Guerra,exact,False,exact,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,spouse_surnames,Larraín,Larraín,exact,False,exact,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,birth_year,1882,1882,exact,False,exact,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,death_year,1947,1947,exact,False,exact,False,False
+23,JORGE_ANDRES_GUERRA_TOLEDO,elite_club,1,True,exact,False,exact,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,secondary_school,,Escuela Santo Tomás de Aquino,hallucinated,False,hallucinated,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,university,,,correct_null,False,correct_null,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,father_surname_paternal,Recabarren,Recabarren,exact,False,exact,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,spouse_surnames,del Canto; Flores,del Canto; Flores,exact,False,exact,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,birth_year,1876,1876,exact,False,exact,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,death_year,1924,1924,exact,False,exact,False,False
+24,LUIS_EMILIO_RECABARREN_SERRANO,elite_club,0,False,correct_null,False,correct_null,False,False
+25,LUIS_SERRANO_ARRIETA,secondary_school,Liceo de Concepción,Liceo de Concepción,exact,False,exact,False,False
+25,LUIS_SERRANO_ARRIETA,university,,,correct_null,False,correct_null,False,False
+25,LUIS_SERRANO_ARRIETA,father_surname_paternal,Serrano,Serrano,exact,False,exact,False,False
+25,LUIS_SERRANO_ARRIETA,spouse_surnames,Infante,Infante,exact,False,exact,False,False
+25,LUIS_SERRANO_ARRIETA,birth_year,1871,1871,exact,False,exact,False,False
+25,LUIS_SERRANO_ARRIETA,death_year,,,correct_null,False,correct_null,False,False
+25,LUIS_SERRANO_ARRIETA,elite_club,0,False,correct_null,False,correct_null,False,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,secondary_school,Colegio de los Sagrados Corazones de Valparaíso; Liceo N°2 de Valparaíso,Colegio de los Sagrados Corazones de Valparaíso / Liceo N°2 de Valparaíso,partial,True,exact,True,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,university,Universidad de Chile,Universidad de Chile de Valparaíso,partial,True,exact,True,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,father_surname_paternal,Ballesteros,Ballesteros,exact,False,exact,False,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,spouse_surnames,,,correct_null,False,correct_null,False,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,birth_year,1931,1931,exact,False,exact,False,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,death_year,,,correct_null,False,correct_null,False,False
+26,HUGO_EUGENIO_BALLESTEROS_REYES,elite_club,0,False,correct_null,False,correct_null,False,False
+27,MARINO_PENNA_MIRANDA,secondary_school,Liceo de Hombres de Ovalle,Liceo de Hombres de Ovalle,exact,False,exact,False,False
+27,MARINO_PENNA_MIRANDA,university,Universidad Técnica Federico Santa María,Universidad Técnica Federico Santa María,exact,False,exact,False,False
+27,MARINO_PENNA_MIRANDA,father_surname_paternal,Penna,Penna,exact,False,exact,False,False
+27,MARINO_PENNA_MIRANDA,spouse_surnames,Gaete,Gaete,exact,False,exact,False,False
+27,MARINO_PENNA_MIRANDA,birth_year,1929,1929,exact,False,exact,False,False
+27,MARINO_PENNA_MIRANDA,death_year,,,correct_null,False,correct_null,False,False
+27,MARINO_PENNA_MIRANDA,elite_club,0,False,correct_null,False,correct_null,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,secondary_school,,,correct_null,False,correct_null,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,father_surname_paternal,Morales,Morales,exact,False,exact,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,spouse_surnames,Flores; Soza,Flores; Soza,exact,False,exact,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,birth_year,1929,1929,exact,False,exact,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,death_year,1999,1999,exact,False,exact,False,False
+28,RAUL_HERNAN_MORALES_ADRIASOLA,elite_club,0,False,correct_null,False,correct_null,False,False
+29,SALOMON_CORBALAN_GONZALEZ,secondary_school,Liceo de Traiguén; Liceo de Temuco,Liceo de Traiguén y Liceo de Temuco,exact,True,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,university,Universidad de Concepción,Universidad de Concepción,exact,False,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,father_surname_paternal,Corbalán,Corbalán,exact,False,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,spouse_surnames,Carrera,Carrera,exact,False,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,birth_year,1925,1925,exact,False,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,death_year,1967,1967,exact,False,exact,False,False
+29,SALOMON_CORBALAN_GONZALEZ,elite_club,0,False,correct_null,False,correct_null,False,False
+30,CARLOS_VICUNA_FUENTES,secondary_school,Liceo de Santiago; Instituto Nacional,"Liceo de Santiago, Instituto Nacional",exact,True,exact,False,False
+30,CARLOS_VICUNA_FUENTES,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+30,CARLOS_VICUNA_FUENTES,father_surname_paternal,Vicuña,Vicuña,exact,False,exact,False,False
+30,CARLOS_VICUNA_FUENTES,spouse_surnames,Lagarrigue,Lagarrigue,exact,False,exact,False,False
+30,CARLOS_VICUNA_FUENTES,birth_year,1886,1886,exact,False,exact,False,False
+30,CARLOS_VICUNA_FUENTES,death_year,1977,1977,exact,False,exact,False,False
+30,CARLOS_VICUNA_FUENTES,elite_club,0,False,correct_null,False,correct_null,False,False
+31,EUGENIO_MATTE_HURTADO,secondary_school,,,correct_null,False,correct_null,False,False
+31,EUGENIO_MATTE_HURTADO,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+31,EUGENIO_MATTE_HURTADO,father_surname_paternal,Matte,Matte,exact,False,exact,False,False
+31,EUGENIO_MATTE_HURTADO,spouse_surnames,,,correct_null,False,correct_null,False,False
+31,EUGENIO_MATTE_HURTADO,birth_year,1895,1895,exact,False,exact,False,False
+31,EUGENIO_MATTE_HURTADO,death_year,1934,1934,exact,False,exact,False,False
+31,EUGENIO_MATTE_HURTADO,elite_club,0,False,correct_null,False,correct_null,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,secondary_school,Colegio de los Padres Franceses,Colegio de los Padres Franceses,exact,False,exact,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,university,,,correct_null,False,correct_null,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,father_surname_paternal,Opazo,Opazo,exact,False,exact,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,spouse_surnames,Palacios,Palacios,exact,False,exact,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,birth_year,1887,1887,exact,False,exact,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,death_year,,,correct_null,False,correct_null,False,False
+32,JOSE_MIGUEL_OPASO_LETELIER,elite_club,1,True,exact,False,exact,False,False
+33,SILVIA_ALESSANDRI_MONTES,secondary_school,Colegio del Sagrado Corazón,Colegio del Sagrado Corazón,exact,False,exact,False,False
+33,SILVIA_ALESSANDRI_MONTES,university,,,correct_null,False,correct_null,False,False
+33,SILVIA_ALESSANDRI_MONTES,father_surname_paternal,Alessandri,Alessandri,exact,False,exact,False,False
+33,SILVIA_ALESSANDRI_MONTES,spouse_surnames,Calvo,Calvo,exact,False,exact,False,False
+33,SILVIA_ALESSANDRI_MONTES,birth_year,1927,1927,exact,False,exact,False,False
+33,SILVIA_ALESSANDRI_MONTES,death_year,,,correct_null,False,correct_null,False,False
+33,SILVIA_ALESSANDRI_MONTES,elite_club,0,False,correct_null,False,correct_null,False,False
+34,CAMILO_PRIETO_CONCHA,secondary_school,Instituto Nacional,Instituto Nacional,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,father_surname_paternal,Prieto,Prieto,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,spouse_surnames,Sánchez,Sánchez,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,birth_year,1897,1897,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,death_year,1965,1965,exact,False,exact,False,False
+34,CAMILO_PRIETO_CONCHA,elite_club,0,False,correct_null,False,correct_null,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,secondary_school,Liceo Alemán,Liceo Alemán,exact,False,exact,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,university,Universidad de Chile; Universidad Católica,Universidades de Chile y Católica,partial,True,exact,True,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,father_surname_paternal,Moyano,Moyano,exact,False,exact,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,spouse_surnames,García,García,exact,False,exact,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,birth_year,1901,1901,exact,False,exact,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,death_year,1951,1951,exact,False,exact,False,False
+35,CARLOS_RENE_MOYANO_FUSCHLOCHER,elite_club,0,False,correct_null,False,correct_null,False,False
+36,JORGE_SANTIBANEZ_CEARDI,secondary_school,Colegio de los Sagrados Corazones de Santiago y Viña del Mar,Colegio de los Sagrados Corazones,partial,True,exact,True,False
+36,JORGE_SANTIBANEZ_CEARDI,university,Universidad Católica de Valparaíso,Universidad Católica de Valparaíso,exact,False,exact,False,False
+36,JORGE_SANTIBANEZ_CEARDI,father_surname_paternal,Santibáñez,Santibáñez,exact,False,exact,False,False
+36,JORGE_SANTIBANEZ_CEARDI,spouse_surnames,,,correct_null,False,correct_null,False,False
+36,JORGE_SANTIBANEZ_CEARDI,birth_year,1934,1934,exact,False,exact,False,False
+36,JORGE_SANTIBANEZ_CEARDI,death_year,2020,2020,exact,False,exact,False,False
+36,JORGE_SANTIBANEZ_CEARDI,elite_club,0,False,correct_null,False,correct_null,False,False
+37,JOSE_OYARZUN_DECOUVIERES,secondary_school,Liceo de Puerto Montt,Liceo de Puerto Montt,exact,False,exact,False,False
+37,JOSE_OYARZUN_DECOUVIERES,university,,,correct_null,False,correct_null,False,False
+37,JOSE_OYARZUN_DECOUVIERES,father_surname_paternal,Oyarzún,Oyarzún,exact,False,exact,False,False
+37,JOSE_OYARZUN_DECOUVIERES,spouse_surnames,Leiva,Leiva,exact,False,exact,False,False
+37,JOSE_OYARZUN_DECOUVIERES,birth_year,1917,1917,exact,False,exact,False,False
+37,JOSE_OYARZUN_DECOUVIERES,death_year,1990,1990,exact,False,exact,False,False
+37,JOSE_OYARZUN_DECOUVIERES,elite_club,0,False,correct_null,False,correct_null,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,secondary_school,Colegio Salesianos de Valparaíso,Colegio Salesianos de Valparaíso,exact,False,exact,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,father_surname_paternal,,,correct_null,False,correct_null,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,spouse_surnames,García,García,exact,False,exact,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,birth_year,1931,1931,exact,False,exact,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,death_year,,,correct_null,False,correct_null,False,False
+38,LUIS_ALBERTO_GUASTAVINO_CORDOVA,elite_club,0,False,correct_null,False,correct_null,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,secondary_school,Internado Nacional Barros Arana; Liceo de Hombres Antonio Varas de Cauquenes,Internado Nacional Barros Arana y Liceo de Hombres Antonio Varas de Cauquenes,exact,True,exact,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,university,Universidad de Talca,Universidad de Talca,exact,False,exact,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,father_surname_paternal,Sepúlveda,Sepúlveda,exact,False,exact,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,spouse_surnames,Matteo,Matteo,exact,False,exact,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,birth_year,1969,1969,exact,False,exact,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,death_year,,,correct_null,False,correct_null,False,False
+39,ALEXIS_EDGARDO_SEPULVEDA_SOTO,elite_club,0,False,correct_null,False,correct_null,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,secondary_school,Liceo Manuel de Salas,Liceo Manuel de Salas,exact,False,exact,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,university,Universidad Nacional Andrés Bello,Universidad Nacional Andrés Bello,exact,False,exact,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,father_surname_paternal,Flores,Flores,exact,False,exact,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,spouse_surnames,Marín,Marín,exact,False,exact,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,birth_year,1987,1987,exact,False,exact,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,death_year,,,correct_null,False,correct_null,False,False
+40,CAMILA_ALEJANDRA_FLORES_OPORTO,elite_club,0,False,correct_null,False,correct_null,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,secondary_school,Colegio Nuestra Señora Pompeya,Colegio Nuestra Señora Pompeya,exact,False,exact,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,father_surname_paternal,Rojas,Rojas,exact,False,exact,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,spouse_surnames,,,correct_null,False,correct_null,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,birth_year,1991,1991,exact,False,exact,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,death_year,,,correct_null,False,correct_null,False,False
+41,CAMILA_RUZLAY_ROJAS_VALDERRAMA,elite_club,0,False,correct_null,False,correct_null,False,False
+42,CAROLINA_TOHA_MORALES,secondary_school,Colegio Francisco Miranda,Colegio Francisco Miranda,exact,False,exact,False,False
+42,CAROLINA_TOHA_MORALES,university,Universidad de Chile,Universidad de Chile,exact,False,exact,False,False
+42,CAROLINA_TOHA_MORALES,father_surname_paternal,Tohá,Tohá,exact,False,exact,False,False
+42,CAROLINA_TOHA_MORALES,spouse_surnames,Rossi,Rossi,exact,False,exact,False,False
+42,CAROLINA_TOHA_MORALES,birth_year,1965,1965,exact,False,exact,False,False
+42,CAROLINA_TOHA_MORALES,death_year,,,correct_null,False,correct_null,False,False
+42,CAROLINA_TOHA_MORALES,elite_club,0,False,correct_null,False,correct_null,False,False
+43,CARLOS_LARRAIN_PENA,secondary_school,,,correct_null,False,correct_null,False,False
+43,CARLOS_LARRAIN_PENA,university,Pontificia Universidad Católica de Chile,Pontificia Universidad Católica de Chile,exact,False,exact,False,False
+43,CARLOS_LARRAIN_PENA,father_surname_paternal,,,correct_null,False,correct_null,False,False
+43,CARLOS_LARRAIN_PENA,spouse_surnames,Hurtado,Hurtado,exact,False,exact,False,False
+43,CARLOS_LARRAIN_PENA,birth_year,1942,1942,exact,False,exact,False,False
+43,CARLOS_LARRAIN_PENA,death_year,,,correct_null,False,correct_null,False,False
+43,CARLOS_LARRAIN_PENA,elite_club,0,False,correct_null,False,correct_null,False,False
+44,FERNANDO_CORDERO_RUSQUE,secondary_school,Seminario Conciliar de La Serena,Seminario Conciliar de La Serena,exact,False,exact,False,False
+44,FERNANDO_CORDERO_RUSQUE,university,,Academia de Ciencias Policiales,hallucinated,False,hallucinated,False,True
+44,FERNANDO_CORDERO_RUSQUE,father_surname_paternal,,,correct_null,False,correct_null,False,False
+44,FERNANDO_CORDERO_RUSQUE,spouse_surnames,Steiner,Steiner,exact,False,exact,False,False
+44,FERNANDO_CORDERO_RUSQUE,birth_year,1939,1939,exact,False,exact,False,False
+44,FERNANDO_CORDERO_RUSQUE,death_year,,,correct_null,False,correct_null,False,False
+44,FERNANDO_CORDERO_RUSQUE,elite_club,0,False,correct_null,False,correct_null,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,secondary_school,Sagrados Corazones de Manquehue,Sagrados Corazones de Manquehue,exact,False,exact,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,university,Universidad de California,Universidad de California,exact,False,exact,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,father_surname_paternal,Alessandri,Alessandri,exact,False,exact,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,spouse_surnames,Bascuñán,Bascuñán,exact,False,exact,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,birth_year,1961,1961,exact,False,exact,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,death_year,,,correct_null,False,correct_null,False,False
+45,GUSTAVO_ALESSANDRI_BALMACEDA,elite_club,0,False,correct_null,False,correct_null,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,secondary_school,Colegio Padres Franceses de Manquehue; The International School La Serena,"Colegio Padres Franceses de Manquehue / The International School, La Serena",partial,True,exact,True,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,university,Universidad Gabriela Mistral,Universidad Gabriela Mistral,exact,False,exact,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,father_surname_paternal,Fuenzalida,Fuenzalida,exact,False,exact,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,spouse_surnames,,,correct_null,False,correct_null,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,birth_year,1973,1973,exact,False,exact,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,death_year,,,correct_null,False,correct_null,False,False
+46,JUAN_MANUEL_FUENZALIDA_COBO,elite_club,0,False,correct_null,False,correct_null,False,False
+47,CARLOS_CANTERO_OJEDA,secondary_school,Liceo Eduardo de la Barra,Liceo Eduardo de la Barra,exact,False,exact,False,False
+47,CARLOS_CANTERO_OJEDA,university,Universidad Católica del Norte,Universidad Católica del Norte,exact,False,exact,False,False
+47,CARLOS_CANTERO_OJEDA,father_surname_paternal,,,correct_null,False,correct_null,False,False
+47,CARLOS_CANTERO_OJEDA,spouse_surnames,Barrios,Barrios,exact,False,exact,False,False
+47,CARLOS_CANTERO_OJEDA,birth_year,1956,1956,exact,False,exact,False,False
+47,CARLOS_CANTERO_OJEDA,death_year,,,correct_null,False,correct_null,False,False
+47,CARLOS_CANTERO_OJEDA,elite_club,0,False,correct_null,False,correct_null,False,False
+48,MARIANA_AYLWIN_OYARZUN,secondary_school,Las Ursulinas,Las Ursulinas,exact,False,exact,False,False
+48,MARIANA_AYLWIN_OYARZUN,university,Universidad Católica de Chile,Universidad Católica de Chile,exact,False,exact,False,False
+48,MARIANA_AYLWIN_OYARZUN,father_surname_paternal,Aylwin,Aylwin,exact,False,exact,False,False
+48,MARIANA_AYLWIN_OYARZUN,spouse_surnames,Bascuñán,Bascuñán,exact,False,exact,False,False
+48,MARIANA_AYLWIN_OYARZUN,birth_year,1949,1949,exact,False,exact,False,False
+48,MARIANA_AYLWIN_OYARZUN,death_year,,,correct_null,False,correct_null,False,False
+48,MARIANA_AYLWIN_OYARZUN,elite_club,0,False,correct_null,False,correct_null,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,secondary_school,Colegio Buenaventura,Colegio Buenaventura,exact,False,exact,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,university,Universidad del Desarrollo,Universidad del Desarrollo,exact,False,exact,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,father_surname_paternal,Torrealba,Torrealba,exact,False,exact,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,spouse_surnames,Donoso,Donoso,exact,False,exact,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,birth_year,1981,1981,exact,False,exact,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,death_year,,,correct_null,False,correct_null,False,False
+49,SEBASTIAN_TORREALBA_ALVARADO,elite_club,0,False,correct_null,False,correct_null,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,secondary_school,Western Junior High School; Colegio Nido de Águila; Sagrados Corazones de Manquehue,Sagrados Corazones de Manquehue,partial,True,partial,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,university,Universidad Católica de Chile,Universidad Católica de Chile,exact,False,exact,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,father_surname_paternal,Jocelyn-Holt,Jocelyn-Holt,exact,False,exact,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,spouse_surnames,Saval,Saval,exact,False,exact,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,birth_year,1963,1963,exact,False,exact,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,death_year,,,correct_null,False,correct_null,False,False
+50,TOMAS_JOCELYN_HOLT_LETELIER,elite_club,0,False,correct_null,False,correct_null,False,False

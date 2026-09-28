@@ -1,0 +1,10 @@
+"quantity","original","refit"
+"stm_time_sec",5575.22,5975.53
+"em_iterations",34,33
+"converged",1,1
+"max_em_its",75,75
+"em_converge_thresh",1e-05,1e-05
+"final_bound",-54456550.0114888,-54461448.6565194
+"K_topics",80,80
+"V_vocabulary",20685,20685
+"N_documents",116938,116938

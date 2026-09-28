@@ -1,0 +1,3 @@
+"model","prevalence","stm_time_sec","wall_clock_sec","start","end","em_iterations","converged","max_em_its","em_converge_thresh","final_bound","final_rel_change","stm_version","R_version"
+"original (stm_model_285.rds)","~ apellido(285) + sector + camara + Year",5575.22,NA,NA,NA,34,TRUE,75,1e-05,-54456550.0114888,8.21874123462393e-06,"1.3.7",NA
+"refit (A5)","~ apellido(298) + camara + Year",5975.53,5993.84101295471,"2026-09-26 07:27:27","2026-09-26 09:07:21",33,TRUE,75,1e-05,-54461448.6565194,9.98266984909121e-06,"1.3.7","R version 4.3.3 (2024-02-29 ucrt)"

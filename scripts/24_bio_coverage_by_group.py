@@ -11,32 +11,57 @@ inverse-coverage weights (each covered legislator reweighted to its full-roster
 group composition) to check whether the gaps survive.
 
 Inputs : data/processed/cong_df.csv, data/processed/enduring_elite_FINAL.csv
-         BCN bios JSON (same source script 06 uses: /tmp/extract_sonnet_corrected.json)
+         BCN bios: v2 corpus (see the R&R header below; v1 /tmp/extract_sonnet_corrected.json is lost)
 Outputs: output/bio_coverage_by_group.csv
-         paper/tables/table_bio_coverage.tex  (bare booktabs tabular)
+         tables/table_bio_coverage.tex (bare booktabs tabular; published to ../paper/tables
+         if that tree exists), output/bio_foldgaps_reweighted.csv
 
-Run from replication_repo/ (cwd). Deterministic — no random component.
+Paths anchored on the repo (any cwd). Corpus absent -> exit code 3 (SKIP). Deterministic.
 
-NOTE on bios path: the matched-bios extraction (3,174 reseñas) is not committed to
-the public repo (it contains raw scraped biography text). Script 06 reads it from
-BIOS_JSON below; this script uses the same file for parity. If the file is absent,
-the coverage analysis cannot run and the script exits with a clear message rather
-than fabricating numbers.
+NOTE on bios path: the matched-bios extraction is not committed to the public repo (it
+contains raw scraped biography text). If it (or any biography text file) is absent, the
+script exits with SKIP_CODE rather than fabricating numbers.
+
+R&R 2026 CORPUS SWITCH AND CLUB FIX (errors E7, decision D11):
+  * Corpus: the v1 file /tmp/extract_sonnet_corrected.json (3,174 bios) no longer exists.
+    The script now reads the persistent v2 re-extraction <RAW_DATA_ROOT>/data/processed/
+    bcn_extract_v2.json (3,417 bios) and its texts <RAW_DATA_ROOT>/data/raw/bcn_wayback/,
+    the same corpus as scripts 34 / 38.
+  * Club fold: the submitted "Club de la Union 2.6x" reweighted fold was computed from the
+    LLM `elite_club` field, which covers several elite clubs, not the Club de la Union. The
+    Club marker now uses the same regex as scripts 06 / 34 / 38 ("CLUB DE LA UNION" on the
+    de-accented biography text), so the reweighted fold measures what its label says.
+  * School: v2 has no derived `c_elite_priv_school` field; script 10's PRIV regex is applied
+    to `secondary_school` (the rule that produced that field in v1).
+  * New output: output/bio_foldgaps_reweighted.csv (unweighted and reweighted fold-gaps).
+The v1 outputs are preserved in git tag submitted-RaP-2026-07-08.
 """
 import os
+import re
+import sys
 import json
 import unicodedata
+from pathlib import Path
 import pandas as pd
 import numpy as np
 
-BIOS_JSON = "/tmp/extract_sonnet_corrected.json"  # same source as script 06
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _measure_helpers import RAW_DATA_ROOT, DATA, OUTPUT, TABLES, publish, require, skip  # noqa: E402
+
+BIOS_JSON = RAW_DATA_ROOT / "data" / "processed" / "bcn_extract_v2.json"   # v2 corpus (as 34 / 38)
+BIOS_TXT = RAW_DATA_ROOT / "data" / "raw" / "bcn_wayback"
+CU = re.compile("CLUB DE LA UNION")             # scripts 06 / 34 / 38
+# script 10's corrected elite-private-school rule (verbatim regex; identical in 34 / 38)
+PRIV = re.compile(r"SAN IGNACIO|SAGRADOS? CORAZ|PADRES FRANCESES|VERBO DIVINO|THE GRANGE|GRANGE SCHOOL|"
+                  r"CRAIGHOUSE|SAINT GEORGE|SAN JORGE|SAINT GABRIEL|SAN GABRIEL|VILLA MARIA|MACKAY|"
+                  r"SAINT JOHN|LICEO ALEMAN|COLEGIO ALEMAN")
 
 
 def dac(s):
     return unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().upper().strip()
 
 
-ELITE = set(dac(s) for s in pd.read_csv("data/processed/enduring_elite_FINAL.csv").surname)
+ELITE = set(dac(s) for s in pd.read_csv(DATA / "enduring_elite_FINAL.csv").surname)
 COMMON = set(
     'GONZALEZ MUNOZ DIAZ ROJAS PEREZ SILVA SOTO MARTINEZ LOPEZ MORALES CONTRERAS '
     'RODRIGUEZ SEPULVEDA FUENTES VALENZUELA RAMIREZ ESPINOZA REYES HERNANDEZ '
@@ -50,15 +75,11 @@ print("=" * 72)
 print("TASK C3 — BIOGRAPHY-COVERAGE SELECTION BOUND")
 print("=" * 72)
 
-if not os.path.exists(BIOS_JSON):
-    raise SystemExit(
-        f"\nBios JSON not found at {BIOS_JSON}. The matched-bios extraction is not in the\n"
-        "public repo. Place it at this path (same source script 06 uses) and re-run.\n"
-        "Coverage-by-group cannot be computed without it; no numbers fabricated."
-    )
+# Non-redistributed corpus absent -> exit with SKIP_CODE (3); no numbers fabricated.
+require([BIOS_JSON, BIOS_TXT], "BCN biography corpus (v2)")
 
 # ---- Unique legislators and surname group ------------------------------------
-d = pd.read_csv("data/processed/cong_df.csv")
+d = pd.read_csv(DATA / "cong_df.csv")
 u = d.drop_duplicates(subset="Name").copy()  # one row per legislator
 pat = u.Pat.map(dac)
 mat = u.Mat.map(dac)
@@ -69,7 +90,16 @@ group = np.where(ie, "elite", np.where(ic, "common", "other"))
 u["group"] = group
 
 # ---- Coverage flag (exact match on normalized full Name, as in roster<->bios) -
-recs = json.load(open(BIOS_JSON))
+with open(BIOS_JSON, encoding="utf-8") as fh:
+    recs = json.load(fh)
+n_missing = sum(not (BIOS_TXT / x["file"]).exists() for x in recs)
+if n_missing:
+    skip(f"{n_missing} of {len(recs)} biography text files missing under {BIOS_TXT}")
+for x in recs:   # markers under the published coding rules (see header)
+    f = x.get("fields") or {}
+    f["c_elite_priv_school"] = bool(PRIV.search(dac(f.get("secondary_school") or "")))
+    f["club_union_regex"] = bool(CU.search(dac((BIOS_TXT / x["file"]).read_text(encoding="utf-8"))))
+    x["fields"] = f
 covered_names = set(dac(x["name"]) for x in recs)
 u["covd"] = u.Name.map(lambda n: dac(n) in covered_names).values
 
@@ -144,7 +174,7 @@ fk = set()
 for x in recs[:200]:
     fk |= set(x.get("fields", {}).keys())
 have_school = "c_elite_priv_school" in fk
-have_club = "elite_club" in fk
+have_club = "club_union_regex" in fk
 have_spouse = "spouse_surnames" in fk
 print(f"\nMarker fields available: club={have_club} school={have_school} spouse(homogamy)={have_spouse}")
 
@@ -181,7 +211,7 @@ else:
 # Club de la Union.
 if have_club:
     def club(x):
-        return 1 if x.get("fields", {}).get("elite_club") else 0
+        return 1 if x.get("fields", {}).get("club_union_regex") else 0   # regex, not LLM elite_club
     eu = umean(el, club); ou = umean(ot, club)
     ew = wmean(el, club); ow = wmean(ot, club)
     print(f"  Club de la Union:        unwt {eu:.1f}% vs {ou:.1f}% ({eu/max(ou,.1):.1f}x) | "
@@ -205,28 +235,39 @@ if have_school:
 else:
     print("  Elite school: c_elite_priv_school field unavailable -- skipped.")
 
-print("\nSurvival verdict: every available gap keeps its sign and similar magnitude")
-print("under reweighting, confirming the gaps are not a coverage-selection artifact.")
+fg = pd.DataFrame(gap_rows, columns=["marker", "elite_unwt_pct", "rest_unwt_pct",
+                                     "elite_reweighted_pct", "rest_reweighted_pct"])
+fg["fold_unwt"] = fg.elite_unwt_pct / fg.rest_unwt_pct
+fg["fold_reweighted"] = fg.elite_reweighted_pct / fg.rest_reweighted_pct
+fg["n_bios"] = len(recs)
+
+# Survival verdict, computed rather than asserted: each gap keeps its sign (fold > 1) and the
+# reweighted fold is within 10% of the unweighted one.
+fg["survives"] = (fg.fold_unwt > 1) & (fg.fold_reweighted > 1) & \
+    ((fg.fold_reweighted / fg.fold_unwt - 1).abs() <= 0.10)
+print("\nSurvival verdict (fold > 1 both ways; reweighted within 10% of unweighted):")
+print("\n".join(f"  {r.marker}: {r.fold_unwt:.2f}x -> {r.fold_reweighted:.2f}x  "
+                f"{'survives' if r.survives else 'DOES NOT SURVIVE'}" for r in fg.itertuples()))
+print("  -> all gaps survive reweighting; not a coverage-selection artifact." if fg.survives.all()
+      else "  -> at least one gap does NOT survive reweighting -- inspect.")
 
 # ---- Save CSV ----------------------------------------------------------------
-cov_df.to_csv("output/bio_coverage_by_group.csv", index=False)
+cov_df.to_csv(OUTPUT / "bio_coverage_by_group.csv", index=False)
 print("\nsaved output/bio_coverage_by_group.csv")
+fg.to_csv(OUTPUT / "bio_foldgaps_reweighted.csv", index=False)
+print("saved output/bio_foldgaps_reweighted.csv")
+print(fg.round(3).to_string(index=False))
 
 # ---- Bare LaTeX tabular ------------------------------------------------------
 label_map = {"elite": "Elite", "common": "Common", "other": "Other", "overall": "Overall"}
-lines = []
-lines.append(r"\begin{tabular}{lccc}")
-lines.append(r"\toprule")
-lines.append(r"Surname group & $N$ & Covered & Coverage (\%) \\")
-lines.append(r"\midrule")
-for _, r in cov_df.iterrows():
-    if r["group"] == "overall":
-        lines.append(r"\midrule")
-    lines.append(f"{label_map[r['group']]} & {int(r['n'])} & {int(r['covered'])} & {r['coverage_pct']:.1f} \\\\")
-lines.append(r"\bottomrule")
-lines.append(r"\end{tabular}")
+body = [(r"\midrule" + "\n" if r["group"] == "overall" else "")
+        + f"{label_map[r['group']]} & {int(r['n'])} & {int(r['covered'])} & {r['coverage_pct']:.1f} \\\\"
+        for _, r in cov_df.iterrows()]
+lines = [r"\begin{tabular}{lccc}", r"\toprule", r"Surname group & $N$ & Covered & Coverage (\%) \\",
+         r"\midrule", *body, r"\bottomrule", r"\end{tabular}"]
 tex = "\n".join(lines) + "\n"
-with open("../paper/tables/table_bio_coverage.tex", "w") as f:
-    f.write(tex)
-print("saved ../paper/tables/table_bio_coverage.tex")
+out_tab = TABLES / "table_bio_coverage.tex"
+out_tab.write_text(tex, encoding="utf-8")
+print(f"saved {out_tab}")
+publish(out_tab, "tables")
 print("\n" + tex)

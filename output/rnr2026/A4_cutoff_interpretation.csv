@@ -1,0 +1,121 @@
+block,quantity,value,numerator,denominator
+1a,surnames in surname_nse.csv (all),84693.0,,
+1a,surnames with >= 30 bearers,10204.0,,
+1a,surnames passing SES>=60 & >=30 bearers,5292.0,5292.0,10204.0
+1a,surnames passing SES>=65 & >=30 bearers,4426.0,4426.0,10204.0
+1a,surnames passing SES>=70 & >=30 bearers,3532.0,3532.0,10204.0
+1a,persons on geocoded 2020 roll (denominator),3981570.0,,
+1a,comunas represented on the roll file,34.0,,
+1a,persons with missing paternal surname,4.0,,
+1a,persons with missing maternal surname,9.0,,
+1a,person-level mean of own residential SES (new_nse),49.893789800740734,,
+1b,% roll: paternal surname passes SES>=60,7.379601513975643,293824.0,3981570.0
+1b,% roll: paternal surname passes SES>=65,5.494867602478419,218782.0,3981570.0
+1b,% roll: paternal surname passes SES>=70,3.895799898030174,155114.0,3981570.0
+1b,% roll: paternal OR maternal passes SES>=60,12.572075839430175,500566.0,3981570.0
+1b,% roll: paternal OR maternal passes SES>=65,9.339632356080642,371864.0,3981570.0
+1b,% roll: paternal OR maternal passes SES>=70,6.656419452627984,265030.0,3981570.0
+1b,% roll: paternal index >= 60 (no bearer floor),10.676502662520225,,
+1b,% roll: paternal index >= 65 (no bearer floor),8.509717030937074,,
+1b,% roll: paternal index >= 70 (no bearer floor),6.595746497734811,,
+1c,percentile of 60: person paternal-surname index,89.32349733747978,,
+1c,percentile of 65: person paternal-surname index,91.49028296906293,,
+1c,percentile of 70: person paternal-surname index,93.40425350226519,,
+1c,percentile of 60: person own residential SES,60.154361219318005,,
+1c,percentile of 65: person own residential SES,65.16203407198668,,
+1c,percentile of 70: person own residential SES,70.16410611894302,,
+1c,percentile of 60: surname-level (>=30 bearers),48.13798510388083,,
+1c,percentile of 65: surname-level (>=30 bearers),56.62485299882399,,
+1c,percentile of 70: surname-level (>=30 bearers),65.38612308898472,,
+1c,P50 person paternal-surname index,47.21504774169679,,
+1c,P75 person paternal-surname index,49.30934270883185,,
+1c,P90 person paternal-surname index,61.47593066196367,,
+1c,P95 person paternal-surname index,75.22799430391615,,
+1c,P99 person paternal-surname index,88.34867467964258,,
+1c,P50 person own residential SES,49.86619073375518,,
+1c,P75 person own residential SES,74.83875277316486,,
+1c,P90 person own residential SES,89.87868809681157,,
+1c,P95 person own residential SES,94.91443680383439,,
+1c,P99 person own residential SES,98.97172471608489,,
+1d,surnames in final list,298.0,,
+1d,of which SES route (285) / business route (13),285.0,13.0,
+1d,SES-route surnames below SES 65 / below 30 bearers (check=0),0.0,0.0,
+1d,final-list surnames found on roll (either slot),298.0,,
+1d,% roll: paternal surname in 298,1.4402107711279721,57343.0,3981570.0
+1d,% roll: paternal OR maternal in 298,2.6407422197776254,105143.0,3981570.0
+1d,% roll: paternal in SES-route 285,1.2630444774297576,50289.0,3981570.0
+1d,% roll: paternal in business-route 13,0.17716629369821452,7054.0,3981570.0
+1d,% of SES>=65 paternal bearers kept by historical gate (SES-route 285),22.98589463484199,50289.0,218782.0
+1d,% of SES>=65 paternal bearers whose surname is in final 298 (incl. route-1b surnames that also clear SES>=65),23.591977402162883,51615.0,218782.0
+1d,median paternal-surname index among 298 bearers,69.8546042595823,,
+1d,percentile of that median in person index distribution,93.35924608558543,,
+1d,median own residential SES among 298 bearers,82.61584305711494,,
+1d,percentile of that median in own-SES distribution,82.76426133409686,,
+2a,business-leader rows (directors + managers),5411.0,,
+2a,unique persons (by fullname),4288.0,,
+2a,business-leader surname tokens (pat + mat),10442.0,,
+2a,Registro Civil surname tokens (pat + mat),45257674.0,,
+2a,298 surnames with >= 5 business appearances,75.0,,
+2a,  of which ratio >= 8,67.0,,
+2a,min business over-rep ratio among 298 with >= 5 appearances,3.0535408901473837,,
+2a,298 with >= 5 appearances and ratio < 8,8.0,,
+2a,298 in ratio>=8 set but not in business_x_historical: BUDGE,1.0,,
+2a,"route-1b context: ratio>=5 & >=5, n surnames / n attested (attestation file pre-filtered at ratio>=8)",190.0,66.0,
+2a,"route-1b context: ratio>=8 & >=5, n surnames / n attested (attestation file pre-filtered at ratio>=8)",169.0,66.0,
+2a,"route-1b context: ratio>=10 & >=5, n surnames / n attested (attestation file pre-filtered at ratio>=8)",160.0,60.0,
+2a,route-1b context: % business leaders carrying ratio>=5 surname (either),28.294215486970984,,
+2a,route-1b context: % business leaders carrying ratio>=8 surname (either),24.505636666050638,,
+2a,route-1b context: % business leaders carrying ratio>=10 surname (either),23.193494732951397,,
+2a,ratio>=5 at 5 appearances: max population token share (%) / max population tokens,0.00957670944263551,4334.195939475197,
+2a,ratio>=8 at 5 appearances: max population token share (%) / max population tokens,0.005985443401647194,2708.8724621719975,
+2a,ratio>=10 at 5 appearances: max population token share (%) / max population tokens,0.004788354721317755,2167.0979697375983,
+2a,Registro Civil rows read,22773061.0,,
+2a,surnames with >= 5 appearances (pop>0),471.0,,
+2a,surnames with >= 5 appearances but zero pop count (dropped),15.0,,
+2a,rows recomputed vs deposited candidates not matched (check=0),0.0,,
+2a,max relative diff recomputed vs deposited ratio,4.440892098500626e-16,,
+2a,surnames ratio>=8 & >=5 (incl. given-name artifacts),187.0,,
+2a,surnames ratio>=8 & >=5 (excl. given names),169.0,,
+2a,  of which historically attested,66.0,,
+2a,  attested and already in SES-route 285,53.0,,
+2a,  attested and new (= route-1b additions),13.0,,
+2a,"  of the ratio>=8 set, also passing SES>=65 & 30 bearers",137.0,,
+2b,% business leaders carrying a ratio>=8 surname (either),24.505636666050638,1326.0,5411.0
+2b,% business leaders carrying a ratio>=8 surname (paternal),17.002402513398632,920.0,5411.0
+2b,% business leaders: ratio>=8 AND attested surname (either),14.78469783773794,800.0,5411.0
+2b,"% business leaders ratio>=8 (either), unique persons",19.96268656716418,,
+2b,% Chilean births >=1884 carrying a ratio>=8 surname,0.9568249705025759,216756.0,22653673.0
+2b,"implied person-level over-rep, ratio>=8 set",25.611410050449415,,
+2c,route-1b surnames that also clear SES>=65 & 30 bearers,5.0,,
+2c,raw historical cells attesting BALMACEDA (n cells / n sources),20.0,6.0,
+2c,raw historical cells attesting BULNES (n cells / n sources),4.0,1.0,
+2c,raw historical cells attesting COX (n cells / n sources),3.0,1.0,
+2c,raw historical cells attesting DOMINGUEZ (n cells / n sources),3.0,1.0,
+2c,raw historical cells attesting GANA (n cells / n sources),7.0,3.0,
+2c,raw historical cells attesting GARCIA HUIDOBRO (n cells / n sources),2.0,1.0,
+2c,raw historical cells attesting GREZ (n cells / n sources),10.0,2.0,
+2c,raw historical cells attesting JAMES (n cells / n sources),1.0,1.0,
+2c,raw historical cells attesting NOGUERA (n cells / n sources),2.0,1.0,
+2c,raw historical cells attesting PASCUAL (n cells / n sources),2.0,2.0,
+2c,raw historical cells attesting PORTALES (n cells / n sources),8.0,3.0,
+2c,raw historical cells attesting SALVADOR (n cells / n sources),4.0,2.0,
+2c,raw historical cells attesting SANTA CRUZ (n cells / n sources),1.0,1.0,
+2c,% business leaders carrying one of the 13 (either),3.2341526520051747,175.0,5411.0
+2c,% business leaders carrying one of the 13 (paternal),1.2936610608020698,70.0,5411.0
+2c,% Chilean births >=1884 carrying one of the 13,0.23063368134606693,52247.0,22653673.0
+2c,"implied person-level over-rep, the 13",14.02289827370146,,
+2d,% business leaders carrying any of the 298 (either),18.665681020144152,1010.0,5411.0
+2d,% business leaders carrying any of the 298 (paternal),10.681944187765662,578.0,5411.0
+2d,"% business leaders any of 298, unique persons",16.69776119402985,,
+2d,% business leaders carrying any SES-route 285 (either),16.170763260025872,875.0,5411.0
+2d,% business leaders carrying any SES>=65 passing surname (either),48.9927924598041,2651.0,5411.0
+2d,% business surname tokens in 298,11.15686650067037,1165.0,10442.0
+2d,% population surname tokens in 298,0.9000639316991854,407348.0,45257674.0
+2d,implied token-level over-rep of 298 among business leaders,12.395637807203187,,
+2d,% Chilean births >=1884 carrying any of 298,1.713898668882525,388261.0,22653673.0
+2d,implied person-level over-rep of 298 (vs births),10.890772808823241,,
+2d,"implied person-level over-rep of 298 (vs 2020 roll, either)",7.0683464975676324,,
+7,"% Chilean births >=1884 with 298 surname, EXACT dac match (script-03 style)",1.7115899924926081,387738.0,22653673.0
+7,  vs hyphen-insensitive match_key (this script),1.713898668882525,388261.0,22653673.0
+7,deposited pop_prevalence_by_year.csv pooled elite share (%),1.7115899924926081,387738.0,22653673.0
+7,final-list entries with hyphen or space: GARCIA-HUIDOBRO;RUIZ-TAGLE;SANTA CRUZ,3.0,,

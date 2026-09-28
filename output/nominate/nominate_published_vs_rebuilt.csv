@@ -1,0 +1,12 @@
+quantity,published,rebuilt
+elite_vs_other_coef,0.23,0.18696872528272165
+elite_vs_other_p,0.12,0.16091978377616567
+n_elite_legislators,75.0,61.0
+ses_p_no_party,0.001,0.00022561335960471612
+ses_p_party,0.42,0.00886505883145626
+n_elite_distinct_persons,,40.0
+ses_coef_no_party,,0.0943246175391189
+ses_coef_party,,0.026172922938791414
+ses_coef_party_recorded_only,,0.006971570170447867
+ses_p_party_recorded_only,,0.037691001544377226
+ses_sd_main_sample,,16.05829171084394

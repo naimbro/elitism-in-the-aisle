@@ -1,0 +1,12 @@
+script,quantity,location,published,all_members,titular_only,change,reproduces
+30/33/29,"1860s share, depth >= 1 (298)","online_appendix.tex:857,880,910; table_depth_gate.tex",49.9,49.9026563169709,54.2556375083046,4.35298119133377,TRUE
+29,"1860s share, drop 13 (285)",online_appendix.tex:910,47.1,47.0889633877253,51.1032134813494,4.01425009362414,TRUE
+30/33,"1860s share, depth >= 2","online_appendix.tex:857,881-883",42.7,42.6743580013044,48.5877620299857,5.91340402868127,TRUE
+30/33,"1860s share, depth >= 3","online_appendix.tex:857,881-883",33.9,33.8939460857539,38.266050736139,4.3721046503851,TRUE
+30/33,"1860s share, depth >= 4","online_appendix.tex:857,881-883",25.4,25.3820448508787,28.9334519146108,3.55140706373209,TRUE
+22,"1865 share, permissive (OR)",online_appendix.tex:894; table_coding_rule.tex,52,52,59.7826086956522,7.78260869565217,TRUE
+22,"1865 share, strict (AND)",online_appendix.tex:894; table_coding_rule.tex,14,14,14.1304347826087,0.130434782608695,TRUE
+22,"1865 share, paternal only",online_appendix.tex:894; table_coding_rule.tex,32,32,38.0434782608696,6.04347826086956,TRUE
+18,"1860s share (smoothed at 1865), published 298",table_cutoff_sensitivity.tex,51.2,51.1758713837574,56.1454426580285,4.96957127427106,TRUE
+18,"over-representation fold ~1900, published 298",online_appendix.tex:841; table_cutoff_sensitivity.tex,21.1,21.1419382252847,21.1419382252847,0,TRUE
+04/20,"Fig. 3 over-representation, mean 1884-1889",Fig. 3 (fig:composition),,20.3514820988736,21.3681291058156,1.01664700694194,TRUE

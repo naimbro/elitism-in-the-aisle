@@ -1,0 +1,7 @@
+"reference","max_abs_diff"
+"35 m1_contrast_pvalues.csv (298 list; contrast, se, p; join on theme)",1.80411241501588e-13
+"13 theme_effects.csv (285 list rerun; elite, se, comun, se; join on theme)",1.97342142627122e-14
+"27 within_elite_trajectory.csv (est, se, p; join on quantity)",3.99680288865056e-15
+"31 statecraft_trajectory.csv (est, se, p; join on quantity)",2.22044604925031e-15
+"28 m1_table1_methodofcomposition.csv (11 themes; elite, elite_p, comun, comun_p, contrast)",1.33226762955019e-15
+"28 m1_withinelite_methodofcomposition.csv (diff: est, se, p)",2.22044604925031e-16

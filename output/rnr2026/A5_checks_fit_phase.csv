@@ -1,0 +1,12 @@
+"check","value","pass"
+"docs by group vs A3_sample_counts.csv",0,TRUE
+"legislators by group vs A3_sample_counts.csv",0,TRUE
+"285->298 reclassified docs vs A3_reclassification_285_to_298.csv",0,TRUE
+"original prior design vs rebuilt frame: apellidoelite_vs285 (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: apellidocomun_vs285 (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorderecha (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorizquierda (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorotro (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: camarasenado (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: Year (mismatching rows)",0,TRUE
+"dfm features == original model vocabulary (set, size)",0,TRUE

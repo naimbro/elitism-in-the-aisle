@@ -1,0 +1,24 @@
+quantity,published_v1,v2,where_in_paper,relative_change
+Biographies matched (N),3174.0,3417.0,03_validation.tex; app. B,1.0765595463137996
+Roster coverage overall (%),81.1,87.26065866734746,tab:biocoverage,1.0759637320264792
+Roster coverage elite (%),80.5,87.33075435203095,tab:biocoverage,1.084854091329577
+Roster coverage common (%),80.0,85.23364485981308,tab:biocoverage,1.0654205607476634
+Roster coverage other (%),82.0,88.41698841698842,tab:biocoverage,1.0782559563047367
+"Covered legislators (N, unique Names)",3175.0,3418.0,tab:biocoverage note,1.076535433070866
+Club elite (%),12.7,12.624584717607974,Fig. 1,0.9940617887880294
+Club common (%),4.1,4.934210526315789,Fig. 1,1.2034659820282414
+Club other (%),5.3,5.742821473158552,Fig. 1,1.0835512213506702
+Club non-elite 'rest' (%),4.9,5.4494828957836114,app. B list,1.1121393664864512
+School elite (%),41.2,41.208791208791204,Fig. 1,1.0002133788541554
+School common (%),7.6,8.333333333333332,Fig. 1,1.0964912280701753
+School other (%),15.4,14.928649835345773,Fig. 1,0.9693928464510242
+School non-elite 'rest' (%),12.5,12.440191387559809,app. B list,0.9952153110047847
+Club elite/common (x),3.097560975609756,2.5585825027685494,derived,0.8259990756969332
+Club elite/other (x),2.3962264150943398,2.1983244258269536,derived,0.9174109808569176
+Club elite/rest (x),2.591836734693877,2.31665737080777,derived (quality gate 2.6x),0.8938284344061477
+School elite/common (x),5.421052631578948,4.945054945054945,derived,0.9121946015149899
+School elite/other (x),2.6753246753246755,2.7603829993535873,derived,1.0317936453894476
+School elite/rest (x),3.2960000000000003,3.312552831783601,derived (quality gate 3.3x),1.0050220970217234
+"Club reweighted fold, script-24 def (LLM elite_club field) (x)",2.6,1.9939616683936314,app. B / tab:biocoverage note,0.7669083339975505
+"Club reweighted fold, regex def (x)",,2.3195892764533106,new,
+School reweighted fold (x),3.3,3.3278190778888774,app. B / tab:biocoverage note,1.0084300236026902

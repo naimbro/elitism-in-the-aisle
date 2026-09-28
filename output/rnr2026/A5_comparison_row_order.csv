@@ -1,0 +1,23 @@
+"spec","outcome","est_old","est_new","rank_old","rank_new"
+"no_party","Elections & parties",0.826225628551501,0.821169445065487,1,1
+"no_party","State administration",0.362684465266552,0.36150138203868,2,2
+"no_party","Finance & taxation",0.2943185323351,0.320621174117157,4,3
+"no_party","Defense & security",0.309198086075999,0.310890286520372,3,4
+"no_party","Foreign relations",0.263801338015042,0.266702965428856,5,5
+"no_party","Education",0.069452760416182,0.0739823117125172,6,6
+"no_party","Local government & land",-0.192179714967924,-0.206967808829804,7,7
+"no_party","Social welfare & health",-0.346745072076111,-0.359086769990641,8,8
+"no_party","Public works",-0.422069628399138,-0.41123432088099,9,9
+"no_party","Justice & law",-0.5167824263517,-0.557914859331242,10,10
+"no_party","Labor & industry",-2.1378314135204,-2.13842669910792,11,11
+"party_adjusted","Elections & parties",0.993273990714689,0.973447670915509,1,1
+"party_adjusted","Defense & security",0.400248166215746,0.389518375061321,2,2
+"party_adjusted","State administration",0.352097197845849,0.344385654620177,3,3
+"party_adjusted","Foreign relations",0.253759111183349,0.261939331674729,4,4
+"party_adjusted","Education",0.0730121379693308,0.0785315372312823,5,5
+"party_adjusted","Finance & taxation",-0.129344187425726,-0.0542861241435321,6,6
+"party_adjusted","Local government & land",-0.24225809119635,-0.251035705815226,7,7
+"party_adjusted","Social welfare & health",-0.316805156726316,-0.341681237854258,8,8
+"party_adjusted","Public works",-0.394023738191713,-0.387977082076318,9,9
+"party_adjusted","Justice & law",-0.634051368955126,-0.655122532026431,10,10
+"party_adjusted","Labor & industry",-1.75357383220632,-1.8184516658298,11,11

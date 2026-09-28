@@ -7,6 +7,9 @@ REPO = Path(__file__).resolve().parents[1]
 # as _measure_helpers.py / 01 / 02. The default reproduces the author's layout.
 RAW_DATA_ROOT = Path(os.environ.get("RAW_DATA_ROOT", REPO.parent))
 DATOS_ROOT = Path(os.environ.get("DATOS_ROOT", RAW_DATA_ROOT.parent.parent))
+# R&R round 2: inputs absent -> exit 3 (SKIP in 00_run_all.sh).
+if not Path("/tmp/enduring_elite_FINAL.csv").exists() or not list((DATOS_ROOT / "Registro Civil" / "HISTORICO").glob("aaaa_appat_apmat_nac_*.csv")):
+    print("[SKIP] 03 needs /tmp/enduring_elite_FINAL.csv (script 02) and the Registro Civil HISTORICO files"); raise SystemExit(3)
 E285=set(pd.read_csv("/tmp/enduring_elite_FINAL.csv").surname.map(
     lambda s: unicodedata.normalize("NFKD",str(s)).encode("ascii","ignore").decode().upper().strip()))
 COMMON=set('GONZALEZ MUNOZ DIAZ ROJAS PEREZ SILVA SOTO MARTINEZ LOPEZ MORALES CONTRERAS RODRIGUEZ SEPULVEDA FUENTES VALENZUELA RAMIREZ ESPINOZA REYES HERNANDEZ GUTIERREZ FLORES CASTRO TORRES SANCHEZ VASQUEZ CASTILLO FERNANDEZ ARAYA HERRERA VARGAS NUNEZ ALVAREZ CARRASCO GOMEZ BRAVO VERGARA GARCIA TAPIA JARA ZUNIGA ORELLANA FIGUEROA MIRANDA RIQUELME CAMPOS MOLINA RIVERA GUZMAN SANDOVAL ORTIZ'.split())

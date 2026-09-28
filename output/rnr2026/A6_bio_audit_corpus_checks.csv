@@ -1,0 +1,54 @@
+check,item,value
+frame,start_missing,0
+frame,start_before_1834,604
+frame,start_1974_1989_or_after_2020,0
+club_regex,regex_positive_bios,251
+club_regex,santiago_explicit,21
+club_regex,santiago_or_unqualified,221
+club_regex,provincial_namesake,6
+club_regex,ambiguous_narrow_rule,3
+club_regex,ambiguous_broad_rule (worst case),47
+club_regex,missed_spelling_Club_La_Union,3
+club_regex,precision_santiago_lower (ambiguous = false),0.9641434262948207
+club_regex,precision_santiago_upper (ambiguous = true),0.9760956175298805
+club_regex,recall_vs_variant_spellings_lower,0.9877551020408163
+club_regex,recall_vs_variant_spellings_upper,0.9879032258064516
+club_regex,precision_santiago_worst_case (broad ambiguous = false),0.7888446215139442
+club_rates_published_regex,elite,12.624584717607974
+club_rates_published_regex,common,4.934210526315789
+club_rates_published_regex,other,5.742821473158552
+club_rates_published_regex,rest,5.4494828957836114
+club_rates_published_regex,elite_over_rest,2.31665737080777
+club_rates_published_regex,elite_over_common,2.5585825027685494
+club_rates_corrected_ambiguous_kept,elite,12.73532668881506
+club_rates_corrected_ambiguous_kept,common,4.824561403508771
+club_rates_corrected_ambiguous_kept,other,5.555555555555555
+club_rates_corrected_ambiguous_kept,rest,5.290373906125696
+club_rates_corrected_ambiguous_kept,elite_over_rest,2.407264007194065
+club_rates_corrected_ambiguous_kept,elite_over_common,2.6396858954998494
+club_rates_corrected_ambiguous_dropped,elite,12.73532668881506
+club_rates_corrected_ambiguous_dropped,common,4.824561403508771
+club_rates_corrected_ambiguous_dropped,other,5.368289637952559
+club_rates_corrected_ambiguous_dropped,rest,5.171042163882259
+club_rates_corrected_ambiguous_dropped,elite_over_rest,2.462816253513928
+club_rates_corrected_ambiguous_dropped,elite_over_common,2.6396858954998494
+club_rates_corrected_broad_ambiguous_dropped,elite,10.299003322259136
+club_rates_corrected_broad_ambiguous_dropped,common,4.276315789473684
+club_rates_corrected_broad_ambiguous_dropped,other,4.307116104868914
+club_rates_corrected_broad_ambiguous_dropped,rest,4.295942720763723
+club_rates_corrected_broad_ambiguous_dropped,elite_over_rest,2.3973791066814325
+club_rates_corrected_broad_ambiguous_dropped,elite_over_common,2.4083823153590593
+club_corrections_by_group,elite,provincial -1; ambiguous 0; missed +2
+club_corrections_by_group,common,provincial -1; ambiguous 0; missed +0
+club_corrections_by_group,other,provincial -4; ambiguous 3; missed +1
+spouse_format,spouse_entries,2321
+spouse_format,entries_with_more_than_one_token,232
+spouse_format,bios_spouse_elite_any_token (scripts 24/38),458
+spouse_format,bios_spouse_elite_paternal_only,416
+spouse_format,bios_elite_only_via_non_paternal_token,42
+homogamy_sp_elite_any,elite_legislators_pct,39.737274220032845
+homogamy_sp_elite_any,non_elite_legislators_pct,14.886285320468643
+homogamy_sp_elite_any,ratio,2.6693881895031324
+homogamy_sp_elite_pat,elite_legislators_pct,35.467980295566505
+homogamy_sp_elite_pat,non_elite_legislators_pct,13.783597518952448
+homogamy_sp_elite_pat,ratio,2.5732019704433498

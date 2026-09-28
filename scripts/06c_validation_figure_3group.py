@@ -21,6 +21,7 @@ import numpy as np
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from _measure_helpers import publish
 
 # ---- group order, colours, and labels match the centrality figure (script 07) ----
 ORDER = ["elite", "common", "other"]
@@ -68,4 +69,6 @@ ax.grid(axis="y", alpha=.25)
 fig.tight_layout()
 fig.savefig("figures/figure_validation.png", dpi=150)
 fig.savefig("figures/figure_validation.pdf")
+for _ext in ("png", "pdf"):   # copy into the manuscript tree only if it exists (R&R round 2)
+    publish(f"figures/figure_validation.{_ext}", "figures")
 print("saved figures/figure_validation.{png,pdf}")

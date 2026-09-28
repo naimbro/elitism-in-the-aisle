@@ -16,6 +16,15 @@ _env_file = Path(os.environ.get(
 if "ANTHROPIC_API_KEY" not in os.environ and _env_file.exists():
     for l in open(_env_file):
         if l.startswith("ANTHROPIC_API_KEY="): os.environ["ANTHROPIC_API_KEY"]=l.split("=",1)[1].strip()
+# R&R round 2: needs the API key, script 01 output, the 1874 censo and the elite workbook;
+# any of them absent -> exit 3 (SKIP in 00_run_all.sh). NB: this step calls the Anthropic API.
+_censo_ok = any(p.exists() for p in [DATOS_ROOT / "censo_agricola" / "1874" / "censo_1874.csv",
+                                     RAW_DATA_ROOT / "censo_agricola" / "1874" / "censo_1874.csv"])
+if ("ANTHROPIC_API_KEY" not in os.environ or not _censo_ok
+        or not Path("/tmp/surname_nse.csv").exists()
+        or not (RAW_DATA_ROOT / "Chile - elite networks.xlsx").exists()):
+    print("[SKIP] 02 needs ANTHROPIC_API_KEY, /tmp/surname_nse.csv (script 01), the 1874 censo and the "
+          "elite-network workbook"); raise SystemExit(3)
 import anthropic
 client=anthropic.Anthropic()
 def dac(s): return unicodedata.normalize("NFKD",str(s)).encode("ascii","ignore").decode().upper().strip()

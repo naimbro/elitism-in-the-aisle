@@ -1,36 +1,346 @@
-"""15 — Appendix: contemporary convergent validity. Does the enduring-elite surname
-measure (and continuous surname-SES) predict W-NOMINATE ideology across three periods?
-External dependency: W-NOMINATE estimates from the companion project
-  ../2026_graph_based_ideal_points/output/nominate_{diputados,senado}_{2014-2018,2018-2022,2022-2026}.csv
-  + output/crosswalk.csv (politician_id->name) + data/congress_matched.csv (party/bloc).
-Each period is re-oriented (right=+) before pooling (W-NOMINATE polarity is arbitrary per run)."""
-import pandas as pd, numpy as np, unicodedata, glob, os
-import statsmodels.formula.api as smf
-dac=lambda s: unicodedata.normalize("NFKD",str(s)).encode("ascii","ignore").decode().upper().strip()
-GIP=os.environ.get("GIP_DIR","../2026_graph_based_ideal_points")   # path to companion project
-ELITE=set(dac(s) for s in pd.read_csv("data/processed/enduring_elite_FINAL.csv").surname)
-COMMON=set(dac(x) for x in "GONZALEZ MUNOZ DIAZ ROJAS PEREZ SILVA SOTO MARTINEZ LOPEZ MORALES CONTRERAS RODRIGUEZ SEPULVEDA FUENTES VALENZUELA RAMIREZ ESPINOZA REYES HERNANDEZ GUTIERREZ FLORES CASTRO TORRES SANCHEZ VASQUEZ CASTILLO FERNANDEZ ARAYA HERRERA VARGAS NUNEZ ALVAREZ CARRASCO GOMEZ BRAVO VERGARA GARCIA TAPIA JARA ZUNIGA ORELLANA FIGUEROA MIRANDA RIQUELME CAMPOS MOLINA RIVERA GUZMAN SANDOVAL ORTIZ".split())
-ses=pd.read_csv("data/processed/surname_nse.csv"); ses["surname"]=ses.surname.map(dac); smap=dict(zip(ses.surname,ses.mean_nse))
-cw=pd.read_csv(f"{GIP}/output/crosswalk.csv")[["politician_id","full_name","node_id"]]
-cm=pd.read_csv(f"{GIP}/data/congress_matched.csv")[["node_id","bloc"]]
-RIGHT={"RN","UDI","EVOPOLI","REPUBLICANO","PRI"}; LEFT={"PS","PC","PPD","PRSD","FRENTE AMPLIO","PH"}
-sect=lambda b:"der" if str(b).upper() in RIGHT else "izq" if str(b).upper() in LEFT else "otro"
-rows=[]
-for f in sorted(glob.glob(f"{GIP}/output/nominate_*_201*.csv")+glob.glob(f"{GIP}/output/nominate_*_2022-2026.csv")):
-    d=pd.read_csv(f).merge(cw,on="politician_id",how="left").merge(cm,on="node_id",how="left")
-    d["sector"]=d.bloc.map(sect)
-    tk=d.full_name.fillna("").map(lambda x:[dac(t) for t in str(x).split()])
-    pat=tk.map(lambda t:t[-2] if len(t)>=2 else (t[-1] if t else "")); mat=tk.map(lambda t:t[-1] if t else "")
-    d["ses"]=[np.nanmax([smap.get(p,np.nan),smap.get(m,np.nan)]) for p,m in zip(pat,mat)]
-    el=[(p in ELITE)or(m in ELITE) for p,m in zip(pat,mat)]; co=[((p in COMMON)or(m in COMMON))and not e for p,m,e in zip(pat,mat,el)]
-    d["apellido"]=np.where(el,"elite",np.where(co,"comun","otro"))
-    rm=d[d.sector=="der"].coord1D.mean(); lm=d[d.sector=="izq"].coord1D.mean()
-    d["ideo"]=d.coord1D*(-1 if rm<lm else 1); d["pc"]=f.split("nominate_")[1].replace(".csv","")
-    rows.append(d[["pc","ideo","ses","apellido","sector","full_name"]])
-A=pd.concat(rows).dropna(subset=["ideo"]); A["apellido"]=pd.Categorical(A.apellido,["otro","comun","elite"])
-print("obs:",len(A))
-print("CONTINUOUS SES (pooled, period/chamber FE):",
-      smf.ols("ideo ~ ses + C(pc)",A.dropna(subset=['ses'])).fit(cov_type="cluster",cov_kwds={"groups":A.dropna(subset=['ses']).full_name.factorize()[0]}).params.get("ses"))
-m=smf.ols('ideo ~ C(apellido,Treatment("otro")) + C(pc)',A).fit(cov_type="cluster",cov_kwds={"groups":A.full_name.factorize()[0]})
-print("CATEGORICAL (vs other):",{k.split('T.')[1][:5]:round(v,3) for k,v in m.params.items() if "apellido" in k})
-A.groupby("apellido").ideo.agg(["mean","count"]).to_csv("output/nominate_by_surname_type.csv")
+"""15 -- Appendix: contemporary convergent validity against W-NOMINATE (R&R 2026, D18).
+
+Rebuilt from the IMFD roll-call snapshot. Pipeline:
+  15a_extract_rollcalls_bq.py  BigQuery -> data/processed/nominate_snapshot/ (HAVE_BQ only)
+  15b_wnominate_by_period.R    snapshot -> output/nominate/wnominate_coords.csv
+  15 (this script)             coordinates + surnames -> every appendix number + figure
+Neither 15b nor 15 needs BigQuery. The shipped snapshot and 15b's coordinates are enough.
+
+SAMPLE. One observation = legislator x chamber x legislative period scaled by W-NOMINATE
+(15b: >= 20 scaled votes). MAIN window = the six period-chambers the appendix reports
+(LIV 2014-18, LV 2018-22, LVI 2022-26 x Chamber, Senate). EXTENDED window = all twelve
+period-chambers in the snapshot (LI 2002-06 .. LVI; Senate roll calls start in 2004).
+
+OUTCOME. First W-NOMINATE dimension of the default 2-D fit (coord1D), oriented right = +
+by the UDI anchor in 15b. Robustness: coord1D of a 1-D fit.
+
+SURNAME CODING (as scripts 34/38). Paternal (fathers_surname) and maternal
+(mothers_surname) surnames are NFKD-deaccented, upper-cased and stripped. ELITE if either is
+in enduring_elite_FINAL.csv (298 surnames); else COMMON if either is in the 50-surname
+common list; else OTHER. SES = max of the two surnames' mean_nse in surname_nse.csv (as the
+original script 15); missing if neither surname is in the padron table.
+
+MODELS (OLS; SEs clustered by legislator, politician_id, across period-chambers):
+  (1) coord1D ~ elite + common + period x chamber FE           (reference: other)
+  (2) (1) + party x period-chamber FE
+  (3) coord1D ~ SES/10 + period x chamber FE
+  (4) (3) + party x period-chamber FE
+  Party = the party of the legislator's term in politician_periods (duplicated party
+  labels merged; no party recorded -> "Independent"). Party effects are interacted with
+  the period-chamber because each fit has its own scale. Robustness: bloc (right / centre /
+  left / independent) x period-chamber FE instead of party; the party models on members
+  with a recorded party only (independents pooled in one cell could drive a within-party
+  gradient); and the 1-D fit as outcome.
+
+OUTPUTS (output/nominate/, tables/, figures/):
+  nominate_analysis_sample.csv      one row per scaled legislator-period-chamber
+  nominate_models.csv               every coefficient, SE, p, N, clusters
+  nominate_elite_counts.csv         elite / common / other legislators per period-chamber
+  nominate_group_means.csv          group means +- SE per period-chamber (figure data)
+  nominate_published_vs_rebuilt.csv published appendix numbers vs rebuilt
+  nominate_token_match_audit.csv    compound surnames whose tokens (not the whole) are elite
+  tables/table_appendix_nominate.tex    bare tabular (INV-13)
+  figures/figure_appendix_nominate.pdf/.png   no title, serif, grayscale-readable (INV-12)
+Deterministic (no random draws), so no seed (INV-14). Paths anchored on the repo.
+"""
+import sys
+from pathlib import Path
+
+import matplotlib
+
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt  # noqa: E402
+import numpy as np  # noqa: E402
+import pandas as pd  # noqa: E402
+import statsmodels.formula.api as smf  # noqa: E402
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from _measure_helpers import (  # noqa: E402
+    DATA, FIGURES, OUTPUT, TABLES, dac, publish, skip, star, tex_num, tex_p)
+
+SNAP = DATA / "nominate_snapshot"
+NOM = OUTPUT / "nominate"
+COORDS = NOM / "wnominate_coords.csv"
+MAIN_PERIODS = ["LIV", "LV", "LVI"]
+ALL_PERIODS = ["LI", "LII", "LIII", "LIV", "LV", "LVI"]
+PERIOD_LABEL = {"LI": "2002-06", "LII": "2006-10", "LIII": "2010-14",
+                "LIV": "2014-18", "LV": "2018-22", "LVI": "2022-26"}
+CHAMBER_LABEL = {"chamber": "Chamber of Deputies", "senate": "Senate"}
+SES_SCALE = 10.0   # SES coefficient reported per 10 points of surname mean_nse
+PUBLISHED = {      # online_appendix.tex, sec:nominate (never generated by a script; A7 memo)
+    "elite_vs_other_coef": 0.23, "elite_vs_other_p": 0.12, "n_elite_legislators": 75,
+    "ses_p_no_party": 0.001, "ses_p_party": 0.42}
+
+if not COORDS.exists():
+    skip(f"{COORDS} not found (run 15b_wnominate_by_period.R)")
+NOM.mkdir(parents=True, exist_ok=True)
+
+# ------------------------------------------------------------------ surname lists
+ELITE = set(pd.read_csv(DATA / "enduring_elite_FINAL.csv").surname.map(dac))
+COMMON = set(dac(s) for s in (
+    "GONZALEZ MUNOZ DIAZ ROJAS PEREZ SILVA SOTO MARTINEZ LOPEZ MORALES CONTRERAS RODRIGUEZ "
+    "SEPULVEDA FUENTES VALENZUELA RAMIREZ ESPINOZA REYES HERNANDEZ GUTIERREZ FLORES CASTRO "
+    "TORRES SANCHEZ VASQUEZ CASTILLO FERNANDEZ ARAYA HERRERA VARGAS NUNEZ ALVAREZ CARRASCO "
+    "GOMEZ BRAVO VERGARA GARCIA TAPIA JARA ZUNIGA ORELLANA FIGUEROA MIRANDA RIQUELME CAMPOS "
+    "MOLINA RIVERA GUZMAN SANDOVAL ORTIZ").split())
+assert len(ELITE) == 298 and len(COMMON) == 50
+_ses = pd.read_csv(DATA / "surname_nse.csv")
+SES = dict(zip(_ses.surname.map(dac), _ses.mean_nse))
+
+# party label crosswalk: merges the duplicated party records of political_parties and
+# assigns a bloc (used only in the bloc-FE robustness column)
+PARTY = {
+    "Partido Unión Demócrata Independiente": ("UDI", "right"),
+    "Unión Demócrata Independiente": ("UDI", "right"),
+    "Partido Renovación Nacional": ("RN", "right"),
+    "Renovación Nacional": ("RN", "right"),
+    "Partido Republicano de Chile": ("REP", "right"),
+    "Partido Evolución Política (Evópoli)": ("EVOP", "right"),
+    "Partido Nacional Libertario": ("PNL", "right"),
+    "Partido Social Cristiano": ("PSC", "right"),
+    "Partido Demócrata Cristiano": ("DC", "centre"),
+    "Movimiento Amarillos por Chile": ("AMAR", "centre"),
+    "Partido Demócratas Chile": ("DEM", "centre"),
+    "Partido de la Gente": ("PDG", "centre"),
+    "ChilePrimero": ("CH1", "centre"),
+    "Partido Regionalista de los Independientes": ("PRI", "centre"),
+    "Partido Regionalista Independiente": ("PRI", "centre"),
+    "Partido Socialista de Chile": ("PS", "left"),
+    "Partido Comunista de Chile": ("PC", "left"),
+    "Partido por la Democracia": ("PPD", "left"),
+    "Partido Por la Democracia": ("PPD", "left"),
+    "Partido Radical Socialdemócrata": ("PR", "left"),
+    "Partido Radical Social Demócrata": ("PR", "left"),
+    "Partido Radical de Chile": ("PR", "left"),
+    "Partido Radical": ("PR", "left"),
+    "Partido Liberal de Chile": ("PL", "left"),
+    "Partido Frente Amplio": ("FA", "left"),
+    "Frente Amplio": ("FA", "left"),
+    "Revolución Democrática": ("RD", "left"),
+    "Partido Convergencia Social": ("CS", "left"),
+    "Partido Comunes": ("COM", "left"),
+    "Federación Regionalista Verde Social": ("FRVS", "left"),
+    "Partido Ecologista Verde": ("PEV", "left"),
+    "Partido Humanista": ("PH", "left"),
+    "Partido Acción Humanista": ("PAH", "left"),
+    "Partido Progresista (PRO)": ("PRO", "left"),
+    "Partido Amplio de Izquierda Socialista": ("PAIS", "left"),
+}
+
+# ------------------------------------------------------------------ analysis sample
+co = pd.read_csv(COORDS)
+lg = pd.read_csv(SNAP / "legislators.csv")
+d = co.merge(lg, on=["politician_id", "chamber", "period"], how="left", validate="one_to_one")
+assert d.fathers_surname.notna().all(), "legislator without surname record"
+unmapped = sorted(set(d.party_name.dropna()) - set(PARTY))
+assert not unmapped, f"party names missing from the crosswalk: {unmapped}"
+n_in = len(d)
+d = d[d.coord1D.notna()].copy()           # W-NOMINATE drops < 20 scaled votes
+print(f"[15] legislator-period-chambers: {n_in} in 15b, {len(d)} scaled")
+
+d["pat"] = d.fathers_surname.map(dac)
+d["mat"] = d.mothers_surname.fillna("").map(dac)
+is_elite = d.pat.isin(ELITE) | d.mat.isin(ELITE)
+is_common = (d.pat.isin(COMMON) | d.mat.isin(COMMON)) & ~is_elite
+d["group"] = np.where(is_elite, "elite", np.where(is_common, "common", "other"))
+d["elite"] = is_elite.astype(int)
+d["common"] = is_common.astype(int)
+d["ses"] = np.fmax(d.pat.map(SES).astype(float), d.mat.map(SES).astype(float))
+d["ses10"] = d.ses / SES_SCALE
+d["party"] = d.party_name.map(lambda p: PARTY[p][0] if isinstance(p, str) else "IND")
+d["bloc"] = d.party_name.map(lambda p: PARTY[p][1] if isinstance(p, str) else "ind")
+d["pc"] = d.chamber + "_" + d.period
+d["party_pc"] = d.party + "_" + d.pc
+d["bloc_pc"] = d.bloc + "_" + d.pc
+d["main"] = d.period.isin(MAIN_PERIODS)
+d["name"] = d.first_name + " " + d.fathers_surname + " " + d.mothers_surname.fillna("")
+d = d.sort_values(["chamber", "period", "politician_id"]).reset_index(drop=True)
+d[["politician_id", "chamber", "period", "name", "pat", "mat", "group", "ses", "party",
+   "bloc", "coord1D", "coord2D", "coord1D_1d", "n_yeanay", "main"]].to_csv(
+    NOM / "nominate_analysis_sample.csv", index=False)
+
+# audit: compound surnames whose tokens (not the whole string) are on the elite list
+tok_hit = [(r.name, r.pat, r.mat) for r in d.itertuples()
+           if r.group != "elite"
+           and any(t in ELITE for s in (r.pat, r.mat) for t in s.replace("-", " ").split())]
+pd.DataFrame(tok_hit, columns=["name", "pat", "mat"]).drop_duplicates().to_csv(
+    NOM / "nominate_token_match_audit.csv", index=False)
+print(f"[15] compound-surname token matches NOT coded elite (exact rule): {len(tok_hit)}")
+
+
+# ------------------------------------------------------------------ models
+def fit(formula: str, data: pd.DataFrame):
+    """OLS with SEs clustered by legislator (politician_id)."""
+    data = data.dropna(subset=["coord1D", "coord1D_1d"] + (["ses10"] if "ses10" in formula
+                                                            else []))
+    groups = data.politician_id.to_numpy()
+    with np.errstate(invalid="ignore"):   # singleton FE cells: NaN SEs on FE dummies only
+        res = smf.ols(formula, data).fit(cov_type="cluster", cov_kwds={"groups": groups})
+        res.bse    # computed here, inside errstate; the reported terms are checked below
+    return res, len(data), len(np.unique(groups))
+
+
+ALL = slice(None)
+HAS_PARTY = "party != 'IND'"
+SPECS = {   # model id -> (rhs, FE label, row filter)
+    "cat": ("elite + common + C(pc)", "pc", ALL),
+    "cat_party": ("elite + common + C(party_pc)", "party x pc", ALL),
+    "cat_bloc": ("elite + common + C(bloc_pc)", "bloc x pc", ALL),
+    "cat_party_noind": ("elite + common + C(party_pc)", "party x pc, party recorded",
+                        HAS_PARTY),
+    "ses": ("ses10 + C(pc)", "pc", ALL),
+    "ses_party": ("ses10 + C(party_pc)", "party x pc", ALL),
+    "ses_bloc": ("ses10 + C(bloc_pc)", "bloc x pc", ALL),
+    "ses_party_noind": ("ses10 + C(party_pc)", "party x pc, party recorded", HAS_PARTY),
+}
+SAMPLES = {"main_2014_2026": d[d.main], "extended_2002_2026": d}
+OUTCOMES = {"coord1D": "2-D fit, dim 1", "coord1D_1d": "1-D fit"}
+rows = [
+    {"sample": sn, "outcome": yv, "model": mid, "fe": fe, "term": term,
+     "coef": res.params[term], "se": res.bse[term], "p": res.pvalues[term],
+     "ci_lo": res.conf_int().loc[term, 0], "ci_hi": res.conf_int().loc[term, 1],
+     "n_obs": n, "n_clusters": g}
+    for sn, sd in SAMPLES.items()
+    for yv in OUTCOMES
+    for mid, (rhs, fe, rows_) in SPECS.items()
+    for res, n, g in [fit(f"{yv} ~ {rhs}", sd if rows_ is ALL else sd.query(rows_))]
+    for term in (["elite", "common"] if mid.startswith("cat") else ["ses10"])
+]
+M = pd.DataFrame(rows)
+assert M[["coef", "se", "p"]].notna().all().all(), "NaN in a reported coefficient"
+M.to_csv(NOM / "nominate_models.csv", index=False)
+print("\n[15] pooled estimates (coord1D, legislator-clustered SEs):")
+print(M[M.outcome == "coord1D"].round(4).to_string(index=False))
+
+# ------------------------------------------------------------------ counts and means
+counts = (d.groupby(["chamber", "period", "group"]).size().unstack(fill_value=0)
+            .reindex(columns=["elite", "common", "other"], fill_value=0).reset_index())
+counts["total"] = counts[["elite", "common", "other"]].sum(axis=1)
+counts["elite_pct"] = 100 * counts.elite / counts.total
+counts["main"] = counts.period.isin(MAIN_PERIODS)
+counts.to_csv(NOM / "nominate_elite_counts.csv", index=False)
+n_elite_main = int(counts.loc[counts.main, "elite"].sum())
+n_elite_main_persons = d.loc[d.main & (d.group == "elite"), "politician_id"].nunique()
+print("\n[15] scaled legislators by surname group:")
+print(counts.round(1).to_string(index=False))
+print(f"[15] elite legislator-period-chambers, main window: {n_elite_main} "
+      f"({n_elite_main_persons} distinct persons)")
+
+means = (d.groupby(["chamber", "period", "group"]).coord1D
+          .agg(mean="mean", sd="std", n="size").reset_index())
+means["se"] = means.sd / np.sqrt(means.n)
+means.to_csv(NOM / "nominate_group_means.csv", index=False)
+
+
+# ------------------------------------------------------------------ published vs rebuilt
+def pick(sample: str, model: str, term: str, col: str, outcome: str = "coord1D") -> float:
+    r = M[(M["sample"] == sample) & (M.model == model) & (M.term == term)
+          & (M.outcome == outcome)]
+    return float(r[col].iloc[0])
+
+
+cmp_rows = [
+    ("elite_vs_other_coef", pick("main_2014_2026", "cat", "elite", "coef")),
+    ("elite_vs_other_p", pick("main_2014_2026", "cat", "elite", "p")),
+    ("n_elite_legislators", n_elite_main),
+    ("ses_p_no_party", pick("main_2014_2026", "ses", "ses10", "p")),
+    ("ses_p_party", pick("main_2014_2026", "ses_party", "ses10", "p")),
+    # not published; context for the comparison
+    ("n_elite_distinct_persons", n_elite_main_persons),
+    ("ses_coef_no_party", pick("main_2014_2026", "ses", "ses10", "coef")),
+    ("ses_coef_party", pick("main_2014_2026", "ses_party", "ses10", "coef")),
+    ("ses_coef_party_recorded_only", pick("main_2014_2026", "ses_party_noind", "ses10", "coef")),
+    ("ses_p_party_recorded_only", pick("main_2014_2026", "ses_party_noind", "ses10", "p")),
+    ("ses_sd_main_sample", float(d.loc[d.main, "ses"].std())),
+]
+cmp = pd.DataFrame([{"quantity": q, "published": PUBLISHED.get(q, np.nan), "rebuilt": v}
+                    for q, v in cmp_rows])
+cmp.to_csv(NOM / "nominate_published_vs_rebuilt.csv", index=False)
+print("\n[15] published vs rebuilt (main window, 2-D fit dim 1):")
+print(cmp.round(4).to_string(index=False))
+
+# ------------------------------------------------------------------ table (bare tabular)
+TERM_LABEL = {"elite": "Elite surname", "common": "Common surname",
+              "ses10": "Surname SES (per 10 points)"}
+COLS = ["cat", "cat_party", "cat_party_noind", "ses", "ses_party", "ses_party_noind"]
+
+
+def cell(sample: str, model: str, term: str) -> tuple[str, str]:
+    r = M[(M["sample"] == sample) & (M.model == model) & (M.term == term)
+          & (M.outcome == "coord1D")]
+    if r.empty:
+        return "", ""
+    r = r.iloc[0]
+    return tex_num(r.coef, 3, star(r.p)), f"$({r.se:.3f})$"
+
+
+def nobs(sample: str, model: str, col: str) -> str:
+    r = M[(M["sample"] == sample) & (M.model == model) & (M.outcome == "coord1D")]
+    return f"{int(r[col].iloc[0]):,}"
+
+
+def yes_no(flags: list[bool]) -> str:
+    return " & ".join("Yes" if f else "No" for f in flags)
+
+
+NC = len(COLS) + 1
+lines = [r"\begin{tabular}{l" + "c" * len(COLS) + "}", r"\toprule",
+         " & " + " & ".join(f"({i})" for i in range(1, NC)) + r" \\", r"\midrule"]
+for s_id, s_lab in [("main_2014_2026", "Panel A: 2014--2026 (six period-chambers)"),
+                    ("extended_2002_2026", "Panel B: 2002--2026 (twelve period-chambers)")]:
+    lines += [rf"\multicolumn{{{NC}}}{{l}}{{\textit{{{s_lab}}}}} \\", r"\midrule"]
+    for term in ["elite", "common", "ses10"]:
+        est, se = zip(*(cell(s_id, m, term) for m in COLS))
+        lines += [f"{TERM_LABEL[term]} & " + " & ".join(est) + r" \\",
+                  " & " + " & ".join(se) + r" \\"]
+    lines += ["Observations & " + " & ".join(nobs(s_id, m, "n_obs") for m in COLS) + r" \\",
+              "Legislators (clusters) & "
+              + " & ".join(nobs(s_id, m, "n_clusters") for m in COLS) + r" \\"]
+    if s_id == "main_2014_2026":
+        lines += [r"\\[-0.6em]"]
+lines += [r"\midrule",
+          r"Period $\times$ chamber FE & " + yes_no([True] * len(COLS)) + r" \\",
+          r"Party $\times$ period-chamber FE & "
+          + yes_no([SPECS[m][1] != "pc" for m in COLS]) + r" \\",
+          "Members with a recorded party only & "
+          + yes_no([SPECS[m][2] is not ALL for m in COLS]) + r" \\",
+          r"\bottomrule", r"\end{tabular}"]
+tab_path = TABLES / "table_appendix_nominate.tex"
+tab_path.write_text("\n".join(lines) + "\n", encoding="utf-8")
+print(f"\n[15] wrote {tab_path}")
+
+# ------------------------------------------------------------------ figure
+plt.rcParams.update({"font.family": "serif", "font.size": 10, "axes.spines.top": False,
+                     "axes.spines.right": False})
+STYLE = {"elite": dict(marker="o", color="0.05", mfc="0.05", label="Elite surname"),
+         "common": dict(marker="s", color="0.35", mfc="white", label="Common surname"),
+         "other": dict(marker="^", color="0.6", mfc="0.6", label="Other surname")}
+OFFSET = {"elite": -0.18, "common": 0.0, "other": 0.18}
+fig, axes = plt.subplots(1, 2, figsize=(9.0, 3.8), sharey=True)
+x = np.arange(len(ALL_PERIODS))
+for ax, ch, panel in zip(axes, ["chamber", "senate"], ["A", "B"]):
+    ax.axvspan(len(ALL_PERIODS) - len(MAIN_PERIODS) - 0.5, len(ALL_PERIODS) - 0.5,
+               color="0.93", zorder=0, lw=0)
+    ax.axhline(0, color="0.5", lw=0.6, zorder=1)
+    for g, st in STYLE.items():
+        m = (means[(means.chamber == ch) & (means.group == g)]
+             .set_index("period").reindex(ALL_PERIODS))
+        ax.errorbar(x + OFFSET[g], m["mean"], yerr=1.96 * m["se"], fmt=st["marker"],
+                    color=st["color"], mfc=st["mfc"], mec=st["color"], ms=5, capsize=2,
+                    lw=0.9, label=st["label"], zorder=3)
+    ax.set_xticks(x, [PERIOD_LABEL[p] for p in ALL_PERIODS])
+    ax.set_title(f"Panel {panel}: {CHAMBER_LABEL[ch]}", fontsize=10, loc="left")
+    ax.set_xlabel("Legislative period")
+axes[0].set_ylabel("W-NOMINATE dimension 1 (right $=+$)")
+handles, labels = axes[0].get_legend_handles_labels()
+fig.tight_layout(rect=(0, 0.07, 1, 1))
+fig.legend(handles, labels, frameon=False, fontsize=9, loc="lower center", ncol=3)
+for ext in ["pdf", "png"]:
+    out = FIGURES / f"figure_appendix_nominate.{ext}"
+    fig.savefig(out, dpi=300 if ext == "png" else None, bbox_inches="tight")
+    print(f"[15] wrote {out}")
+plt.close(fig)
+
+publish(tab_path, "tables")
+publish(FIGURES / "figure_appendix_nominate.pdf", "figures")
+publish(FIGURES / "figure_appendix_nominate.png", "figures")

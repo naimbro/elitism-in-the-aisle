@@ -1,0 +1,624 @@
+docs 116938, legislators 606, elite list 298
+fitting STM: K = 80, prevalence ~apellido + camara + Year, start 2026-09-26 07:27:27
+Beginning Spectral Initialization 
+	 Calculating the gram matrix...
+	 Using only 10000 most frequent terms during initialization...
+	 Finding anchor words...
+ 	................................................................................
+	 Recovering initialization...
+ 	....................................................................................................
+Initialization complete.
+....................................................................................................
+Completed E-Step (255 seconds). 
+Completed M-Step. 
+Completing Iteration 1 (approx. per word bound = -8.490) 
+....................................................................................................
+Completed E-Step (241 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 2 (approx. per word bound = -8.014, relative change = 5.609e-02) 
+....................................................................................................
+Completed E-Step (258 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 3 (approx. per word bound = -7.969, relative change = 5.709e-03) 
+....................................................................................................
+Completed E-Step (206 seconds). 
+Completed M-Step. 
+Completing Iteration 4 (approx. per word bound = -7.948, relative change = 2.529e-03) 
+....................................................................................................
+Completed E-Step (186 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 5 (approx. per word bound = -7.937, relative change = 1.468e-03) 
+Topic 1: personal, grado, sueldo, planta, administrativo 
+ Topic 2: fundo, linea, santa, puente, camino 
+ Topic 3: aceptar, miembro, comisiones, designar, legislacion 
+ Topic 4: fondos, cuentas, dinero, pago, pagado 
+ Topic 5: partida, presupuesto, gasto, glosa, suplemento 
+ Topic 6: pago, deuda, obrero, salario, pagado 
+ Topic 7: eleccion, reclamo, candidatos, departamento, informe 
+ Topic 8: beneficencia, hospital, concepcion, fondos, junta 
+ Topic 9: sala, minuto, asentimiento, solicito, incidentes 
+ Topic 10: provincia, coquimbo, nombre, ciudad, comunicacion 
+ Topic 11: puerto, valparaiso, antofagasta, obras, zona 
+ Topic 12: moneda, centavos, peso, cambio, corriente 
+ Topic 13: celebro, asistieron, falta, levanta, interior 
+ Topic 14: decreto, diario, oficial, publicacion, regir 
+ Topic 15: caja, banco, institucion, credito, prestamo 
+ Topic 16: clase, patente, establecimientos, negocios, profesionales 
+ Topic 17: votar, abstenciones, resulto, rechazada, desechada 
+ Topic 18: sesion, manana, celebrar, semana, despachar 
+ Topic 19: construccion, edificio, suma, inversion, fondos 
+ Topic 20: fiscal, funcionarios, tesoreria, abogado, cargo 
+ Topic 21: hacienda, fondos, casa, meses, libras 
+ Topic 22: camino, transito, carga, automovil, publico 
+ Topic 23: cuerpo, carabineros, bomberos, material, auxilio 
+ Topic 24: jefe, director, seccion, oficina, direccion 
+ Topic 25: constitucion, acusacion, constitucional, interior, politica 
+ Topic 26: antecedentes, datos, solicitar, dirigir, peticion 
+ Topic 27: emprestito, autorizar, municipalidad, suma, contratar 
+ Topic 28: caja, prevision, empleados, social, seguro 
+ Topic 29: oficiales, ejercito, militar, armada, militares 
+ Topic 30: autorizar, inversion, memoria, ciudad, suma 
+ Topic 31: partido, cargo, palabras, hechos, persona 
+ Topic 32: aduana, hacienda, derechos, oficina, mercaderias 
+ Topic 33: gasto, presupuesto, suma, consulta, entradas 
+ Topic 34: comite, prosecretario, apoyado, conservador, radical 
+ Topic 35: agua, agua_potable, obras, ciudad, regadio 
+ Topic 36: millones, emision, bonos, banco, papel 
+ Topic 37: sueldo, aumento, empleados, policia, gratificacion 
+ Topic 38: nombre, lectura, acta, mocion, mensaje 
+ Topic 39: derecho, publico, facultad, constitucion, razon 
+ Topic 40: procedimiento, civil, codigo, titulo, juicio 
+ Topic 41: fabrica, articulos, ganado, carne, consumo 
+ Topic 42: nacional, personal, defensa, financiar, fuerzas 
+ Topic 43: propiedad, terreno, calle, permiso, ubicada 
+ Topic 44: salitre, industria, precio, produccion, agricultura 
+ Topic 45: relaciones, relaciones_exteriores, paises, consul, extranjero 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, obras, construccion 
+ Topic 48: impuesto, vino, alcohol, centavos, precio 
+ Topic 49: consejo, fomento, corporacion, caja, consejero 
+ Topic 50: pension, familia, hijos, solicitud, gracia 
+ Topic 51: obrero, pueblo, vida, hombre, social 
+ Topic 52: patria, america, independencia, sentimientos, orden 
+ Topic 53: presupuesto, administracion, publica, gasto, entradas 
+ Topic 54: modificar, letra, propuesta, suprimir, propone 
+ Topic 55: municipalidad, comuna, departamento, municipal, creacion 
+ Topic 56: terreno, interes, tierras, colonizacion, fisco 
+ Topic 57: asentimiento, tramite, unanime, facil_despacho, anunciar 
+ Topic 58: partido, hombre, politica, democratico, regimen 
+ Topic 59: sindicato, asociacion, gremio, obrero, comercio 
+ Topic 60: pavimentar, trabajos, calles, municipalidad, ciudad 
+ Topic 61: retiro, marina, armada, ejercito, pension 
+ Topic 62: empleados, jubilacion, publico, derecho, desahucio 
+ Topic 63: compania, carbon, industria, electricidad, salitre 
+ Topic 64: informe, plazo, urgencia, ejecutivo, hacienda 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, contratos, acciones, obligaciones 
+ Topic 67: formular, indicaciones, reglamento, idea, discutir 
+ Topic 68: popular, direccion, casas, credito, caja 
+ Topic 69: multa, delito, disposiciones, codigo, infraccion 
+ Topic 70: habitacion, propietario, construir, construccion, obrero 
+ Topic 71: tribunal, justicia, abogado, cuentas, decreto 
+ Topic 72: problema, solucion, significa, interes, interesado 
+ Topic 73: junta, electoral, inscripcion, registros, contribuyentes 
+ Topic 74: medico, sanidad, sanitario, salubridad, instituto 
+ Topic 75: ejercito, carabineros, jefe, coronel, teniente 
+ Topic 76: resultado, razon, mayoria, negativa, afirmativa 
+ Topic 77: impuesto, renta, contribucion, contribuciones, propiedad 
+ Topic 78: empresa, ferrocarril, tarifas, alza, obrero 
+ Topic 79: despachar, proyecto, facil_despacho, pedir, presentar 
+ Topic 80: mutualistas, sociedades, razon, obrero, nacional 
+....................................................................................................
+Completed E-Step (178 seconds). 
+Completed M-Step. 
+Completing Iteration 6 (approx. per word bound = -7.929, relative change = 1.007e-03) 
+....................................................................................................
+Completed E-Step (166 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 7 (approx. per word bound = -7.922, relative change = 7.989e-04) 
+....................................................................................................
+Completed E-Step (162 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 8 (approx. per word bound = -7.917, relative change = 6.235e-04) 
+....................................................................................................
+Completed E-Step (155 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 9 (approx. per word bound = -7.914, relative change = 4.788e-04) 
+....................................................................................................
+Completed E-Step (167 seconds). 
+Completed M-Step. 
+Completing Iteration 10 (approx. per word bound = -7.911, relative change = 3.663e-04) 
+Topic 1: personal, grado, sueldo, planta, gratificacion 
+ Topic 2: fundo, linea, santa, puente, limite 
+ Topic 3: aceptar, miembro, comisiones, nombramiento, designar 
+ Topic 4: dinero, fondos, cuentas, serie, libros 
+ Topic 5: partida, presupuesto, glosa, suplemento, rubro 
+ Topic 6: pago, deuda, pagado, salario, fisco 
+ Topic 7: eleccion, reclamo, candidatos, electoral, departamento 
+ Topic 8: beneficencia, concepcion, hospital, atender, junta 
+ Topic 9: sala, minuto, solicito, incidentes, prorrogar 
+ Topic 10: provincia, zona, comunicacion, ciudad, region 
+ Topic 11: puerto, valparaiso, antofagasta, tarapaca, iquique 
+ Topic 12: moneda, centavos, cambio, peso, corriente 
+ Topic 13: celebro, asistieron, levanta, acta, asistencia 
+ Topic 14: decreto, diario, oficial, regir, publicacion 
+ Topic 15: caja, banco, credito, institucion, prestamo 
+ Topic 16: clase, patente, negocios, establecimientos, industriales 
+ Topic 17: votar, abstenciones, rechazada, resulto, desechada 
+ Topic 18: sesion, manana, semana, celebrar, interpelacion 
+ Topic 19: construccion, inversion, fondos, edificio, destinar 
+ Topic 20: fiscal, funcionarios, cargo, tesoreria, funciones 
+ Topic 21: hacienda, meses, casa, fondos, pregunta 
+ Topic 22: camino, transito, carga, movilizacion, publico 
+ Topic 23: cuerpo, carabineros, bomberos, material, auxilio 
+ Topic 24: jefe, director, oficina, seccion, oficinas 
+ Topic 25: constitucion, constitucional, acusacion, politica, interior 
+ Topic 26: antecedentes, solicitar, datos, peticion, interior 
+ Topic 27: emprestito, autorizar, bonos, contratar, anual 
+ Topic 28: caja, prevision, social, seguro, empleados 
+ Topic 29: oficiales, ejercito, militar, armada, militares 
+ Topic 30: autorizar, inversion, ciudad, unico, memoria 
+ Topic 31: cargo, palabras, partido, hechos, persona 
+ Topic 32: derechos, aduana, mercaderias, hacienda, arancel 
+ Topic 33: gasto, suma, presupuesto, cantidad, entradas 
+ Topic 34: comite, prosecretario, apoyado, radical, conservador 
+ Topic 35: agua, obras, agua_potable, alcantarillado, regadio 
+ Topic 36: millones, emision, papel, cambio, billete 
+ Topic 37: sueldo, aumento, empleados, policia, gratificacion 
+ Topic 38: lectura, mensaje, mocion, nombre, acta 
+ Topic 39: derecho, publico, facultad, interes, razon 
+ Topic 40: procedimiento, codigo, civil, titulo, juicio 
+ Topic 41: fabrica, articulos, precio, ganado, animales 
+ Topic 42: nacional, defensa, financiar, personal, fuerzas 
+ Topic 43: propiedad, terreno, calle, permiso, ubicada 
+ Topic 44: salitre, industria, precio, agricultura, produccion 
+ Topic 45: paises, relaciones, relaciones_exteriores, extranjero, internacional 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, obras, publicas 
+ Topic 48: impuesto, vino, alcohol, centavos, litro 
+ Topic 49: consejo, corporacion, fomento, consejero, representante 
+ Topic 50: pension, familia, solicitud, hijos, gracia 
+ Topic 51: obrero, pueblo, vida, hombre, gente 
+ Topic 52: homenaje, hombre, patria, historia, vida 
+ Topic 53: presupuesto, administracion, publica, hacienda, entradas 
+ Topic 54: modificar, letra, suprimir, propuesta, propone 
+ Topic 55: municipalidad, comuna, departamento, municipal, creacion 
+ Topic 56: terreno, tierras, colonizacion, indigena, hectareas 
+ Topic 57: unanime, asentimiento, tramite, acordo, anunciar 
+ Topic 58: partido, politica, hombre, democratico, regimen 
+ Topic 59: sindicato, obrero, organizacion, conflicto, asociacion 
+ Topic 60: trabajos, pavimentar, calles, ciudad, obras 
+ Topic 61: retiro, marina, armada, ejercito, naval 
+ Topic 62: empleados, jubilacion, derecho, publico, desahucio 
+ Topic 63: compania, carbon, industria, electricidad, minas 
+ Topic 64: informe, plazo, ejecutivo, urgencia, hacienda 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, contratos, acciones, sociedad 
+ Topic 67: formular, idea, indicaciones, reglamento, discutir 
+ Topic 68: direccion, popular, organismo, control, casas 
+ Topic 69: disposiciones, multa, delito, aplicar, reglamento 
+ Topic 70: habitacion, propietario, obrero, casas, poblacion 
+ Topic 71: tribunal, justicia, abogado, causas, corte_suprema 
+ Topic 72: problema, solucion, interes, importante, significa 
+ Topic 73: junta, electoral, inscripcion, lista, registros 
+ Topic 74: medico, sanidad, sanitario, enfermedad, salubridad 
+ Topic 75: jefe, carabineros, ordenes, orden, coronel 
+ Topic 76: razon, mayoria, resultado, rechazo, constancia 
+ Topic 77: impuesto, renta, contribucion, contribuciones, bienes 
+ Topic 78: empresa, ferrocarril, tarifas, alza, transporte 
+ Topic 79: despachar, proyecto, presentar, pedir, facil 
+ Topic 80: atencion, razon, condiciones, motivo, vista 
+....................................................................................................
+Completed E-Step (145 seconds). 
+Completed M-Step. 
+Completing Iteration 11 (approx. per word bound = -7.908, relative change = 2.839e-04) 
+....................................................................................................
+Completed E-Step (197 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 12 (approx. per word bound = -7.907, relative change = 2.320e-04) 
+....................................................................................................
+Completed E-Step (161 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 13 (approx. per word bound = -7.905, relative change = 1.867e-04) 
+....................................................................................................
+Completed E-Step (161 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 14 (approx. per word bound = -7.904, relative change = 1.532e-04) 
+....................................................................................................
+Completed E-Step (182 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 15 (approx. per word bound = -7.903, relative change = 1.235e-04) 
+Topic 1: personal, grado, sueldo, planta, administrativo 
+ Topic 2: fundo, linea, santa, puente, limite 
+ Topic 3: aceptar, miembro, nombramiento, comisiones, legislacion 
+ Topic 4: dinero, fondos, cuentas, serie, entrega 
+ Topic 5: partida, presupuesto, suplemento, glosa, rubro 
+ Topic 6: pago, deuda, pagado, fisco, interes 
+ Topic 7: eleccion, reclamo, candidatos, electoral, departamento 
+ Topic 8: concepcion, beneficencia, hospital, atender, necesidades 
+ Topic 9: sala, minuto, solicito, incidentes, prorrogar 
+ Topic 10: provincia, zona, ciudad, comunicacion, region 
+ Topic 11: valparaiso, puerto, antofagasta, tarapaca, iquique 
+ Topic 12: moneda, centavos, doscientos, peso, corriente 
+ Topic 13: celebro, asistieron, acta, levanta, asistencia 
+ Topic 14: decreto, diario, oficial, regir, publicacion 
+ Topic 15: caja, banco, credito, institucion, prestamo 
+ Topic 16: clase, patente, negocios, establecimientos, industriales 
+ Topic 17: votar, abstenciones, negativa, afirmativa, rechazada 
+ Topic 18: sesion, manana, semana, celebrar, interpelacion 
+ Topic 19: construccion, inversion, fondos, destinar, edificio 
+ Topic 20: fiscal, cargo, funcionarios, funciones, tesoreria 
+ Topic 21: hacienda, pregunta, negocio, meses, casa 
+ Topic 22: camino, transito, publico, movilizacion, vina_del_mar 
+ Topic 23: cuerpo, carabineros, bomberos, auxilio, material 
+ Topic 24: jefe, director, oficina, seccion, oficinas 
+ Topic 25: constitucion, constitucional, acusacion, politica, carta 
+ Topic 26: antecedentes, interior, solicitar, peticion, datos 
+ Topic 27: emprestito, autorizar, bonos, autorizacion, contratar 
+ Topic 28: caja, prevision, social, seguro, periodistas 
+ Topic 29: oficiales, ejercito, militar, armada, militares 
+ Topic 30: autorizar, ciudad, unico, higgins, memoria 
+ Topic 31: palabras, cargo, hechos, persona, prensa 
+ Topic 32: derechos, aduana, internacion, mercaderias, arancel 
+ Topic 33: gasto, suma, cantidad, presupuesto, entradas 
+ Topic 34: comite, prosecretario, apoyado, solicitar, radical 
+ Topic 35: obras, agua, agua_potable, alcantarillado, regadio 
+ Topic 36: millones, cambio, papel, emision, moneda 
+ Topic 37: sueldo, aumento, empleados, gratificacion, policia 
+ Topic 38: lectura, mensaje, mocion, nombre, acta 
+ Topic 39: derecho, publico, interes, facultad, sistema 
+ Topic 40: codigo, procedimiento, titulo, civil, juicio 
+ Topic 41: precio, articulos, fabrica, animales, ganado 
+ Topic 42: nacional, defensa, financiar, fuerzas, hacienda 
+ Topic 43: propiedad, terreno, calle, permiso, ubicada 
+ Topic 44: salitre, industria, agricultura, produccion, precio 
+ Topic 45: paises, extranjero, relaciones, relaciones_exteriores, internacional 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, obras, publicas 
+ Topic 48: impuesto, vino, alcohol, centavos, litro 
+ Topic 49: consejo, corporacion, fomento, consejero, representante 
+ Topic 50: pension, familia, solicitud, hijos, gracia 
+ Topic 51: obrero, pueblo, vida, gente, hombre 
+ Topic 52: hombre, vida, homenaje, historia, patria 
+ Topic 53: presupuesto, administracion, publica, economia, hacienda 
+ Topic 54: modificar, agregar, articulos, suprimir, letra 
+ Topic 55: municipalidad, comuna, municipal, departamento, creacion 
+ Topic 56: terreno, tierras, colonizacion, indigena, hectareas 
+ Topic 57: unanime, asentimiento, acordo, tramite, anunciar 
+ Topic 58: partido, politica, democratico, regimen, hombre 
+ Topic 59: obrero, sindicato, organizacion, actividades, conflicto 
+ Topic 60: trabajos, pavimentar, calles, ciudad, ejecutar 
+ Topic 61: retiro, marina, armada, retirado, naval 
+ Topic 62: empleados, jubilacion, derecho, publico, beneficios 
+ Topic 63: compania, carbon, electricidad, explotacion, mineral 
+ Topic 64: informe, plazo, ejecutivo, hacienda, informar 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, sociedad, contratos, acciones 
+ Topic 67: formular, idea, indicaciones, reglamento, discutir 
+ Topic 68: direccion, popular, organismo, control, fiscalizacion 
+ Topic 69: disposiciones, multa, delito, aplicar, reglamento 
+ Topic 70: habitacion, propietario, casas, poblacion, obrero 
+ Topic 71: tribunal, abogado, justicia, causas, corte_suprema 
+ Topic 72: problema, solucion, interes, importante, grave 
+ Topic 73: junta, electoral, inscripcion, lista, registros 
+ Topic 74: medico, enfermedad, sanidad, sanitario, salubridad 
+ Topic 75: policia, orden, hechos, fuerza, ordenes 
+ Topic 76: razon, mayoria, estimo, resultado, constancia 
+ Topic 77: impuesto, renta, contribucion, contribuciones, bienes 
+ Topic 78: empresa, ferrocarril, tarifas, alza, utilidades 
+ Topic 79: despachar, proyecto, presentar, pedir, estudio 
+ Topic 80: atencion, motivo, condiciones, vista, ruego 
+....................................................................................................
+Completed E-Step (157 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 16 (approx. per word bound = -7.902, relative change = 9.686e-05) 
+....................................................................................................
+Completed E-Step (172 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 17 (approx. per word bound = -7.902, relative change = 7.820e-05) 
+....................................................................................................
+Completed E-Step (146 seconds). 
+Completed M-Step. 
+Completing Iteration 18 (approx. per word bound = -7.901, relative change = 6.248e-05) 
+....................................................................................................
+Completed E-Step (151 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 19 (approx. per word bound = -7.901, relative change = 5.480e-05) 
+....................................................................................................
+Completed E-Step (145 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 20 (approx. per word bound = -7.900, relative change = 4.472e-05) 
+Topic 1: personal, grado, planta, sueldo, administrativo 
+ Topic 2: fundo, linea, puente, santa, limite 
+ Topic 3: aceptar, miembro, nombramiento, comisiones, legislacion 
+ Topic 4: dinero, cuentas, fondos, serie, entrega 
+ Topic 5: partida, presupuesto, suplemento, glosa, consulta 
+ Topic 6: pago, deuda, fisco, interes, pagado 
+ Topic 7: eleccion, reclamo, candidatos, electoral, departamento 
+ Topic 8: concepcion, beneficencia, hospital, atender, necesidades 
+ Topic 9: sala, minuto, solicito, incidentes, prorrogar 
+ Topic 10: provincia, zona, ciudad, norte, comunicacion 
+ Topic 11: valparaiso, puerto, antofagasta, tarapaca, iquique 
+ Topic 12: moneda, centavos, doscientos, peso, corriente 
+ Topic 13: celebro, acta, asistieron, levanta, leyo 
+ Topic 14: decreto, diario, oficial, regir, publicacion 
+ Topic 15: caja, banco, credito, institucion, prestamo 
+ Topic 16: clase, patente, negocios, establecimientos, industriales 
+ Topic 17: votar, resultado, negativa, abstenciones, afirmativa 
+ Topic 18: sesion, manana, semana, periodo, interpelacion 
+ Topic 19: construccion, fondos, inversion, destinar, edificio 
+ Topic 20: fiscal, cargo, funcionarios, funciones, tesoreria 
+ Topic 21: hacienda, negocio, pregunta, meses, podia 
+ Topic 22: camino, transito, publico, movilizacion, vina_del_mar 
+ Topic 23: cuerpo, carabineros, bomberos, auxilio, material 
+ Topic 24: jefe, director, oficina, seccion, oficinas 
+ Topic 25: constitucion, constitucional, acusacion, politica, facultades 
+ Topic 26: antecedentes, interior, solicitar, peticion, pedir 
+ Topic 27: emprestito, autorizar, bonos, autorizacion, contratar 
+ Topic 28: caja, prevision, social, seguro, periodistas 
+ Topic 29: oficiales, ejercito, militar, armada, militares 
+ Topic 30: autorizar, ciudad, unico, higgins, memoria 
+ Topic 31: palabras, cargo, discurso, persona, prensa 
+ Topic 32: derechos, aduana, internacion, mercaderias, arancel 
+ Topic 33: gasto, suma, cantidad, entradas, millones 
+ Topic 34: comite, prosecretario, apoyado, solicitar, considerando 
+ Topic 35: obras, agua, agua_potable, alcantarillado, estudios 
+ Topic 36: millones, cambio, papel, moneda, emision 
+ Topic 37: sueldo, aumento, empleados, gratificacion, aumentar 
+ Topic 38: lectura, mensaje, mocion, asuntos, acta 
+ Topic 39: derecho, publico, interes, sistema, principio 
+ Topic 40: codigo, procedimiento, titulo, civil, juicio 
+ Topic 41: precio, articulos, fabrica, consumo, animales 
+ Topic 42: nacional, defensa, financiar, fuerzas, economica 
+ Topic 43: propiedad, calle, terreno, permiso, ubicada 
+ Topic 44: salitre, industria, agricultura, produccion, comercio 
+ Topic 45: paises, extranjero, relaciones, relaciones_exteriores, internacional 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, obras, publicas 
+ Topic 48: impuesto, vino, alcohol, centavos, litro 
+ Topic 49: consejo, corporacion, fomento, consejero, representante 
+ Topic 50: pension, familia, solicitud, hijos, gracia 
+ Topic 51: obrero, pueblo, vida, gente, hombre 
+ Topic 52: hombre, vida, historia, homenaje, patria 
+ Topic 53: presupuesto, publica, administracion, economia, hacienda 
+ Topic 54: modificar, agregar, articulos, propone, letra 
+ Topic 55: municipalidad, comuna, municipal, departamento, creacion 
+ Topic 56: terreno, tierras, colonizacion, indigena, hectareas 
+ Topic 57: unanime, asentimiento, acordo, tramite, anunciar 
+ Topic 58: partido, politica, democratico, regimen, politicos 
+ Topic 59: obrero, organizacion, sindicato, actividades, conflicto 
+ Topic 60: trabajos, pavimentar, calles, ciudad, ejecutar 
+ Topic 61: retiro, marina, armada, retirado, talcahuano 
+ Topic 62: empleados, jubilacion, derecho, beneficios, publico 
+ Topic 63: compania, carbon, electricidad, explotacion, mineral 
+ Topic 64: informe, ejecutivo, plazo, hacienda, informar 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, sociedad, contratos, acciones 
+ Topic 67: formular, idea, indicaciones, reglamento, inconveniente 
+ Topic 68: direccion, popular, organismo, control, fiscalizacion 
+ Topic 69: disposiciones, reglamento, multa, aplicar, dispuesto 
+ Topic 70: habitacion, propietario, casas, poblacion, obrero 
+ Topic 71: tribunal, abogado, justicia, causas, corte_suprema 
+ Topic 72: problema, solucion, importante, interes, grave 
+ Topic 73: junta, electoral, inscripcion, lista, registros 
+ Topic 74: medico, enfermedad, sanidad, sanitario, salubridad 
+ Topic 75: policia, hechos, orden, denuncia, autoridades 
+ Topic 76: razon, mayoria, estimo, realidad, constancia 
+ Topic 77: impuesto, renta, contribucion, contribuciones, bienes 
+ Topic 78: empresa, tarifas, ferrocarril, alza, utilidades 
+ Topic 79: despachar, proyecto, presentar, pedir, estudiar 
+ Topic 80: atencion, motivo, condiciones, efecto, presta 
+....................................................................................................
+Completed E-Step (149 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 21 (approx. per word bound = -7.900, relative change = 3.354e-05) 
+....................................................................................................
+Completed E-Step (151 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 22 (approx. per word bound = -7.900, relative change = 3.153e-05) 
+....................................................................................................
+Completed E-Step (154 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 23 (approx. per word bound = -7.900, relative change = 2.318e-05) 
+....................................................................................................
+Completed E-Step (156 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 24 (approx. per word bound = -7.899, relative change = 2.137e-05) 
+....................................................................................................
+Completed E-Step (156 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 25 (approx. per word bound = -7.899, relative change = 2.082e-05) 
+Topic 1: personal, grado, planta, sueldo, administrativo 
+ Topic 2: fundo, linea, puente, santa, estacion 
+ Topic 3: aceptar, miembro, nombramiento, comisiones, legislacion 
+ Topic 4: dinero, cuentas, fondos, serie, entrega 
+ Topic 5: partida, presupuesto, suplemento, consulta, glosa 
+ Topic 6: pago, deuda, fisco, interes, pagado 
+ Topic 7: eleccion, reclamo, candidatos, electoral, mayoria 
+ Topic 8: concepcion, beneficencia, necesidades, hospital, atender 
+ Topic 9: sala, minuto, solicito, incidentes, prorrogar 
+ Topic 10: provincia, zona, norte, ciudad, comunicacion 
+ Topic 11: valparaiso, puerto, antofagasta, tarapaca, iquique 
+ Topic 12: moneda, centavos, doscientos, quinientos, peso 
+ Topic 13: acta, celebro, asistieron, levanta, leyo 
+ Topic 14: decreto, diario, oficial, regir, publicacion 
+ Topic 15: caja, banco, credito, institucion, prestamo 
+ Topic 16: clase, patente, negocios, industriales, establecimientos 
+ Topic 17: votar, resultado, negativa, abstenciones, afirmativa 
+ Topic 18: sesion, manana, orden, semana, periodo 
+ Topic 19: fondos, construccion, inversion, destinar, edificio 
+ Topic 20: fiscal, cargo, funcionarios, funciones, puestos 
+ Topic 21: hacienda, negocio, pregunta, meses, podia 
+ Topic 22: camino, transito, publico, movilizacion, vina_del_mar 
+ Topic 23: cuerpo, carabineros, bomberos, auxilio, reconstruccion 
+ Topic 24: jefe, director, oficina, seccion, oficinas 
+ Topic 25: constitucion, constitucional, acusacion, facultades, politica 
+ Topic 26: antecedentes, solicitar, peticion, interior, pedir 
+ Topic 27: emprestito, autorizar, bonos, autorizacion, contratar 
+ Topic 28: caja, prevision, social, seguro, periodistas 
+ Topic 29: oficiales, ejercito, armada, militar, militares 
+ Topic 30: autorizar, ciudad, higgins, unico, memoria 
+ Topic 31: palabras, cargo, discurso, prensa, persona 
+ Topic 32: derechos, aduana, internacion, mercaderias, liberar 
+ Topic 33: gasto, suma, cantidad, entradas, millones 
+ Topic 34: comite, prosecretario, apoyado, solicitar, considerando 
+ Topic 35: obras, agua, agua_potable, alcantarillado, estudios 
+ Topic 36: millones, cambio, moneda, papel, emision 
+ Topic 37: sueldo, aumento, gratificacion, empleados, aumentar 
+ Topic 38: lectura, mensaje, mocion, asuntos, honor 
+ Topic 39: derecho, publico, interes, sistema, practica 
+ Topic 40: codigo, procedimiento, titulo, civil, juicio 
+ Topic 41: precio, articulos, fabrica, consumo, animales 
+ Topic 42: nacional, defensa, financiar, fuerzas, economica 
+ Topic 43: propiedad, calle, terreno, permiso, ubicada 
+ Topic 44: industria, salitre, agricultura, produccion, comercio 
+ Topic 45: paises, extranjero, relaciones, relaciones_exteriores, internacional 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, obras, propuestas 
+ Topic 48: impuesto, vino, alcohol, centavos, litro 
+ Topic 49: consejo, corporacion, fomento, representante, consejero 
+ Topic 50: pension, familia, solicitud, hijos, gracia 
+ Topic 51: obrero, vida, pueblo, gente, hombre 
+ Topic 52: hombre, vida, historia, homenaje, sentimientos 
+ Topic 53: presupuesto, publica, administracion, economia, hacienda 
+ Topic 54: modificar, agregar, articulos, propone, letra 
+ Topic 55: municipalidad, comuna, municipal, departamento, osorno 
+ Topic 56: terreno, tierras, colonizacion, indigena, hectareas 
+ Topic 57: unanime, asentimiento, acordo, tramite, facil_despacho 
+ Topic 58: partido, politica, democratico, regimen, politico 
+ Topic 59: obrero, organizacion, sindicato, actividades, conflicto 
+ Topic 60: trabajos, pavimentar, calles, ciudad, ejecutar 
+ Topic 61: retiro, marina, armada, retirado, talcahuano 
+ Topic 62: empleados, jubilacion, derecho, beneficios, publico 
+ Topic 63: compania, carbon, explotacion, electricidad, mineral 
+ Topic 64: informe, ejecutivo, plazo, hacienda, informar 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, sociedad, contratos, capital 
+ Topic 67: formular, idea, indicaciones, inconveniente, conveniente 
+ Topic 68: direccion, popular, organismo, fiscalizacion, control 
+ Topic 69: disposiciones, reglamento, dispuesto, multa, aplicar 
+ Topic 70: habitacion, propietario, casas, poblacion, obrero 
+ Topic 71: tribunal, abogado, justicia, corte_suprema, causas 
+ Topic 72: problema, importante, interes, solucion, grave 
+ Topic 73: junta, electoral, inscripcion, lista, registros 
+ Topic 74: medico, enfermedad, sanidad, sanitario, salubridad 
+ Topic 75: policia, hechos, orden, denuncia, intendente 
+ Topic 76: razon, realidad, estimo, mayoria, constancia 
+ Topic 77: impuesto, renta, contribucion, contribuciones, bienes 
+ Topic 78: empresa, tarifas, ferrocarril, utilidades, alza 
+ Topic 79: despachar, proyecto, presentar, pedir, estudiar 
+ Topic 80: atencion, motivo, presta, efecto, condiciones 
+....................................................................................................
+Completed E-Step (151 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 26 (approx. per word bound = -7.899, relative change = 1.554e-05) 
+....................................................................................................
+Completed E-Step (155 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 27 (approx. per word bound = -7.899, relative change = 1.318e-05) 
+....................................................................................................
+Completed E-Step (155 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 28 (approx. per word bound = -7.899, relative change = 1.494e-05) 
+....................................................................................................
+Completed E-Step (165 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 29 (approx. per word bound = -7.899, relative change = 1.476e-05) 
+....................................................................................................
+Completed E-Step (152 seconds). 
+Completed M-Step. 
+Completing Iteration 30 (approx. per word bound = -7.899, relative change = 1.268e-05) 
+Topic 1: personal, grado, planta, sueldo, administrativo 
+ Topic 2: fundo, linea, puente, santa, estacion 
+ Topic 3: aceptar, miembro, nombramiento, comisiones, justicia 
+ Topic 4: dinero, cuentas, fondos, serie, entregar 
+ Topic 5: partida, presupuesto, suplemento, consulta, gasto 
+ Topic 6: pago, deuda, fisco, interes, pagado 
+ Topic 7: eleccion, reclamo, candidatos, electoral, mayoria 
+ Topic 8: concepcion, necesidades, beneficencia, hospital, atender 
+ Topic 9: sala, minuto, solicito, incidentes, termino 
+ Topic 10: provincia, zona, norte, ciudad, comunicacion 
+ Topic 11: valparaiso, puerto, antofagasta, tarapaca, iquique 
+ Topic 12: moneda, centavos, doscientos, quinientos, quince 
+ Topic 13: acta, celebro, asistieron, levanta, leyo 
+ Topic 14: decreto, diario, oficial, regir, publicacion 
+ Topic 15: caja, banco, credito, institucion, prestamo 
+ Topic 16: clase, patente, negocios, industriales, establecimientos 
+ Topic 17: votar, resultado, negativa, abstenciones, afirmativa 
+ Topic 18: sesion, manana, orden, semana, preferencia 
+ Topic 19: fondos, inversion, construccion, destinar, edificio 
+ Topic 20: cargo, fiscal, funcionarios, funciones, puestos 
+ Topic 21: negocio, hacienda, pregunta, meses, podia 
+ Topic 22: camino, publico, transito, movilizacion, vina_del_mar 
+ Topic 23: cuerpo, carabineros, bomberos, auxilio, reconstruccion 
+ Topic 24: jefe, director, oficina, seccion, oficinas 
+ Topic 25: constitucion, constitucional, acusacion, facultades, facultad 
+ Topic 26: antecedentes, solicitar, peticion, interior, pedir 
+ Topic 27: emprestito, autorizar, bonos, autorizacion, contratar 
+ Topic 28: caja, prevision, social, seguro, periodistas 
+ Topic 29: oficiales, ejercito, armada, militar, fuerzas 
+ Topic 30: ciudad, autorizar, higgins, memoria, centenario 
+ Topic 31: palabras, cargo, discurso, prensa, manifestar 
+ Topic 32: derechos, aduana, internacion, liberar, mercaderias 
+ Topic 33: gasto, suma, cantidad, entradas, millones 
+ Topic 34: comite, prosecretario, apoyado, solicitar, considerando 
+ Topic 35: obras, agua, agua_potable, alcantarillado, estudios 
+ Topic 36: millones, cambio, moneda, papel, emision 
+ Topic 37: sueldo, aumento, gratificacion, empleados, aumentar 
+ Topic 38: lectura, mensaje, mocion, asuntos, honor 
+ Topic 39: derecho, publico, interes, sistema, practica 
+ Topic 40: codigo, procedimiento, titulo, civil, penal 
+ Topic 41: precio, articulos, fabrica, consumo, animales 
+ Topic 42: nacional, defensa, financiar, economica, fuerzas 
+ Topic 43: propiedad, calle, terreno, permiso, ubicada 
+ Topic 44: industria, salitre, agricultura, produccion, comercio 
+ Topic 45: paises, relaciones, extranjero, relaciones_exteriores, internacional 
+ Topic 46: juzgado, juez, corte, justicia, letras 
+ Topic 47: ferrocarril, obras_publicas, industria, propuestas, publicas 
+ Topic 48: impuesto, vino, alcohol, centavos, litro 
+ Topic 49: consejo, corporacion, fomento, representante, consejero 
+ Topic 50: pension, familia, solicitud, hijos, gracia 
+ Topic 51: vida, obrero, pueblo, gente, hombre 
+ Topic 52: hombre, vida, historia, sentimientos, homenaje 
+ Topic 53: presupuesto, publica, administracion, hacienda, economia 
+ Topic 54: modificar, agregar, articulos, propone, letra 
+ Topic 55: municipalidad, comuna, municipal, departamento, osorno 
+ Topic 56: terreno, tierras, colonizacion, indigena, concesion 
+ Topic 57: unanime, asentimiento, acordo, tramite, facil_despacho 
+ Topic 58: partido, politica, democratico, regimen, politico 
+ Topic 59: obrero, organizacion, sindicato, actividades, conflicto 
+ Topic 60: trabajos, pavimentar, calles, ciudad, ejecutar 
+ Topic 61: retiro, marina, armada, retirado, talcahuano 
+ Topic 62: empleados, jubilacion, derecho, beneficios, publico 
+ Topic 63: compania, carbon, explotacion, electricidad, mineral 
+ Topic 64: informe, ejecutivo, hacienda, plazo, informar 
+ Topic 65: escuela, instruccion, educacion, profesor, liceo 
+ Topic 66: contrato, garantia, sociedad, capital, contratos 
+ Topic 67: formular, idea, indicaciones, inconveniente, conveniente 
+ Topic 68: direccion, organismo, fiscalizacion, control, organismos 
+ Topic 69: disposiciones, reglamento, dispuesto, conformidad, multa 
+ Topic 70: habitacion, propietario, casas, poblacion, obrero 
+ Topic 71: tribunal, abogado, justicia, juicios, corte_suprema 
+ Topic 72: problema, importante, interes, solucion, grave 
+ Topic 73: junta, electoral, inscripcion, lista, registro 
+ Topic 74: medico, enfermedad, sanidad, sanitario, salubridad 
+ Topic 75: policia, hechos, denuncia, intendente, orden 
+ Topic 76: razon, realidad, estimo, mayoria, criterio 
+ Topic 77: impuesto, renta, contribucion, contribuciones, bienes 
+ Topic 78: empresa, tarifas, ferrocarril, utilidades, alza 
+ Topic 79: despachar, proyecto, presentar, pedir, estudiar 
+ Topic 80: atencion, motivo, presta, efecto, condiciones 
+....................................................................................................
+Completed E-Step (158 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 31 (approx. per word bound = -7.899, relative change = 1.204e-05) 
+....................................................................................................
+Completed E-Step (161 seconds). 
+Completed M-Step (2 seconds). 
+Completing Iteration 32 (approx. per word bound = -7.899, relative change = 1.198e-05) 
+....................................................................................................
+Completed E-Step (157 seconds). 
+Completed M-Step (2 seconds). 
+Model Converged 
+fit done: 2026-09-26 09:07:21; saved replication_repo/output/rnr2026/A5_stm_model_298_noparty.rds
+A5_FIT_ONLY=1: stopping after the fit

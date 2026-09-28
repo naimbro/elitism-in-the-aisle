@@ -1,0 +1,33 @@
+"check","value","pass"
+"docs by group vs A3_sample_counts.csv",0,TRUE
+"legislators by group vs A3_sample_counts.csv",0,TRUE
+"285->298 reclassified docs vs A3_reclassification_285_to_298.csv",0,TRUE
+"original prior design vs rebuilt frame: apellidoelite_vs285 (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: apellidocomun_vs285 (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorderecha (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorizquierda (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: sectorotro (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: camarasenado (mismatching rows)",0,TRUE
+"original prior design vs rebuilt frame: Year (mismatching rows)",0,TRUE
+"dfm features == original model vocabulary (set, size)",0,TRUE
+"refit prior design columns == (Intercept) apellidocomun apellidoelite camarasenado Year",0,TRUE
+"refit prior apellidoelite vs 298 coding (mismatching rows)",0,TRUE
+"refit prior apellidocomun vs 298 coding (mismatching rows)",0,TRUE
+"refit prior camarasenado vs frame (mismatching rows)",0,TRUE
+"refit prior Year vs frame (mismatching rows)",0,TRUE
+"refit vocabulary identical (order and content) to original",0,TRUE
+"refit K / V / N values identical to original",0,TRUE
+"refit corpus word counts (settings$dim$wcounts) identical to original",0,TRUE
+"refit stm settings identical to original: convergence",0,TRUE
+"refit stm settings identical to original: gamma",0,TRUE
+"refit stm settings identical to original: sigma",0,TRUE
+"refit stm settings identical to original: kappa",0,TRUE
+"refit stm settings identical to original: tau",0,TRUE
+"refit stm settings identical to original: init",0,TRUE
+"refit stm settings identical to original: seed",0,TRUE
+"refit stm settings identical to original: ngroups",0,TRUE
+"refit stm settings identical to original: topicreportevery",0,TRUE
+"refit FULL stm settings identical to original (all elements; excl. covariates$X/$formula and $call; K compared by value)",0,TRUE
+"refit covariates$betaindex and $yvarlevels identical to original",0,TRUE
+"old theta rerun vs A3_theme_contrasts_long.csv (max abs diff)",4.44089209850063e-15,TRUE
+"old theta rerun vs A3_within_group_slopes_both_specs.csv (max abs diff)",4.88498130835069e-15,TRUE

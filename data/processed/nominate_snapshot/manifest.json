@@ -1,0 +1,93 @@
+{
+  "description": "Roll-call snapshot for the NOMINATE appendix (Elitism in the Aisle, R&R 2026). Produced by scripts/15a_extract_rollcalls_bq.py.",
+  "source": {
+    "bigquery_project": "datos-congreso-461817",
+    "dataset": "datos-congreso-461817.datos_congreso",
+    "provider": "IMFD datos congreso (Camara de Diputados / Senado roll calls)"
+  },
+  "extracted_at_utc": "2026-09-26T13:51:16Z",
+  "window": {
+    "date_from": "2002-03-11",
+    "date_to": "2026-03-10",
+    "periods": [
+      "LI",
+      "LII",
+      "LIII",
+      "LIV",
+      "LV",
+      "LVI"
+    ]
+  },
+  "queries": {
+    "legislative_periods": {
+      "sql": "SELECT id AS period_id, name AS period_name, DATE(start) AS start_date, DATE(`end`) AS end_date FROM `datos-congreso-461817.datos_congreso.legislative_periods` WHERE DATE(start) >= @date_from AND DATE(`end`) <= @date_to ORDER BY period_id",
+      "dry_run_bytes": 0
+    },
+    "votes": {
+      "sql": "SELECT id AS vote_id, external_id, vote_date, source, session_id, type, result, bill_id, article, in_favor, against, abstention, dispensed, pareo, topic FROM `datos-congreso-461817.datos_congreso.votes` WHERE vote_date BETWEEN @date_from AND @date_to ORDER BY vote_id",
+      "dry_run_bytes": 0
+    },
+    "vote_selections": {
+      "sql": "SELECT vs.id AS selection_id, vs.vote_id, vs.politician_id, vs.selection FROM `datos-congreso-461817.datos_congreso.vote_selections` vs JOIN `datos-congreso-461817.datos_congreso.votes` v ON v.id = vs.vote_id WHERE v.vote_date BETWEEN @date_from AND @date_to ORDER BY selection_id",
+      "dry_run_bytes": 0
+    },
+    "politicians": {
+      "sql": "SELECT p.id AS politician_id, p.first_name, p.fathers_surname, p.mothers_surname, p.bcn_id FROM `datos-congreso-461817.datos_congreso.politicians` p WHERE p.id IN ( SELECT DISTINCT vs.politician_id FROM `datos-congreso-461817.datos_congreso.vote_selections` vs JOIN `datos-congreso-461817.datos_congreso.votes` v ON v.id = vs.vote_id WHERE v.vote_date BETWEEN @date_from AND @date_to) ORDER BY politician_id",
+      "dry_run_bytes": 0
+    },
+    "politician_periods": {
+      "sql": "SELECT pp.id AS term_id, pp.politician_id, pp.position, pp.start_year, pp.end_year, pp.party_id, pp.representation_unit_raw_name AS district FROM `datos-congreso-461817.datos_congreso.politician_periods` pp WHERE pp.end_year >= EXTRACT(YEAR FROM @date_from) AND pp.start_year <= EXTRACT(YEAR FROM @date_to) AND pp.politician_id IN ( SELECT DISTINCT vs.politician_id FROM `datos-congreso-461817.datos_congreso.vote_selections` vs JOIN `datos-congreso-461817.datos_congreso.votes` v ON v.id = vs.vote_id WHERE v.vote_date BETWEEN @date_from AND @date_to) ORDER BY term_id",
+      "dry_run_bytes": 0
+    },
+    "political_parties": {
+      "sql": "SELECT id AS party_id, name AS party_name FROM `datos-congreso-461817.datos_congreso.political_parties` ORDER BY party_id",
+      "dry_run_bytes": 0
+    }
+  },
+  "query_parameters": {
+    "date_from": "2002-03-11",
+    "date_to": "2026-03-10"
+  },
+  "files": {
+    "legislative_periods.csv": {
+      "rows": 6,
+      "sha256": "22d7ee6fffc68e2d39ead47dbc710937e77f846d7f238ef56e9ba71feca5eb18",
+      "bytes": 557
+    },
+    "votes.csv.gz": {
+      "rows": 28754,
+      "sha256": "133eb0be5591773468083763367db09bec7b5052787ffa20d4daa5680f0b99b9",
+      "bytes": 1311245
+    },
+    "vote_selections.csv.gz": {
+      "rows": 2784128,
+      "sha256": "b87477f004c5c697768b5810edf6973e65eb3c381fefb47bc2014d8335caad39",
+      "bytes": 15065749
+    },
+    "politician_periods.csv": {
+      "rows": 1206,
+      "sha256": "9be464e63f3f63606a96db8c99371e56cfbe2fb8e2ddd61bce95e362d1997d69",
+      "bytes": 49728
+    },
+    "political_parties.csv": {
+      "rows": 45,
+      "sha256": "e71f3c4ac9568a2258ca9572d3d81cbfed9c1d11f613ed9b0fbe014f4dcccf1f",
+      "bytes": 1324
+    },
+    "legislators.csv": {
+      "rows": 1073,
+      "sha256": "d724f885cef35c3bca761ad3e3f3c8de329b7dbbad13d94548141f00795f6bec",
+      "bytes": 137486
+    }
+  },
+  "checks": {
+    "duplicate_vote_politician_pairs": 0,
+    "legislators_without_term_record": 1,
+    "legislators_without_party": 142
+  },
+  "software": {
+    "python": "3.12.3",
+    "pandas": "2.1.3",
+    "google-cloud-bigquery": "3.34.0"
+  }
+}

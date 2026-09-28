@@ -1,0 +1,13 @@
+"outcome","spec","quantity","estimate","se","p"
+"Labor & industry","no_party","elite_slope_per_decade",0.857865291182816,0.217357869940027,7.93268964678896e-05
+"Labor & industry","no_party","common_slope_per_decade",1.75753668931823,0.233111956070745,4.89210416775662e-14
+"Labor & industry","no_party","common_minus_elite_slope",0.912075149720566,0.313677557743282,0.00364233456162082
+"Statecraft bundle","no_party","elite_slope_per_decade",1.46426085195558,0.223295057683484,5.53012191780804e-11
+"Statecraft bundle","no_party","common_slope_per_decade",0.473509058165789,0.28843384412448,0.100674917738473
+"Statecraft bundle","no_party","elite_minus_common_slope",1.0137546539866,0.365093762603263,0.00549293460466292
+"Labor & industry","party_adjusted","elite_slope_per_decade",0.818564303902584,0.223350378713848,0.000247686451369184
+"Labor & industry","party_adjusted","common_slope_per_decade",1.54176126669635,0.201560586799413,2.10202312563688e-14
+"Labor & industry","party_adjusted","common_minus_elite_slope",0.882811138851434,0.293339637114935,0.00261757353605562
+"Statecraft bundle","party_adjusted","elite_slope_per_decade",1.34923128098105,0.242780888255989,2.75362610068442e-08
+"Statecraft bundle","party_adjusted","common_slope_per_decade",0.19923526525681,0.315677327551482,0.527957939701334
+"Statecraft bundle","party_adjusted","elite_minus_common_slope",1.31581132276645,0.388298773217319,0.000702754875282169
