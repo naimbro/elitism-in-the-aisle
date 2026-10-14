@@ -8,7 +8,7 @@ import urllib.parse, urllib.request, unicodedata, re, time, json, os, gzip, io
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import pandas as pd
 
-BASE = "/mnt/c/Users/naim.bro.k/documents/datos/papers/paper_1925"
+BASE = os.environ.get("RAW_DATA_ROOT", os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 OUT = f"{BASE}/data/raw/bcn_wayback"; os.makedirs(OUT, exist_ok=True)
 CDX = f"{BASE}/data/raw/cdx.txt"
 CONG = f"{BASE}/replication_repo/data/processed/cong_df.csv"

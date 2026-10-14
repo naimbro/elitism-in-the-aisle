@@ -1,4 +1,4 @@
-# Replication — *Elitism in the Aisle: Class Background and Legislative Representation in Chile, 1830–2020*
+# Replication — *Elitism in the Aisle: A Long-Run Surname Measure of Legislative Elite Composition in Chile, 1834–2020*
 
 Replication code and processed data for the surname-based measure of legislative elite
 composition and its validation. Naim Bro (Universidad Adolfo Ibáñez, Fondecyt 11251464).

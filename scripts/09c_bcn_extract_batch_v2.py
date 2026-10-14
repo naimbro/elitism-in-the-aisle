@@ -20,15 +20,12 @@ Usage:
 import os, re, glob, json, time, argparse
 from pathlib import Path
 
-BASE = Path("/mnt/c/Users/naim.bro.k/documents/datos/papers/paper_1925")
+# RAW_DATA_ROOT: paper project dir (default = parent of the repo), env-overridable.
+REPO = Path(__file__).resolve().parents[1]
+BASE = Path(os.environ.get("RAW_DATA_ROOT", REPO.parent))
 IN_DIR = BASE / "data/raw/bcn_wayback"
 OUT_DIR = BASE / "data/processed"; OUT_DIR.mkdir(parents=True, exist_ok=True)
-ENV_FILE = Path("/mnt/c/Users/naim.bro.k/documents/datos/papers/paper_brahmin/.env")
-
-if "ANTHROPIC_API_KEY" not in os.environ and ENV_FILE.exists():
-    for l in open(ENV_FILE):
-        if l.startswith("ANTHROPIC_API_KEY="):
-            os.environ["ANTHROPIC_API_KEY"] = l.split("=", 1)[1].strip()
+# Requires ANTHROPIC_API_KEY in the environment.
 
 import anthropic
 from anthropic.types.message_create_params import MessageCreateParamsNonStreaming
